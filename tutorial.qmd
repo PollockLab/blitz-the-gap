@@ -1,0 +1,253 @@
+---
+title: "Making priority maps for Blitz the Gap"
+author:
+  - name: "Katherine Hébert"
+    affiliation: McGill University
+  - name: "Isaac Eckert"
+    affiliation: McGill University
+  - name: "Laura Pollock"
+    affiliation: McGill University
+toc: true
+number-sections: true
+number-depth: 1
+theme: cosmo
+---
+
+# Example workflow with amphibians data
+
+This is an example workflow to identify gaps in a biodiversity database (like GBIF or iNaturalist), and to generate raster maps where each cell is assigned a priority level for sampling in a bioblitz event.
+
+Each map will cross biodiversity priorities with accessibility to identify the cells that are easiest to sample while helping to fill a biodiversity data gap. Gaps will be defined based on "Challenges" that will be part of the Blitz the Gap event.
+
+Here, we will build an example challenge to encourage community scientists to update historical records of amphibians.
+
+## Step 1. Prepare GBIF data and make density layers
+
+Load packages:
+
+```{r, results='hide', message=FALSE,warning=FALSE}
+library(dplyr) 
+library(terra)
+library(rgbif)
+library(ggplot2)
+library(sf)
+library(mapview)
+library(raster)
+```
+
+Set some mapview options to apply to all the maps we will make here:
+```{r}
+mapviewOptions(basemaps = c( "OpenStreetMap"),
+               na.color = "transparent")
+```
+
+
+### Spatial grid
+
+Load spatial layers that we will use to make sure all of our layers match (in terms of the grid resolution and projection).
+
+```{r, eval = F}
+# Canada polygon
+canada = sf::read_sf("data/raw/base-layers/canada-polygon/canada.outline.shp")
+
+# Base grid for rasterizing
+base.5k = terra::rast("data/raw/base-layers/canada.base.5k.tiff")
+
+# Mask water and built areas
+base.water <- rast("data/raw/base-layers/WaterUrbanBuiltMask.tif")
+base.water<-project(base.water,crs(base.5k))
+base.water<-resample(base.water,base.5k,method='near')
+terra::writeRaster(base.water, "data/processed/base-layers/WaterUrbanBuiltMask.tif")
+
+# Make a reverse of the base layer to remove cells that we don't want to consider (later)
+anti.base=base.5k
+anti.base[is.na(anti.base)] <- 1
+anti.base[anti.base==2] <- NA
+anti.base[base.water==1] <- 1
+terra::writeRaster(anti.base, "data/processed/base-layers/anti.base.5k.tif")
+```
+
+### Observations
+
+This tutorial will use GBIF data, though later steps will be similarly useful to process iNaturalist data. Here, let's use a download of all amphibian data in Canada.
+
+```{r, eval = F}
+# Download the GBIF data through the GBIF data website. Make sure to save the citation details from the download in a text file alongside the data.
+# Unzip in the data/raw/gbif/your_taxa_of_choice folder
+# Read in the dataset and select columns we need
+gbif = data.table::fread("data/raw/gbif/amphibians/0007149-250127130748423.csv") |>
+  filter(coordinateUncertaintyInMeters < 100000) |>
+  select(family, scientificName, year,
+         decimalLongitude, decimalLatitude, coordinatePrecision,
+         datasetKey, basisOfRecord)
+```
+
+First, we need to prepare the GBIF data into a spatial object:
+
+```{r, eval = F}
+# Convert GBIF to a points layer
+gbif.v <- vect(gbif,
+               geom=c("decimalLongitude","decimalLatitude"),
+             crs="+proj=longlat +ellps=WGS84",
+             keepgeom = TRUE)
+
+# Project GBIF 
+gbif.v <- project(gbif.v, crs(base.5k))
+
+# Remove occurrences outside the canada polygon
+gbif.v = terra::crop(gbif.v, canada)
+```
+
+Now we can convert the GBIF data into raster layers:
+
+-   `gbif.density`: count of GBIF observations per cell
+
+-   `museum.density`: count of GBIF observations from preserved specimens (museums) per cell
+
+-   `iNat.density`: count of GBIF observations from iNaturalist (dataset key: `"50c9509d-22c7-4a22-a47d-8c48425ef4a7"`) per cell
+
+-   `year.last.sampled`: year of the last GBIF observation in GBIF per cell
+
+```{r, eval = F}
+# Make a GBIF density layer
+gbif.density <- rasterize(gbif.v, base.5k, fun="count")
+
+# Density of museum observations
+museum.density <- rasterize(gbif.v[which(gbif.v$basisOfRecord == "PRESERVED_SPECIMEN")], base.5k, fun="count")
+
+# Density of observations from iNaturalist alone
+iNat.density <- rasterize(gbif.v[which(gbif.v$datasetKey == "50c9509d-22c7-4a22-a47d-8c48425ef4a7")], base.5k, fun="count")
+
+# Raster of the latest observation's year
+year.last.sampled <- rasterize(gbif.v, base.5k, fun="max", field="year")
+
+# Stack the GBIF layers into one object for easy saving
+gbif.layers = c(gbif.density,museum.density,iNat.density,year.last.sampled)
+names(gbif.layers) = c("gbif.density","museum.density","iNat.density","year.last.sampled")
+gbif.layers[is.na(base.5k)]<-NA
+
+# save
+writeRaster(gbif.layers,"data/processed/gbif.layers.amphibians.tif", overwrite = TRUE)
+writeVector(gbif.v,"data/processed/gbif.points.amphibians.shp", overwrite = TRUE)
+```
+
+## Step 2. Prepare environmental & human access layers
+
+Many of these layers are originally from the GEOBON STAC catalog, which can be viewed here: <https://stac.geobon.org/viewer/>. Instructions about how to retrieve these layers and download them for use are here: [Working with STAC](https://geo-bon.github.io/bon-in-a-box-pipeline-engine/working_with_stac.html).
+
+This is some code to reproject and resample the rasters from the STAC to match the GBIF density layers, after downloading them following the instructions linked above.
+
+### Environmental layers
+
+Climate velocity (a metric of how quickly the climate will change by 2085 in each cell, under RCP85):
+
+```{r, eval = F}
+vel <- rast("data/raw/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif")
+vel<-project(vel,base.5k,"bilinear")
+vel<-resample(vel,base.5k,method='near')
+vel[is.na(base.5k)] <- NA
+terra::writeRaster(vel, "data/processed/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif")
+```
+
+### Accessibility
+
+Distance to roads:
+
+```{r, eval = F}
+dist.to.roads<-rast("data/raw/base-layers/distance.to.roads.tif")
+dist.to.roads<-project(dist.to.roads,base.5k,"bilinear")
+dist.to.roads[is.na(base.5k)]<-NA
+terra::writeRaster(dist.to.roads, "data/processed/base-layers/dist.to.roads.tif")
+```
+
+```{r, echo = FALSE, include=FALSE}
+# hidden chunk to load datasets prepared with the code above
+gbif.layers = terra::rast("data/processed/gbif.layers.amphibians.tif")
+gbif.v = terra::vect("data/processed/gbif.points.amphibians.shp")
+vel = terra::rast("data/processed/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif")
+dist.to.roads = terra::rast("data/processed/base-layers/dist.to.roads.tif")
+```
+
+## Step 3. Make a priority map
+
+### Biodiversity data gap priority: updating historical data
+
+```{r}
+# Copy the layer into a new object that we'll edit
+resamp <- gbif.layers$year.last.sampled
+mapview(resamp, 
+        na.color = "transparent")
+```
+
+Next, we will assign priority values to cells based on the year they were last sampled. These are the priority levels we will use:
+
+| Priority           | Oldest observation | Newest observation |
+|--------------------|--------------------|--------------------|
+| High (1)           | oldest             | 1950               |
+| Medium (2)         | 1951               | 2000               |
+| Low (3)            | 2001               | 2015               |
+| Not a priority (4) | 2016               | 2025               |
+
+Let's assign these values based on the condition that the year last sampled in GBIF is within those year limits:
+
+```{r}
+resamp[gbif.layers$year.last.sampled <= 1950] <- 1
+resamp[gbif.layers$year.last.sampled > 1950 & gbif.layers$year.last.sampled <= 2000] <- 2
+resamp[gbif.layers$year.last.sampled > 2000 & gbif.layers$year.last.sampled <= 2015] <- 3
+resamp[gbif.layers$year.last.sampled > 2015] <- 4
+```
+
+Let's map this to see what we're working with!
+
+```{r}
+mapview(resamp)
+```
+
+### Mask to accessible pixels
+
+Let's make a mask of the pixels we consider to be accessible. Let's say anything within 10 km of a major road is potentially accessible, so we're only interested in these cells:
+
+```{r}
+d10 = dist.to.roads
+d10[d10>10000] <- NA # assign NA to pixels that are over 10 km away from a major road
+mapview(d10)
+```
+
+Now, we can use this same condition (ignore anything where `dist.to.roads > 10000`) to select cells from the priority layer that are accessible:
+
+```{r}
+pal = viridis::viridis(n = 3, direction = -1)
+priority = resamp
+priority[dist.to.roads > 10000] <- NA
+mapview(priority, 
+        col.regions = pal)
+```
+
+### Make a final interactive map
+
+Let's visualize this a little differently, so it is easier to explore. We will make a point layer with the year in which the cell was last sampled, and this layer is resized as we zoom in and out so it is easier to have a quick view of the map. When we zoom in, we will see the cell the point is referring to, so we make sure we're still identifying the exact cell outline that we'd be asking people to go sample.
+
+```{r}
+last.year = gbif.layers$year.last.sampled
+last.year[priority > 3] <- NA
+last.year[dist.to.roads > 10000] <- NA
+
+historical_pts = last.year |>
+  raster::raster() |>
+  raster::rasterToPoints(fun = function(x){x<2016}, spatial = TRUE)
+
+historical_cells = priority |>
+  raster::raster() |>
+  raster::rasterToPolygons(fun = function(x){x < 4})
+
+pal = viridis::viridis(n = 3, direction = -1)
+mapview(historical_cells, 
+        legend = TRUE, 
+        basemaps = "OpenStreetMap",  
+        col.regions = pal,
+        layer.name = "Priority") +
+  mapview(historical_pts,
+          col.regions = pal,
+          legend = FALSE, 
+          layer.name = "Year last \nsampled")
+```
