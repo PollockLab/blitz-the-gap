@@ -36,11 +36,11 @@ library(raster)
 ```
 
 Set some mapview options to apply to all the maps we will make here:
+
 ```{r}
 mapviewOptions(basemaps = c( "OpenStreetMap"),
                na.color = "transparent")
 ```
-
 
 ### Spatial grid
 
@@ -241,7 +241,7 @@ historical_cells = priority |>
   raster::rasterToPolygons(fun = function(x){x < 4})
 
 pal = viridis::viridis(n = 3, direction = -1)
-mapview(historical_cells, 
+(m = mapview(historical_cells, 
         legend = TRUE, 
         basemaps = "OpenStreetMap",  
         col.regions = pal,
@@ -249,5 +249,11 @@ mapview(historical_cells,
   mapview(historical_pts,
           col.regions = pal,
           legend = FALSE, 
-          layer.name = "Year last \nsampled")
+          layer.name = "Year last \nsampled"))
+```
+
+```{r}
+htmlwidgets::saveWidget(m@map, 
+                        file = "challenges/maps/challenge1_map.html", 
+                        title = "Revisit the past: Amphibians")
 ```

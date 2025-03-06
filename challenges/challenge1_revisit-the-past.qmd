@@ -15,7 +15,7 @@ To bridge this gap, we encourage you to revisit places that were sampled in the 
 ## Amphibians
 
 ```{=html}
-<iframe width="1100" height="700" src="challenge1_map.html" title="Amphibians"></iframe>
+<iframe width="1100" height="700" src="maps/challenge1_map.html" title="Amphibians"></iframe>
 ```
 ## 
 

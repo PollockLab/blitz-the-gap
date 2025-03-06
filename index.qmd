@@ -4,7 +4,7 @@ listing:
   contents: challenges
   type: grid 
   image-height: 250px
-  image-placeholder: images/Logo.png
+  image-placeholder: ./images/Logo.png
 ---
 
 Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNat, we are still lacking the data for a whole host of ecological and conservation applications. We need more data to assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, and more. 
