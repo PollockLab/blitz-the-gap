@@ -1,5 +1,6 @@
 ---
 title: Revisiting the past
+image: images/revisit-the-past.jpg
 ---
 
 ## What's the problem?
