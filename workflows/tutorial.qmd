@@ -1,16 +1,9 @@
 ---
 title: "Making priority maps for Blitz the Gap"
-author:
-  - name: "Katherine Hébert"
-    affiliation: McGill University
-  - name: "Isaac Eckert"
-    affiliation: McGill University
-  - name: "Laura Pollock"
-    affiliation: McGill University
 toc: true
 number-sections: true
 number-depth: 1
-theme: cosmo
+image: images/map.png
 ---
 
 # Example workflow with amphibians data
@@ -27,12 +20,13 @@ Load packages:
 
 ```{r, results='hide', message=FALSE,warning=FALSE}
 library(dplyr) 
+library(tidyr)
 library(terra)
-library(rgbif)
 library(ggplot2)
 library(sf)
 library(mapview)
 library(raster)
+library(here)
 ```
 
 Set some mapview options to apply to all the maps we will make here:
@@ -48,23 +42,23 @@ Load spatial layers that we will use to make sure all of our layers match (in te
 
 ```{r, eval = F}
 # Canada polygon
-canada = sf::read_sf("data/raw/base-layers/canada-polygon/canada.outline.shp")
+canada = sf::read_sf(here::here("data/raw/base-layers/canada-polygon/canada.outline.shp"))
 
 # Base grid for rasterizing
-base.5k = terra::rast("data/raw/base-layers/canada.base.5k.tiff")
+base.5k = terra::rast(here::here("data/raw/base-layers/canada.base.5k.tiff"))
 
 # Mask water and built areas
-base.water <- rast("data/raw/base-layers/WaterUrbanBuiltMask.tif")
+base.water <- rast(here::here("data/raw/base-layers/WaterUrbanBuiltMask.tif"))
 base.water<-project(base.water,crs(base.5k))
 base.water<-resample(base.water,base.5k,method='near')
-terra::writeRaster(base.water, "data/processed/base-layers/WaterUrbanBuiltMask.tif")
+terra::writeRaster(base.water, here::here("data/processed/base-layers/WaterUrbanBuiltMask.tif"))
 
 # Make a reverse of the base layer to remove cells that we don't want to consider (later)
 anti.base=base.5k
 anti.base[is.na(anti.base)] <- 1
 anti.base[anti.base==2] <- NA
 anti.base[base.water==1] <- 1
-terra::writeRaster(anti.base, "data/processed/base-layers/anti.base.5k.tif")
+terra::writeRaster(anti.base, here::here("data/processed/base-layers/anti.base.5k.tif"))
 ```
 
 ### Observations
@@ -75,7 +69,7 @@ This tutorial will use GBIF data, though later steps will be similarly useful to
 # Download the GBIF data through the GBIF data website. Make sure to save the citation details from the download in a text file alongside the data.
 # Unzip in the data/raw/gbif/your_taxa_of_choice folder
 # Read in the dataset and select columns we need
-gbif = data.table::fread("data/raw/gbif/amphibians/0007149-250127130748423.csv") |>
+gbif = data.table::fread(here::here("data/raw/gbif/amphibians/0007149-250127130748423.csv")) |>
   filter(coordinateUncertaintyInMeters < 100000) |>
   select(family, scientificName, year,
          decimalLongitude, decimalLatitude, coordinatePrecision,
@@ -127,8 +121,8 @@ names(gbif.layers) = c("gbif.density","museum.density","iNat.density","year.last
 gbif.layers[is.na(base.5k)]<-NA
 
 # save
-writeRaster(gbif.layers,"data/processed/gbif.layers.amphibians.tif", overwrite = TRUE)
-writeVector(gbif.v,"data/processed/gbif.points.amphibians.shp", overwrite = TRUE)
+writeRaster(gbif.layers, here::here("data/processed/gbif.layers.amphibians.tif"), overwrite = TRUE)
+writeVector(gbif.v, here::here("data/processed/gbif.points.amphibians.shp"), overwrite = TRUE)
 ```
 
 ## Step 2. Prepare environmental & human access layers
@@ -142,11 +136,11 @@ This is some code to reproject and resample the rasters from the STAC to match t
 Climate velocity (a metric of how quickly the climate will change by 2085 in each cell, under RCP85):
 
 ```{r, eval = F}
-vel <- rast("data/raw/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif")
+vel <- rast(here::here("data/raw/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif"))
 vel<-project(vel,base.5k,"bilinear")
 vel<-resample(vel,base.5k,method='near')
 vel[is.na(base.5k)] <- NA
-terra::writeRaster(vel, "data/processed/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif")
+terra::writeRaster(vel, here::here("data/processed/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif"))
 ```
 
 ### Accessibility
@@ -154,18 +148,18 @@ terra::writeRaster(vel, "data/processed/base-layers/climatevelocity_adaptwest_fw
 Distance to roads:
 
 ```{r, eval = F}
-dist.to.roads<-rast("data/raw/base-layers/distance.to.roads.tif")
+dist.to.roads<-rast(here::here("data/raw/base-layers/distance.to.roads.tif"))
 dist.to.roads<-project(dist.to.roads,base.5k,"bilinear")
 dist.to.roads[is.na(base.5k)]<-NA
-terra::writeRaster(dist.to.roads, "data/processed/base-layers/dist.to.roads.tif")
+terra::writeRaster(dist.to.roads, here::here("data/processed/base-layers/dist.to.roads.tif"))
 ```
 
 ```{r, echo = FALSE, include=FALSE}
 # hidden chunk to load datasets prepared with the code above
-gbif.layers = terra::rast("data/processed/gbif.layers.amphibians.tif")
-gbif.v = terra::vect("data/processed/gbif.points.amphibians.shp")
-vel = terra::rast("data/processed/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif")
-dist.to.roads = terra::rast("data/processed/base-layers/dist.to.roads.tif")
+gbif.layers = terra::rast(here::here("data/processed/gbif.layers.amphibians.tif"))
+gbif.v = terra::vect(here::here("data/processed/gbif.points.amphibians.shp"))
+vel = terra::rast(here::here("data/processed/base-layers/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif"))
+dist.to.roads = terra::rast(here::here("data/processed/base-layers/dist.to.roads.tif"))
 ```
 
 ## Step 3. Make a priority map
@@ -254,6 +248,6 @@ pal = viridis::viridis(n = 3, direction = -1)
 
 ```{r}
 htmlwidgets::saveWidget(m@map, 
-                        file = "challenges/maps/challenge1_map.html", 
+                        file = here::here("challenges/maps/challenge1_map.html"), 
                         title = "Revisit the past: Amphibians")
 ```

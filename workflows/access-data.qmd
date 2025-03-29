@@ -1,0 +1,100 @@
+---
+title: "Accessing the STAC Catalogue"
+toc: true
+number-sections: true
+number-depth: 1
+---
+
+# iNaturalist density maps
+
+A series of density maps of iNaturalist observations is being hosted on the Biodiversité Québec STAC catalogue. This means you can access density maps and work with them as a proxy, or download it locally to use as the basis for a Blitz the Gap challenge.
+
+There are two resolutions available for each taxonomic group: 100m, and 1km.
+
+First, load the R packages you will need to use to access the density map layers:
+
+```{r, results='hide'}
+library(gdalcubes)
+library(rstac)
+library(knitr)
+library(stars)
+library(terra)
+library(ggplot2)
+library(mapview)
+```
+
+Set up the connection to the STAC catalogue:
+
+```{r, results='hide'}
+# set up
+stac_obj <- stac("https://io.biodiversite-quebec.ca/stac/")
+
+# get iNaturalist heatmaps for Canada
+it_obj <- stac_obj |>
+  stac_search(collections = "inat_canada_heatmaps") |>
+  post_request() |> items_fetch()
+it_obj
+```
+
+```{r}
+# See layers in the object
+df <- data.frame(id=character(),datetime=character(), description=character())
+for (f in it_obj[['features']]){
+  df <- rbind(df,data.frame(id=f$id,datetime=f$properties$datetime,description=f$properties$description)) 
+}
+df$feature_number = 1:nrow(df)
+kable(df) |>
+  # these next two lines are just so the table is scrollable + prettier on the html page - you can ignore it locally if you want!
+  kableExtra::kable_material() |>
+  kableExtra::scroll_box(height = "400px")
+```
+
+Let's access one of the layers to map it, as an example. We'll map the density of iNaturalist observations across all taxa by selecting one of the features we listed in the table above:
+
+```{r}
+# we are choosing asset 37 here since it is all taxonomic groups at 1km resolution.
+inat <- read_stars(paste0(it_obj[['features']][[37]]$assets[[1]]$href), 
+                   proxy = TRUE) # using it as a proxy (not a local download,
+                                 # to save time and space!)
+```
+
+Now, let's map it!
+
+```{r, cache = TRUE}
+# read the Canada polygon
+canada = sf::read_sf(here::here("data/raw/canada-polygon/canada.outline.shp"))
+
+# crop to Canada
+inat_canada = sf::st_crop(inat, canada)
+inat_sqrt = inat_canada |> sqrt()
+
+# map!
+ggplot() +
+  geom_stars(data = inat_sqrt, 
+             downsample = 10, # plotting at a coarser resolution to make this faster
+             na.action = na.omit) +
+  scale_fill_viridis_c(option = "turbo", 
+                       end = .5,
+                       na.value = "transparent") +
+  theme_void() +
+  theme(legend.position = "top") +
+  labs(fill = "Density") +
+  coord_equal() 
+```
+
+To make an interactive map that we can zoom into, we can use the package `mapview`:
+
+First, let's some mapview options to apply to all the maps we will make here:
+
+```{r}
+mapviewOptions(basemaps = c( "OpenStreetMap"),
+               na.color = "transparent")
+```
+
+Now, here's the map!
+```{r}
+pal = viridis::turbo(5)
+mapview(inat_sqrt, 
+        col.regions = pal,
+        layer.name = "Density (sqrt)") 
+```

@@ -3,20 +3,18 @@ project:
 
 website:
   title: "Blitz the Gap"
+  search: false
   navbar:
     left:
       - href: index.qmd
         text: Challenges
-      - href: tutorial.qmd
-        text: LDP Workflow example
+      - href: workflows.qmd
+        text: Workflows
 
 format:
   html:
-    theme:
-      - yeti
-      - brand
+    theme: yeti
     css: styles.css
     toc: true
-
-editor: visual
-
+    grid:
+      margin-width: 0px

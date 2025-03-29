@@ -1,0 +1,9 @@
+---
+title: "Workflows"
+listing: 
+  contents: workflows
+  type: default 
+  image-height: 250px
+---
+
+Here are some tutorials to access and analyse iNaturalist Canada data to make Blitz the Gap challenges.

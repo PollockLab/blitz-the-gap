@@ -1,18 +1,28 @@
 ---
-title: "Blitz the Gap"
+about:
+  id: hero-heading
+  template: jolla
+  image: images/Logo.png
+  links:
+    - icon: box-arrow-up-right
+      text: Website
+      href: https://blitzthegap.org
+    - icon: twitter
+      text: iNaturalist project
+      href: https://inaturalist.ca/projects/blitz-the-gap
 listing: 
   contents: challenges
   type: grid 
   image-height: 250px
-  image-placeholder: ./images/Logo.png
 ---
+:::{#hero-heading}
 
 Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNat, we are still lacking the data for a whole host of ecological and conservation applications. We need more data to assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, and more. 
+
+:::
 
 # Challenges
 
 To Blitz the Gap, choose from a series of challenges to fill biodiversity data gaps in Canada, according to what inspires you the most. These challenges were designed by graduate students throughout Canada to help guide iNaturalists like you towards places that deserve a little more attention. Remember: even one observation can be enough to make a difference in our understanding of biodiversity change.
 
-## Ready? Set? Blitz the Gap!
-
-------------------------------------------------------------------------
+Ready? Set? Blitz the Gap!
