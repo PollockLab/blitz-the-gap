@@ -4,5 +4,13 @@
     "items": [
       "/challenges/challenge1_revisit-the-past.html"
     ]
+  },
+  {
+    "listing": "/workflows.html",
+    "items": [
+      "/workflows/access-data.html",
+      "/workflows/tutorial.html",
+      "/workflows/parquet-file.html"
+    ]
   }
 ]
