@@ -31,7 +31,7 @@ theme_set(ggpubr::theme_pubr())
 Next, we will open the parquet file using the package `arrow`:
 
 ```{r}
-inat_pq <- arrow::open_dataset(here::here("data/raw/biodiversity-data/iNat_non_sensitive_data_Jan2025.parquet"))
+inat_pq <- arrow::open_dataset("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/biodiversity-data/inat-canada/iNat_non_sensitive_data_Jan2025.parquet")
 ```
 
 Note that this isn't the same as loading iNaturalist Canada as a CSV in your R session. Here, we're establishing a connection to the database so we can make queries for the data that we really want.
@@ -168,10 +168,10 @@ Next, we need the polygon of Canada and a base grid that we'll use to make our r
 
 ```{r}
 # Load Canada polygon
-canada = sf::read_sf(here::here("data/raw/base-layers/canada-polygon/canada.outline.shp"))
+canada = sf::read_sf("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada-polygon/canada.outline.shp")
 
 # Read in base grid layer to make the raster
-base.50k = terra::rast(here::here("data/raw/base-layers/canada.base.5k.tiff")) |>
+base.50k = terra::rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada.base.5k.tiff") |>
   # convert to a coarser resolution for this example
   terra::aggregate(fact = 10)
 ```

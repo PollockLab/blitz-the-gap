@@ -42,13 +42,13 @@ Load spatial layers that we will use to make sure all of our layers match (in te
 
 ```{r, eval = F}
 # Canada polygon
-canada = sf::read_sf(here::here("data/raw/base-layers/canada-polygon/canada.outline.shp"))
+canada = sf::read_sf("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada-polygon/canada.outline.shp"))
 
 # Base grid for rasterizing
-base.5k = terra::rast(here::here("data/raw/base-layers/canada.base.5k.tiff"))
+base.5k = terra::rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada.base.5k.tiff"))
 
 # Mask water and built areas
-base.water <- rast(here::here("data/raw/base-layers/WaterUrbanBuiltMask.tif"))
+base.water <- rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/WaterUrbanBuiltMask.tif"))
 base.water<-project(base.water,crs(base.5k))
 base.water<-resample(base.water,base.5k,method='near')
 terra::writeRaster(base.water, here::here("data/clean/base-layers/WaterUrbanBuiltMask.tif"))
@@ -69,7 +69,7 @@ This tutorial will use GBIF data, though later steps will be similarly useful to
 # Download the GBIF data through the GBIF data website. Make sure to save the citation details from the download in a text file alongside the data.
 # Unzip in the data/raw/gbif/your_taxa_of_choice folder
 # Read in the dataset and select columns we need
-gbif = data.table::fread(here::here("data/raw/biodiversity-data/amphibians/0007149-250127130748423.csv")) |>
+gbif = data.table::fread("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/biodiversity-data/amphibians/0007149-250127130748423.csv") |>
   filter(coordinateUncertaintyInMeters < 100000) |>
   select(family, scientificName, year,
          decimalLongitude, decimalLatitude, coordinatePrecision,
@@ -136,7 +136,7 @@ This is some code to reproject and resample the rasters from the STAC to match t
 Climate velocity (a metric of how quickly the climate will change by 2085 in each cell, under RCP85):
 
 ```{r, eval = F}
-vel <- rast(here::here("data/raw/challenges/climate/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif"))
+vel <- rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/challenges/climate/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif")
 vel<-project(vel,base.5k,"bilinear")
 vel<-resample(vel,base.5k,method='near')
 vel[is.na(base.5k)] <- NA
@@ -148,7 +148,7 @@ terra::writeRaster(vel, here::here("data/clean/challenges/climate/climatevelocit
 Distance to roads:
 
 ```{r, eval = F}
-dist.to.roads<-rast(here::here("data/raw/base-layers/distance.to.roads.tif"))
+dist.to.roads<-rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/distance.to.roads.tif")
 dist.to.roads<-project(dist.to.roads,base.5k,"bilinear")
 dist.to.roads[is.na(base.5k)]<-NA
 terra::writeRaster(dist.to.roads, here::here("data/clean/base-layers/dist.to.roads.tif"))

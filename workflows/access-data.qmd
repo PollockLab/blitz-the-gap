@@ -62,7 +62,7 @@ Now, let's map it!
 
 ```{r, cache = TRUE}
 # read the Canada polygon
-canada = sf::read_sf(here::here("data/raw/base-layers/canada-polygon/canada.outline.shp"))
+canada = sf::read_sf("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada-polygon/canada.outline.shp"))
 
 # crop to Canada
 inat_canada = sf::st_crop(inat, canada)
