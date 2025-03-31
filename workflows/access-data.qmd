@@ -62,7 +62,7 @@ Now, let's map it!
 
 ```{r, cache = TRUE}
 # read the Canada polygon
-canada = sf::read_sf("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada-polygon/canada.outline.shp"))
+canada = sf::read_sf("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada-polygon/canada.outline.shp")
 
 # crop to Canada
 inat_canada = sf::st_crop(inat, canada)
@@ -87,7 +87,7 @@ To make an interactive map that we can zoom into, we can use the package `mapvie
 First, let's some mapview options to apply to all the maps we will make here:
 
 ```{r}
-mapviewOptions(basemaps = c( "OpenStreetMap"),
+mapviewOptions(basemaps = c("OpenStreetMap"),
                na.color = "transparent")
 ```
 

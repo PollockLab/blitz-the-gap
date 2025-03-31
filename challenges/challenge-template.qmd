@@ -1,0 +1,24 @@
+---
+title: Challenge title
+image: images/some-image.jpg
+---
+
+## What's the problem?
+
+[blurb about the gap you want to fill]
+
+## **Where should you go?**
+
+To bridge this gap, we encourage you to [visit sites / look for species that ...]. We’ve highlighted [places...] for you to choose from, which you can see on these maps:
+
+## Title for your map
+
+We'll insert your html widget map here, like this:
+
+```{=html, echo = TRUE, eval = FALSE}
+<iframe width="900" height="700" src="maps/your_challenge_map.html" title="YourTitle"></iframe>
+```
+
+## **Who created this challenge?**
+
+This challenge was created for Blitz the Gap, designed by [names]. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]

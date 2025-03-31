@@ -13,7 +13,7 @@ This little tutorial will show you how to open the parquet file if you would lik
 
 First, load the R packages you will need to use to access the density map layers:
 
-```{r, results='hide'}
+```{r, results='hide',message=FALSE,warning=FALSE}
 library(ggplot2)
 library(dplyr)
 library(arrow)
@@ -128,7 +128,7 @@ query_under100 |>
 
 Let's have a look at the number of observations per species for these under-sampled species.
 
-```{r, out.height="100%"}
+```{r, fig.height=10}
 ggplot(data = query_under100) +
   geom_histogram(aes(x = total_obs, 
                           fill = iconic_taxon_name),
@@ -142,7 +142,9 @@ ggplot(data = query_under100) +
 We can see that for groups like fungi, insects and plants, there are many species with less than 30 observations! 
 
 ```{r}
-query_under100 |> group_by(iconic_taxon_name) |> summarise(nsp = n_distinct(scientific_name))
+query_under100 |> 
+  group_by(iconic_taxon_name) |> 
+  summarise(nsp = n_distinct(scientific_name))
 ```
 
 ## Convert the parquet query into a vector and a raster layer
@@ -197,6 +199,7 @@ rareplant.density = rasterize(inat.v, base.50k, fun = "length")
 pal = viridis::turbo(5)
 mapview(rareplant.density, 
         col.regions = pal,
-        layer.name = "Density") 
+        layer.name = "Density", 
+        na.color = "transparent") 
 ```
 
