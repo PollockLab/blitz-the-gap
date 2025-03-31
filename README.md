@@ -1,6 +1,8 @@
 # Website for Blitz the Gap: Challenges 🌱
 
-[![badge](https://img.shields.io/static/v1?style=for-the-badge&label=View&message=Website&color=8abd5e)](https://pollocklab.github.io/blitz-the-gap/)
+[![badge](https://img.shields.io/static/v1?style=for-the-badge&label=View&message=Website&color=a3be8c)](https://pollocklab.github.io/blitz-the-gap/) [![badge](https://img.shields.io/static/v1?style=for-the-badge&label=Download&message=Challenge-Template&color=b48ead)](https://github.com/PollockLab/blitz-the-gap/blob/master/challenges/challenge-template.qmd)
+
+
 
 ## Summary
 
@@ -8,7 +10,7 @@ This website presents information about Blitz the Gap, including:
 
 * `_quarto.yml` : Website structure and settings.
 * `index` : Description of the Blitz the Gap and a listing of challenges, retrieved from the `challenges/` folder.
-* `tutorial` : Example workflow to make a priority map for a challenge.
+* `workflows/` : Example workflows to access data and to make a priority map for a challenge.
 * `challenges/` : Contains docs for a list of the challenges with a description, a map, and a list of authors.
 
 ## Building the website
