@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blitz the Gap</title>
+<title>Challenge title – Blitz the Gap</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,19 +23,18 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-48ffa3e5b9d089919c6712c39e5b00f2.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-831ed5782a009b9675b19fb0dde13c2a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-48ffa3e5b9d089919c6712c39e5b00f2.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-831ed5782a009b9675b19fb0dde13c2a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -51,67 +50,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -121,7 +62,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Blitz the Gap</span>
     </a>
   </div>
@@ -131,11 +72,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Challenges</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./workflows.html"> 
+    <a class="nav-link" href="../workflows.html"> 
 <span class="menu-text">Workflows</span></a>
   </li>  
 </ul>
@@ -154,96 +95,56 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#challenges" id="toc-challenges" class="nav-link active" data-scroll-target="#challenges">Challenges</a></li>
+  <li><a href="#whats-the-problem" id="toc-whats-the-problem" class="nav-link active" data-scroll-target="#whats-the-problem">What’s the problem?</a></li>
+  <li><a href="#where-should-you-go" id="toc-where-should-you-go" class="nav-link" data-scroll-target="#where-should-you-go"><strong>Where should you go?</strong></a></li>
+  <li><a href="#title-for-your-map" id="toc-title-for-your-map" class="nav-link" data-scroll-target="#title-for-your-map">Title for your map</a></li>
+  <li><a href="#who-created-this-challenge" id="toc-who-created-this-challenge" class="nav-link" data-scroll-target="#who-created-this-challenge"><strong>Who created this challenge?</strong></a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-jolla">
-  <img src="images/Logo.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block"></header><div id="hero-heading">
-<p>Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNat, we are still lacking the data for a whole host of ecological and conservation applications. We need more data to assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, and more.&nbsp;</p>
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://blitzthegap.org" class="about-link" rel="" target="">
-    <i class="bi bi-box-arrow-up-right"></i>
-     <span class="about-link-text">Website</span>
-  </a>
-  <a href="https://inaturalist.ca/projects/blitz-the-gap" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">iNaturalist project</span>
-  </a>
-</div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Challenge title</h1>
 </div>
 
-<section id="challenges" class="level1">
-<h1>Challenges</h1>
-<p>To Blitz the Gap, choose from a series of challenges to fill biodiversity data gaps in Canada, according to what inspires you the most. These challenges were designed by graduate students throughout Canada to help guide iNaturalists like you towards places that deserve a little more attention. Remember: even one observation can be enough to make a difference in our understanding of biodiversity change.</p>
-<p>Ready? Set? Blitz the Gap!</p>
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="whats-the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="whats-the-problem">What’s the problem?</h2>
+<p>[blurb about the gap you want to fill]</p>
+</section>
+<section id="where-should-you-go" class="level2">
+<h2 class="anchored" data-anchor-id="where-should-you-go"><strong>Where should you go?</strong></h2>
+<p>To bridge this gap, we encourage you to [visit sites / look for species that …]. We’ve highlighted [places…] for you to choose from, which you can see on these maps:</p>
+</section>
+<section id="title-for-your-map" class="level2">
+<h2 class="anchored" data-anchor-id="title-for-your-map">Title for your map</h2>
+<p>We’ll insert your html widget map here, like this:</p>
+<p><code>{=html, echo = TRUE, eval = FALSE} &lt;iframe width="900" height="700" src="maps/your_challenge_map.html" title="YourTitle"&gt;&lt;/iframe&gt;</code></p>
+</section>
+<section id="who-created-this-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="who-created-this-challenge"><strong>Who created this challenge?</strong></h2>
+<p>This challenge was created for Blitz the Gap, designed by [names]. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]</p>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1743431149302" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
-<a href="./challenges/challenge-template.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./challenges/images/some-image.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Challenge title
-</h5>
-<div class="card-text listing-description">
-[blurb about the gap you want to fill]
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1743431149302" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
-<a href="./challenges/challenge1_revisit-the-past.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./challenges/images/revisit-the-past.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Revisiting the past
-</h5>
-<div class="card-text listing-description">
-To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -264,6 +165,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
