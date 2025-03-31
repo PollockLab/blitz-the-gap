@@ -5,3 +5,11 @@
 
 /.quarto/
 /_site/site_libs
+/_site
+/_site
+/data/clean
+/data/outputs
+/data/raw
+/data
+/workflows/access-data_cache
+/_site/challenges
