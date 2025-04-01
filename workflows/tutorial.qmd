@@ -40,7 +40,7 @@ mapviewOptions(basemaps = c("OpenStreetMap"),
 
 Load spatial layers that we will use to make sure all of our layers match (in terms of the grid resolution and projection).
 
-```{r, eval = T}
+```{r, eval = F}
 # Canada polygon
 canada = sf::read_sf("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada-polygon/canada.outline.shp")
 
@@ -49,8 +49,8 @@ base.5k = terra::rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw
 
 # Mask water and built areas
 base.water <- rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/WaterUrbanBuiltMask.tif")
-base.water<-project(base.water,crs(base.5k))
-base.water<-resample(base.water,base.5k,method='near')
+base.water<-project(base.water, crs(base.5k))
+base.water<-resample(base.water, base.5k, method='near')
 terra::writeRaster(base.water, here::here("data/clean/base-layers/WaterUrbanBuiltMask.tif"), overwrite=TRUE)
 
 # Make a reverse of the base layer to remove cells that we don't want to consider (later)
@@ -65,7 +65,7 @@ terra::writeRaster(anti.base, here::here("data/clean/base-layers/anti.base.5k.ti
 
 This tutorial will use GBIF data, though later steps will be similarly useful to process iNaturalist data. Here, let's use a download of all amphibian data in Canada.
 
-```{r, eval = T}
+```{r, eval = F}
 # Download the GBIF data through the GBIF data website. Make sure to save the citation details from the download in a text file alongside the data.
 # Unzip in the data/raw/gbif/your_taxa_of_choice folder
 # Read in the dataset and select columns we need
@@ -78,7 +78,7 @@ gbif = data.table::fread("~/McGill University/Laura's Lab_Group - BioBlitz/data/
 
 First, we need to prepare the GBIF data into a spatial object:
 
-```{r, eval = T}
+```{r, eval = F}
 # Convert GBIF to a points layer
 gbif.v <- vect(gbif,
                geom=c("decimalLongitude","decimalLatitude"),
@@ -102,7 +102,7 @@ Now we can convert the GBIF data into raster layers:
 
 -   `year.last.sampled`: year of the last GBIF observation in GBIF per cell
 
-```{r, eval = T}
+```{r, eval = F}
 # Make a GBIF density layer
 gbif.density <- rasterize(gbif.v, base.5k, fun="count")
 
@@ -135,7 +135,7 @@ This is some code to reproject and resample the rasters from the STAC to match t
 
 Climate velocity (a metric of how quickly the climate will change by 2085 in each cell, under RCP85):
 
-```{r, eval = T}
+```{r, eval = F}
 vel <- rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/challenges/climate/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif")
 vel<-project(vel,base.5k,"bilinear")
 vel<-resample(vel,base.5k,method='near')
@@ -147,7 +147,7 @@ terra::writeRaster(vel, here::here("data/clean/challenges/climate/climatevelocit
 
 Distance to roads:
 
-```{r, eval = T}
+```{r, eval = F}
 dist.to.roads<-rast("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/distance.to.roads.tif")
 dist.to.roads<-project(dist.to.roads,base.5k,"bilinear")
 dist.to.roads[is.na(base.5k)]<-NA
@@ -158,7 +158,6 @@ terra::writeRaster(dist.to.roads, here::here("data/clean/base-layers/dist.to.roa
 # hidden chunk to load datasets prepared with the code above
 gbif.layers = terra::rast(here::here("data/clean/biodiversity-data/rasters/gbif.layers.amphibians.tif"))
 gbif.v = terra::vect(here::here("data/clean/biodiversity-data/points/gbif.points.amphibians.shp"))
-vel = terra::rast(here::here("data/clean/challenges/climate/climatevelocity_adaptwest_fwvel_ensemble_rcp85_2085.tif"))
 dist.to.roads = terra::rast(here::here("data/clean/base-layers/dist.to.roads.tif"))
 ```
 

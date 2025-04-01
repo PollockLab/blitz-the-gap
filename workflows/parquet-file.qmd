@@ -141,12 +141,6 @@ ggplot(data = query_under100) +
 
 We can see that for groups like fungi, insects and plants, there are many species with less than 30 observations! 
 
-```{r}
-query_under100 |> 
-  group_by(iconic_taxon_name) |> 
-  summarise(nsp = n_distinct(scientific_name))
-```
-
 ## Convert the parquet query into a vector and a raster layer
 
 Let's make the iNaturalist query into a spatial object. First, we'll make a vector layer, which we'll then transform into a raster layer.
