@@ -13,7 +13,7 @@ From Bon in a Box's "Working with STAC" documentation, which you can see [here](
 
 # Biodiversité Québec's STAC Catalog
 
-Biodiversité Québec hosts many layers for biodiversity maps and models for Canada and Québec. Most of the layers we will use for challenges will be from this STAC Catalogue.
+Biodiversité Québec hosts many layers for biodiversity maps and models for Canada and Québec. Most of the layers we will use for challenges will be from this STAC Catalog.
 
 You can view the layers at the following link:
 
@@ -23,7 +23,7 @@ Optionally, you can also browse the [GEO BON STAC Catalog](https://stac.geobon.o
 
 ## iNaturalist density maps
 
-A series of density maps of iNaturalist observations is hosted on the Biodiversité Québec STAC catalogue. This means you can access density maps and work with them as a proxy, or download it locally to use as the basis for a Blitz the Gap challenge. There are two resolutions available for each taxonomic group: 100m, and 1km.
+A series of density maps of iNaturalist observations is hosted on the Biodiversité Québec STAC. This means you can access density maps and work with them as a proxy, or download it locally to use as the basis for a Blitz the Gap challenge. There are two resolutions available for each taxonomic group: 100m, and 1km.
 
 First, load the R packages you will need to use to access the density map layers:
 
@@ -37,7 +37,7 @@ library(ggplot2)
 library(mapview)
 ```
 
-Set up the connection to the STAC catalogue:
+Set up the connection to the STAC catalog:
 
 ```{r, results='hide'}
 # set up
@@ -50,6 +50,8 @@ it_obj <- stac_obj |>
 it_obj
 ```
 
+Get a table showing which layers are available in the catalog:
+
 ```{r}
 # See layers in the object
 df <- data.frame(description=character())
@@ -57,6 +59,9 @@ for (f in it_obj[['features']]){
   df <- rbind(df,data.frame(description=f$properties$description)) 
 }
 df$feature_number = 1:nrow(df)
+```
+
+```{r, echo = FALSE}
 kable(df) |>
   # these next two lines are just so the table is scrollable + prettier on the html page
   # you can ignore it if you run this locally !
@@ -65,23 +70,45 @@ kable(df) |>
   kableExtra::kable_styling(full_width = TRUE)
 ```
 
+```{r, eval = FALSE}
+df
+```
+
 Let's access one of the layers to map it, as an example. We'll map the density of iNaturalist observations across all taxa by selecting one of the features we listed in the table above.
 
-How do we select one of the layers in the STAC Catalog? You can index them by checking the feature_number column above. Here, we want the 37th layer:
+How do we select one of the layers in the STAC Catalog? You can index them by checking the feature_number column above. 
+
+Here, we want "Density of observations in iNaturalist Canada for species of taxonomic group All at 1km resolution", which is the 25th layer:
 
 ```{r}
 # 37 is the number to change if you want another layer from the STAC
-inat <- read_stars(paste0(it_obj[['features']][[37]]$assets[[1]]$href), 
+inat <- read_stars(paste0(it_obj[['features']][[25]]$assets[[1]]$href), 
                    proxy = TRUE) # using it as a proxy (not a local download,
                                  # to save time and space!)
 ```
 
 Now, let's map it!
 
-```{r, cache = TRUE}
+```{r, echo = FALSE, results='hide'}
 # read the Canada polygon
 canada = sf::read_sf("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada-polygon/canada.outline.shp")
+```
 
+```{r, echo = FALSE, results='hide'}
+# read the Canada polygon
+canada = sf::read_sf("~/McGill University/Laura's Lab_Group - BioBlitz/data/raw/base-layers/canada-polygon/canada.outline.shp")
+```
+
+First, load a polygon of Canada that you can download from the `data/raw` folder on the Sharepoint (or the `00_rawdata` folder on the [GitHub repository](https://github.com/CIEE-Living-Data-Project/blitz-the-gap)). _Make sure to update the file path to match the folder in which you placed the file when you downloaded it!_
+
+```{r, eval = FALSE}
+# read the Canada polygon
+canada = sf::read_sf("data/raw/base-layers/canada-polygon/canada.outline.shp")
+```
+
+Prepare the data for plotting, and use ggplot2 to map it!
+
+```{r, cache = TRUE}
 # crop the raster to canada (to cut off the ocean, USA, etc.)
 inat = sf::st_crop(inat, canada)
 
