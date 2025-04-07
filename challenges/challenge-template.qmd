@@ -1,6 +1,6 @@
 ---
 title: Challenge title
-image: images/some-image.jpg
+image: images/template-image.jpg
 ---
 
 ## What's the problem?
