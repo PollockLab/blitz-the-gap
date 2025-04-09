@@ -1,14 +1,15 @@
 ---
 about:
   id: hero-heading
-  template: jolla
-  image: images/Logo.png
+  template: marquee
+  image-shape: rounded
+  image: images/bg.png
   links:
     - icon: box-arrow-up-right
       text: Website
       href: https://blitzthegap.org
     - icon: twitter
-      text: iNaturalist project
+      text: iNaturalist
       href: https://inaturalist.ca/projects/blitz-the-gap
 listing: 
   contents: challenges

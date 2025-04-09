@@ -4,8 +4,9 @@ image: images/WESA_Kris-Cu.jpg
 ---
 
 ![](images/KBA-photos-by-Amanda-Bichel.jpg)
+_image from [Birds Canada](https://www.birdscanada.org/official-launch-of-key-biodiversity-areas-in-canada)_
 
-_This page is still in construction_
+[Join the iNaturalist project!](https://inaturalist.ca/projects/maybas-conservation-priorities-in-canada){.btn .btn-primary .btn role="button"}
 
 ## How can you help to conserve and protect Canada’s biodiversity?
 

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Challenges",
     "section": "",
-    "text": "Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNat, we are still lacking the data for a whole host of ecological and conservation applications. We need more data to assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, and more. \n \n  \n   \n  \n    \n     Website\n  \n  \n    \n     iNaturalist project\n  \n\n\n\n\nChallenges\nTo Blitz the Gap, choose from a series of challenges to fill biodiversity data gaps in Canada, according to what inspires you the most. These challenges were designed by graduate students throughout Canada to help guide iNaturalists like you towards places that deserve a little more attention. Remember: even one observation can be enough to make a difference in our understanding of biodiversity change.\nReady? Set? Blitz the Gap!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChallenge title\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRevisiting the past\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNat, we are still lacking the data for a whole host of ecological and conservation applications. We need more data to assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, and more. \n \n    \n  \n    \n     Website\n  \n  \n    \n     iNaturalist\n  \n\n\n  \n\n\n\nChallenges\nTo Blitz the Gap, choose from a series of challenges to fill biodiversity data gaps in Canada, according to what inspires you the most. These challenges were designed by graduate students throughout Canada to help guide iNaturalists like you towards places that deserve a little more attention. Remember: even one observation can be enough to make a difference in our understanding of biodiversity change.\nReady? Set? Blitz the Gap!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChallenge title\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConservation Priorities in Canada (MayBAs)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRevisiting the past\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "workflows/tutorial.html",
@@ -42,46 +42,46 @@
     "text": "To make a project on iNaturalist that includes observations within polygons, we need to convert our raster into a KML file. From this KML file, we can make a “Place” on iNaturalist, which we can then set up for each challenge.\nFirst, we will convert our raster to polygons using the raster package:\n\n# make a raster layer to convert \npriority_map = priority\n# remove lowest priority level to only have 3 levels\npriority_map[priority &gt; 3] &lt;- NA\n\n# convert raster to polygons\nhistorical_poly = raster::raster(priority_map) |&gt;\n  raster::rasterToPolygons(n = 4, \n                           na.rm = TRUE)\n\n## Merge polygons that are touching into one polygon\n# convert to sf object\nhistorical_poly = sf::st_as_sf(historical_poly) \n\n# write polygons as a kml file\nsf::st_write(historical_poly, \n             driver = \"KML\", \n             dsn = here::here(\"data/outputs/kml/historical-amphibians.kml\"),\n             delete_layer = TRUE) # overwrite existing layer\n\nWriting layer `historical-amphibians' to data source \n  `/Users/katherine/Documents/GitHub/blitz-the-gap/data/outputs/kml/historical-amphibians.kml' using driver `KML'\n\n\nWarning in CPL_write_ogr(obj, dsn, layer, driver,\nas.character(dataset_options), : GDAL Message 1: Layer name\n'historical-amphibians' adjusted to 'historical_amphibians' for XML validity.\n\n\nWriting 435 features with 1 fields and geometry type Polygon."
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html",
-    "href": "challenges/challenge1_revisit-the-past.html",
-    "title": "Revisiting the past",
+    "objectID": "challenges/challenge2_mayBAs.html",
+    "href": "challenges/challenge2_mayBAs.html",
+    "title": "Conservation Priorities in Canada (MayBAs)",
     "section": "",
-    "text": "To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!\nSome of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses."
+    "text": "image from Birds Canada\nJoin the iNaturalist project!"
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html#whats-the-gap",
-    "href": "challenges/challenge1_revisit-the-past.html#whats-the-gap",
-    "title": "Revisiting the past",
-    "section": "",
-    "text": "To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!\nSome of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses."
+    "objectID": "challenges/challenge2_mayBAs.html#how-can-you-help-to-conserve-and-protect-canadas-biodiversity",
+    "href": "challenges/challenge2_mayBAs.html#how-can-you-help-to-conserve-and-protect-canadas-biodiversity",
+    "title": "Conservation Priorities in Canada (MayBAs)",
+    "section": "How can you help to conserve and protect Canada’s biodiversity?",
+    "text": "How can you help to conserve and protect Canada’s biodiversity?\n“30 by 30” is an initiative by 120 countries worldwide, including Canada, to protect 30% of land, inland waters, and sea by 2030. Canada plays a big role in reaching this goal thanks to our huge land area and its biodiversity. But the lands are not chosen randomly, they are chosen to maximize their impact on preserving biodiversity. Making those choices means we need data, and this is where citizen scientists like you can help. By getting out and observing what species are present in potential key areas that are currently underdocumented, you can make a real difference in the 30 by 30 initiative. Citizen scientist observations of key species could be the data we need to inform the public and governments about which areas need to be preserved."
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html#where-should-you-go",
-    "href": "challenges/challenge1_revisit-the-past.html#where-should-you-go",
-    "title": "Revisiting the past",
+    "objectID": "challenges/challenge2_mayBAs.html#key-biodiversity-areas",
+    "href": "challenges/challenge2_mayBAs.html#key-biodiversity-areas",
+    "title": "Conservation Priorities in Canada (MayBAs)",
+    "section": "Key Biodiversity Areas",
+    "text": "Key Biodiversity Areas\nKey Biodiversity Areas (KBAs) are sites that contribute disproportionately to the persistence of biodiversity. If these sites are lost or degraded, species or ecosystems could disappear from Canada or the planet. KBAs are a building block for biodiversity conservation in Canada. They are used for: planning protected areas and other effective area-based conservation measures, land use planning, stewardship, restoration, Indigenous-led conservation, biodiversity monitoring, education and inspiration. KBAs are also summarised as an indicator of progress towards federal conservation commitments (such as the Kunming-Montreal Global Biodiversity Framework).\n“MayBAs” are areas which computer models or historical data have identified as areas where we need more data to make an informed decision on them becoming a KBA. We have included a map of these areas so citizen scientists like yourself can help build a pool of observations of priority species from a variety of groups and directly contribute to the decision process within Canada for what areas get protected."
+  },
+  {
+    "objectID": "challenges/challenge2_mayBAs.html#where-should-you-go",
+    "href": "challenges/challenge2_mayBAs.html#where-should-you-go",
+    "title": "Conservation Priorities in Canada (MayBAs)",
     "section": "Where should you go?",
-    "text": "Where should you go?\nTo bridge this gap, we encourage you to revisit places that were sampled in the past. We’ve highlighted historically-sampled places that are close to roads for you to choose from, which you can see on these maps:"
+    "text": "Where should you go?\nTo bridge this gap, we encourage you to revisit sites that could become KBAs, but we need more data to be sure:"
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html#amphibians",
-    "href": "challenges/challenge1_revisit-the-past.html#amphibians",
-    "title": "Revisiting the past",
-    "section": "Amphibians",
-    "text": "Amphibians"
+    "objectID": "challenges/challenge2_mayBAs.html#what-species-should-you-look-for",
+    "href": "challenges/challenge2_mayBAs.html#what-species-should-you-look-for",
+    "title": "Conservation Priorities in Canada (MayBAs)",
+    "section": "What species should you look for?",
+    "text": "What species should you look for?\nAny species in these places are important to look for! The KBA team has a list of species they need more data about to inform conservation. If you find one of these species, your observation will be logged in this iNaturalist project. Keep an eye out for them!"
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html#who-created-this-challenge",
-    "href": "challenges/challenge1_revisit-the-past.html#who-created-this-challenge",
-    "title": "Revisiting the past",
-    "section": "Who created this challenge?",
-    "text": "Who created this challenge?\nThis challenge was the first one created for Blitz the Gap, designed by Laura Pollock, Isaac Eckert, Pierre Rogy, and Katherine Hébert. We are all part of the Quantitative Biodiversity Lab at McGill University led by Laura. We use data from sources like iNaturalist to build biodiversity models that help us understand and predict biodiversity and how it is changing."
-  },
-  {
-    "objectID": "workflows.html",
-    "href": "workflows.html",
-    "title": "Workflows",
-    "section": "",
-    "text": "Here are some tutorials to access and analyse iNaturalist Canada data to make Blitz the Gap challenges.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccessing the STAC Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking priority maps for Blitz the Gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing the iNaturalist Canada parquet file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "challenges/challenge2_mayBAs.html#who-made-this-challenge",
+    "href": "challenges/challenge2_mayBAs.html#who-made-this-challenge",
+    "title": "Conservation Priorities in Canada (MayBAs)",
+    "section": "Who made this challenge?",
+    "text": "Who made this challenge?\nThis challenge was made by the Canadian Institute of Ecology and Evolution’s Living Data Project in collaboration with the Wildlife Conservation Society (WCS) as part of the “Blitz the Gap” working group.\nBlitz the Gap was conceived and led by Katherine Hebert and Laura Pollock of the Quantitative Biodiversity Lab at McGill University, and David Hunt from the Living Data Project. The working group involved MSc and PhD students from McGill University, Université de Montréal, and Université de Sherbrooke. The MayBA maps were provided by WCS Canada thanks to Peter Soroye, the KBA Assessment and Outreach Coordinator, and Ciara Raudsepp-Hearne, who leads the WCS Canada KBA team to identify and map KBAs in Canada."
   },
   {
     "objectID": "challenges/challenge-template.html",
@@ -117,6 +117,48 @@
     "title": "Challenge title",
     "section": "Who created this challenge?",
     "text": "Who created this challenge?\nThis challenge was created for Blitz the Gap, designed by [names]. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]"
+  },
+  {
+    "objectID": "workflows.html",
+    "href": "workflows.html",
+    "title": "Workflows",
+    "section": "",
+    "text": "Here are some tutorials to access and analyse iNaturalist Canada data to make Blitz the Gap challenges.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccessing the STAC Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking priority maps for Blitz the Gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing the iNaturalist Canada parquet file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "challenges/challenge1_revisit-the-past.html",
+    "href": "challenges/challenge1_revisit-the-past.html",
+    "title": "Revisiting the past",
+    "section": "",
+    "text": "To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!\nSome of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses."
+  },
+  {
+    "objectID": "challenges/challenge1_revisit-the-past.html#whats-the-gap",
+    "href": "challenges/challenge1_revisit-the-past.html#whats-the-gap",
+    "title": "Revisiting the past",
+    "section": "",
+    "text": "To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!\nSome of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses."
+  },
+  {
+    "objectID": "challenges/challenge1_revisit-the-past.html#where-should-you-go",
+    "href": "challenges/challenge1_revisit-the-past.html#where-should-you-go",
+    "title": "Revisiting the past",
+    "section": "Where should you go?",
+    "text": "Where should you go?\nTo bridge this gap, we encourage you to revisit places that were sampled in the past. We’ve highlighted historically-sampled places that are close to roads for you to choose from, which you can see on these maps:"
+  },
+  {
+    "objectID": "challenges/challenge1_revisit-the-past.html#amphibians",
+    "href": "challenges/challenge1_revisit-the-past.html#amphibians",
+    "title": "Revisiting the past",
+    "section": "Amphibians",
+    "text": "Amphibians"
+  },
+  {
+    "objectID": "challenges/challenge1_revisit-the-past.html#who-created-this-challenge",
+    "href": "challenges/challenge1_revisit-the-past.html#who-created-this-challenge",
+    "title": "Revisiting the past",
+    "section": "Who created this challenge?",
+    "text": "Who created this challenge?\nThis challenge was the first one created for Blitz the Gap, designed by Laura Pollock, Isaac Eckert, Pierre Rogy, and Katherine Hébert. We are all part of the Quantitative Biodiversity Lab at McGill University led by Laura. We use data from sources like iNaturalist to build biodiversity models that help us understand and predict biodiversity and how it is changing."
   },
   {
     "objectID": "workflows/parquet-file.html",
