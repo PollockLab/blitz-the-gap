@@ -7,14 +7,15 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Challenges
+        text: Home
       - href: workflows.qmd
         text: Workflows
 
 format:
   html:
     theme: yeti
-    css: styles.css
+    embed-resources: true
+    smooth-scroll: true
     toc: true
     grid:
       margin-width: 0px
