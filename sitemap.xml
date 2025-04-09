@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://PollockLab.github.io/blitz-the-gap/index.html</loc>
-    <lastmod>2025-04-07T01:35:27.260Z</lastmod>
+    <lastmod>2025-04-09T02:15:39.805Z</lastmod>
   </url>
   <url>
     <loc>https://PollockLab.github.io/blitz-the-gap/workflows/tutorial.html</loc>
-    <lastmod>2025-04-09T00:23:34.408Z</lastmod>
+    <lastmod>2025-04-09T01:18:33.522Z</lastmod>
   </url>
   <url>
-    <loc>https://PollockLab.github.io/blitz-the-gap/challenges/challenge1_revisit-the-past.html</loc>
-    <lastmod>2025-04-08T22:21:21.677Z</lastmod>
-  </url>
-  <url>
-    <loc>https://PollockLab.github.io/blitz-the-gap/workflows.html</loc>
-    <lastmod>2025-04-07T01:35:27.260Z</lastmod>
+    <loc>https://PollockLab.github.io/blitz-the-gap/challenges/challenge2_mayBAs.html</loc>
+    <lastmod>2025-04-09T20:17:32.323Z</lastmod>
   </url>
   <url>
     <loc>https://PollockLab.github.io/blitz-the-gap/challenges/challenge-template.html</loc>
-    <lastmod>2025-04-07T01:35:27.036Z</lastmod>
+    <lastmod>2025-04-09T01:18:33.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://PollockLab.github.io/blitz-the-gap/workflows.html</loc>
+    <lastmod>2025-04-09T01:18:33.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://PollockLab.github.io/blitz-the-gap/challenges/challenge1_revisit-the-past.html</loc>
+    <lastmod>2025-04-09T01:18:33.198Z</lastmod>
   </url>
   <url>
     <loc>https://PollockLab.github.io/blitz-the-gap/workflows/parquet-file.html</loc>
-    <lastmod>2025-04-07T01:35:27.261Z</lastmod>
+    <lastmod>2025-04-09T01:18:33.522Z</lastmod>
   </url>
   <url>
     <loc>https://PollockLab.github.io/blitz-the-gap/workflows/access-data.html</loc>
-    <lastmod>2025-04-07T01:35:27.260Z</lastmod>
+    <lastmod>2025-04-09T01:18:33.521Z</lastmod>
   </url>
 </urlset>
