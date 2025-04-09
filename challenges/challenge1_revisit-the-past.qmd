@@ -3,7 +3,7 @@ title: Revisiting the past
 image: images/revisit-the-past.jpg
 ---
 
-## What's the problem?
+## What's the gap?
 
 To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!
 

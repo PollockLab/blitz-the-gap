@@ -250,3 +250,34 @@ htmlwidgets::saveWidget(m@map,
                         file = here::here("challenges/maps/challenge1_map.html"), 
                         title = "Revisit the past: Amphibians")
 ```
+
+
+## Prepare KML file for iNaturalist
+
+To make a project on iNaturalist that includes observations within polygons, we need to convert our raster into a KML file. From this KML file, we can make a "Place" on iNaturalist, which we can then set up for each challenge.
+
+First, we will convert our raster to polygons using the `raster` package:
+
+```{r}
+# make a raster layer to convert 
+priority_map = priority
+# remove lowest priority level to only have 3 levels
+priority_map[priority > 3] <- NA
+
+# convert raster to polygons
+historical_poly = raster::raster(priority_map) |>
+  raster::rasterToPolygons(n = 4, 
+                           na.rm = TRUE)
+
+## Merge polygons that are touching into one polygon
+# convert to sf object
+historical_poly = sf::st_as_sf(historical_poly) 
+
+# write polygons as a kml file
+sf::st_write(historical_poly, 
+             driver = "KML", 
+             dsn = here::here("data/outputs/kml/historical-amphibians.kml"),
+             delete_layer = TRUE) # overwrite existing layer
+```
+
+
