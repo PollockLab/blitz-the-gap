@@ -1,0 +1,36 @@
+---
+title: Conservation Priorities in Canada (MayBAs)
+image: images/WESA_Kris-Cu.jpg
+---
+
+![](images/KBA-photos-by-Amanda-Bichel.jpg)
+
+_This page is still in construction_
+
+## How can you help to conserve and protect Canada’s biodiversity?
+
+“30 by 30” is an initiative by 120 countries worldwide, including Canada, to protect 30% of land, inland waters, and sea by 2030. Canada plays a big role in reaching this goal thanks to our huge land area and its biodiversity. But the lands are not chosen randomly, they are chosen to maximize their impact on preserving biodiversity. Making those choices means we need data, and this is where citizen scientists like you can help. By getting out and observing what species are present in potential key areas that are currently underdocumented, you can make a real difference in the 30 by 30 initiative. Citizen scientist observations of key species could be the data we need to inform the public and governments about which areas need to be preserved.
+
+## Key Biodiversity Areas
+
+Key Biodiversity Areas (KBAs) are sites that contribute disproportionately to the persistence of biodiversity. If these sites are lost or degraded, species or ecosystems could disappear from Canada or the planet. KBAs are a building block for biodiversity conservation in Canada. They are used for: planning protected areas and other effective area-based conservation measures, land use planning, stewardship, restoration, Indigenous-led conservation, biodiversity monitoring, education and inspiration. KBAs are also summarised as an indicator of progress towards federal conservation commitments (such as the Kunming-Montreal Global Biodiversity Framework).
+
+“MayBAs” are areas which computer models or historical data have identified as areas where we need more data to make an informed decision on them becoming a KBA. We have included a map of these areas so citizen scientists like yourself can help build a pool of observations of priority species from a variety of groups and directly contribute to the decision process within Canada for what areas get protected. 
+
+## Where should you go?
+
+To bridge this gap, we encourage you to revisit sites that could become KBAs, but we need more data to be sure:
+
+```{=html}
+<iframe width="800" height="600" src="maps/challenge_mayBA_map.html" title="MayBAs in Canada"></iframe>
+```
+
+## What species should you look for?
+
+Any species in these places are important to look for! The KBA team has a list of species they need more data about to inform conservation. If you find one of these species, your observation will be logged in this [iNaturalist project](https://inaturalist.ca/projects/maybas-conservation-priorities-in-canada). Keep an eye out for them!
+
+## Who made this challenge?
+
+This challenge was made by the Canadian Institute of Ecology and Evolution’s Living Data Project in collaboration with the Wildlife Conservation Society (WCS) as part of the “Blitz the Gap” working group.
+
+Blitz the Gap was conceived and led by Katherine Hebert and Laura Pollock of the Quantitative Biodiversity Lab at McGill University, and David Hunt from the Living Data Project. The working group involved MSc and PhD students from McGill University, Université de Montréal, and Université de Sherbrooke. The MayBA maps were provided by WCS Canada thanks to Peter Soroye, the KBA Assessment and Outreach Coordinator, and Ciara Raudsepp-Hearne, who leads the WCS Canada KBA team to identify and map KBAs in Canada. 
