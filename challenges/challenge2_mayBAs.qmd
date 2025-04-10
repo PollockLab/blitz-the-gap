@@ -3,14 +3,13 @@ title: Conservation Priorities in Canada (MayBAs)
 image: images/WESA_Kris-Cu.jpg
 ---
 
-![](images/KBA-photos-by-Amanda-Bichel.jpg)
-_image from [Birds Canada](https://www.birdscanada.org/official-launch-of-key-biodiversity-areas-in-canada)_
-
-[Join the iNaturalist project!](https://inaturalist.ca/projects/maybas-conservation-priorities-in-canada){.btn .btn-primary .btn role="button"}
-
 ## How can you help to conserve and protect Canada’s biodiversity?
 
+![image from Birds Canada](images/KBA-photos-by-Amanda-Bichel.jpg)
+
 “30 by 30” is an initiative by 120 countries worldwide, including Canada, to protect 30% of land, inland waters, and sea by 2030. Canada plays a big role in reaching this goal thanks to our huge land area and its biodiversity. But the lands are not chosen randomly, they are chosen to maximize their impact on preserving biodiversity. Making those choices means we need data, and this is where citizen scientists like you can help. By getting out and observing what species are present in potential key areas that are currently underdocumented, you can make a real difference in the 30 by 30 initiative. Citizen scientist observations of key species could be the data we need to inform the public and governments about which areas need to be preserved.
+
+[Join the iNaturalist project!](https://inaturalist.ca/projects/maybas-conservation-priorities-in-canada){.btn .btn-primary .btn role="button"}
 
 ## Key Biodiversity Areas
 
@@ -25,6 +24,10 @@ To bridge this gap, we encourage you to revisit sites that could become KBAs, bu
 ```{=html}
 <iframe width="800" height="600" src="maps/challenge_mayBA_map.html" title="MayBAs in Canada"></iframe>
 ```
+
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
 
 ## What species should you look for?
 

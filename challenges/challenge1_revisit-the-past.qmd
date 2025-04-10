@@ -19,6 +19,10 @@ To bridge this gap, we encourage you to revisit places that were sampled in the 
 <iframe width="900" height="700" src="maps/challenge1_map.html" title="Amphibians"></iframe>
 ```
 
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
 ## **Who created this challenge?**
 
 This challenge was the first one created for Blitz the Gap, designed by Laura Pollock, Isaac Eckert, Pierre Rogy, and Katherine Hébert. We are all part of the Quantitative Biodiversity Lab at McGill University led by Laura. We use data from sources like iNaturalist to build biodiversity models that help us understand and predict biodiversity and how it is changing.

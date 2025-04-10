@@ -23,22 +23,22 @@ $blue:    #008cba !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
-$red:     #f04124 !default;
+$red:     #bc4749 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #e99002 !default;
 $green:   #43ac6a !default;
 $teal:    #20c997 !default;
 $cyan:    #5bc0de !default;
 
-$light-green: #E1EEBC !default;
-$bright-green: #90C67C !default;
-$bright-green-2: #67AE6E !default;
-$green-2: #328E6E !default;
+$light-green: #dad7cd !default;
+$bright-green: #a3b18a !default;
+$bright-green-2: #588157 !default;
+$green-2: #3a5a40 !default;
 $light-brown: #afa49aff !default;
 
-$primary:       $light-brown !default;
-$secondary:     $bright-green !default;
-$success:       $green !default;
+$primary:       $green-2 !default;
+$secondary:     $light-brown !default;
+$success:       $bright-green-2 !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -371,6 +371,7 @@ label,
 .nav-pills {
   .active {
     border: 1px solid shade-color($secondary, 10%);
+    ont-size: $font-size-lg;
   }
 }
 

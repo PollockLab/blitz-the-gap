@@ -8,14 +8,21 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: https://blitzthegap.org
+        text: About Blitz the Gap
+      - href: https://inaturalist.ca/projects/blitz-the-gap
+        text: iNaturalist
       - href: workflows.qmd
         text: Workflows
 
 format:
   html:
-    theme: yeti
+    theme: 
+    - yeti
+    - custom.scss
     embed-resources: true
     smooth-scroll: true
     toc: true
+    fontsize: 12pt
     grid:
       margin-width: 0px

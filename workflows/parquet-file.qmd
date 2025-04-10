@@ -3,6 +3,7 @@ title: "Using the iNaturalist Canada parquet file"
 toc: true
 number-sections: true
 number-depth: 1
+image: images/parquet.png
 ---
 
 # What is a parquet file?

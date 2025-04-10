@@ -3,6 +3,7 @@ title: "Accessing the STAC Catalogue"
 toc: true
 number-sections: true
 number-depth: 1
+image: images/stac.png
 ---
 
 # What is a STAC Catalog?
@@ -17,7 +18,7 @@ Biodiversité Québec hosts many layers for biodiversity maps and models for Can
 
 You can view the layers at the following link:
 
-[![](https://img.shields.io/static/v1?style=for-the-badge&label=View&message=STAC-Catalog&color=b48ead)](https://io.biodiversite-quebec.ca/viewer/inat_canada_heatmaps/inat-canada-heatmapPlantae)
+[![](https://img.shields.io/static/v1?style=for-the-badge&label=View&message=STAC-Catalog&color=e99002)](https://io.biodiversite-quebec.ca/viewer/inat_canada_heatmaps/inat-canada-heatmapPlantae)
 
 Optionally, you can also browse the [GEO BON STAC Catalog](https://stac.geobon.org/viewer/chelsa-clim/bio1) for global layers and access them using the documentation [here](https://geo-bon.github.io/bon-in-a-box-pipeline-engine/working_with_stac.html "BiaB - Working with STAC").
 
@@ -82,7 +83,7 @@ Here, we want "Density of observations in iNaturalist Canada for species of taxo
 
 ```{r}
 # 37 is the number to change if you want another layer from the STAC
-inat <- read_stars(paste0(it_obj[['features']][[25]]$assets[[1]]$href), 
+inat <- read_stars(paste0('/vsicurl/', it_obj[['features']][[25]]$assets[[1]]$href), 
                    proxy = TRUE) # using it as a proxy (not a local download,
                                  # to save time and space!)
 ```
