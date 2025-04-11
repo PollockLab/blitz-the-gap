@@ -67,7 +67,7 @@
     "href": "challenges/Trailblazers_challenge.html#title-for-your-map",
     "title": "Trailblazers challenge",
     "section": "Title for your map",
-    "text": "Title for your map\n{=html, echo = TRUE, eval = FALSE} &lt;iframe width=\"900\" height=\"700\" src=\"maps/challenge_trailblazers_map.html\" title=\"Trailblazers\"&gt;&lt;/iframe&gt;"
+    "text": "Title for your map"
   },
   {
     "objectID": "challenges/Trailblazers_challenge.html#who-created-this-challenge",
@@ -270,7 +270,7 @@
     "href": "challenges/Seaweeds_challenge.html#title-for-your-map",
     "title": "Seaweeds of Canada",
     "section": "Title for your map",
-    "text": "Title for your map\nWe’ll insert your html widget map here, like this:\n{=html, echo = TRUE, eval = FALSE} &lt;iframe width=\"900\" height=\"700\" src=\"maps/your_challenge_map.html\" title=\"YourTitle\"&gt;&lt;/iframe&gt;"
+    "text": "Title for your map\nWe’ll insert your html widget map here, like this:"
   },
   {
     "objectID": "challenges/Seaweeds_challenge.html#who-created-this-challenge",
