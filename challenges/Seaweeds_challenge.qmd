@@ -1,0 +1,27 @@
+---
+title: Canadian Seaweed Safari
+image: images/template-image.jpg
+---
+
+## What's the problem?
+
+There are an estimated # of seaweed species in British Columbia, but # of seaweed species make up #% of the observations on iNaturalist. B.C.'s coastlines host a huge diversity of seaweeds and we want to encourage you to observe more than just these # species. Read your local tide table and head down to the rocky shores at low tide, look under the canopy of larger kelps and see what you can find! Here are some resources to help you become an expert seaweed identifier!  
+- seaweed sorter app
+
+[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-seaweeds-of-canada){.btn .btn-primary .btn role="button"}
+
+## **Where should you go?**
+
+To bridge this gap, we encourage you to [visit sites / look for species that ...]. We’ve highlighted [places...] for you to choose from, which you can see on these maps:
+
+## Title for your map
+
+We'll insert your html widget map here, like this:
+
+```{=html, echo = TRUE, eval = FALSE}
+<iframe width="900" height="700" src="maps/your_challenge_map.html" title="YourTitle"></iframe>
+```
+
+## **Who created this challenge?**
+
+This challenge was created for Blitz the Gap, designed by Sandra Emry and Nathan Earley. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]

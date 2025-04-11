@@ -1,0 +1,63 @@
+---
+title: More than the Monarch
+image: images/Butterfly_banner.png
+---
+
+## What's the problem?
+
+In Canada, we have more than 5,000 species recorded of butterflies and moths, one of which is the Monarch (Danaus plexippus), the fifth most recorded species in the country. That’s awesome! 
+
+Unfortunately, most of these species have only been recorded a few times in specific locations, and we lack further information about them. You can help! Next time you're outside, whether on a hike or doing fieldwork, take a photo of any butterflies or moths you see and upload it to iNaturalist. 
+
+Or if you're interested in contributing checklist data and recording your observations in a more structured way, check out [eButterfly](https://www.e-butterfly.org/ebapp/en)
+
+## **Where should you go?**
+
+All Canada!
+
+Whenever you're doing an outdoor activity, look for butterflies and moths, take a picture and upload it in the iNaturalist app. Every observation counts.
+
+## **Not sure what to look for?**
+
+Check out this interesting species!
+
+
+## Made in Canada
+
+We have endemic butterfly and moth species here in Canada. On this map, you can see the ones that have been recorded. Help us gather more information about them
+
+```{=html, echo = TRUE, eval = TRUE}
+<iframe width="900" height="700" src="maps/challenge_MadeCanada_Butterfly_map.html" title="Endemic butterflies and moths species"></iframe>
+```
+
+Sadly, some endemic species haven't been recorded yet. Help us find them, take a photo and upload it!
+
+Species                   |Common Name        |Group
+--------------------------|-------------------|-------
+Animomyia hardwicki       |Geometrid moth     |Moths
+Elachista cicadella       |Glass miner moth   |Moths
+Elachista serra           |Glass miner moth   |Moths
+Euxoa apopsis             |Dart moth          |Moths
+Euxoa muldersi            |Mulder's Dart Moth |Moths
+Feltia troubridgei        |Noctuid moth       |Moths
+Hydrelia terraenovae      |Carpet moth        |Moths
+Lasionycta gelida         |Noctuid moth       |Moths
+Pelochrista louisana      |Tortricid moth     |Moths
+Stenoptilia grandipuncta  |Plume moth         |Moths
+
+
+
+
+## Canada most wanted
+
+Have you seen this butterfly?  
+
+Help find these missing Canadian species 
+
+```{=html, echo = TRUE, eval = TRUE}
+<iframe width="900" height="700" src="maps/challenge_wanted_butterfly_map.html" title="Most wanted butterflies and moths"></iframe>
+```
+
+## **Who created this challenge?**
+
+This challenge was created for Blitz the Gap, designed by Camila Diaz. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]
