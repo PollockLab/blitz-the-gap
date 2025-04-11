@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Challenges",
     "section": "",
-    "text": "Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNaturalist, we are still lacking data for a whole host of ecological and conservation applications.\nTo assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, we just need more data - and that’s how you can help!\n \n    \n  \n    \n     iNaturalist\n  \n  \n    \n     Blitz the Gap\n  \n\n\n  \n\n\n\nChallenges\nTo Blitz the Gap, choose from a series of challenges to fill biodiversity data gaps in Canada, according to what inspires you the most. These challenges were designed by graduate students throughout Canada to help guide iNaturalists like you towards places that deserve a little more attention. Remember: even one observation can be enough to make a difference in our understanding of biodiversity change.\nReady? Set? Blitz the Gap!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanadian Seaweed Safari\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChallenge title\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClosing the climate gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConservation Priorities in Canada (MayBAs)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore than the Monarch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRevisiting the past\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNaturalist, we are still lacking data for a whole host of ecological and conservation applications.\nTo assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, we just need more data - and that’s how you can help!\n \n    \n  \n    \n     iNaturalist\n  \n  \n    \n     Blitz the Gap\n  \n\n\n  \n\n\n\nChallenges\nTo Blitz the Gap, choose from a series of challenges to fill biodiversity data gaps in Canada, according to what inspires you the most. These challenges were designed by graduate students throughout Canada to help guide iNaturalists like you towards places that deserve a little more attention. Remember: even one observation can be enough to make a difference in our understanding of biodiversity change.\nReady? Set? Blitz the Gap!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCanada’s Most Wanted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChallenge title\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClosing the Climate Gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConservation Priorities in Canada (MayBAs)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore than the Monarch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRevisiting the past\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeaweeds of Canada\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToo Hot to Handle!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrailblazers challenge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "workflows/tutorial.html",
@@ -42,81 +42,158 @@
     "text": "To make a project on iNaturalist that includes observations within polygons, we need to convert our raster into a KML file. From this KML file, we can make a “Place” on iNaturalist, which we can then set up for each challenge.\nFirst, we will convert our raster to polygons using the raster package:\n\n# make a raster layer to convert \npriority_map = priority\n# remove lowest priority level to only have 3 levels\npriority_map[priority &gt; 3] &lt;- NA\n\n# convert raster to polygons\nhistorical_poly = raster::raster(priority_map) |&gt;\n  raster::rasterToPolygons(n = 4, \n                           na.rm = TRUE)\n\n## Merge polygons that are touching into one polygon\n# convert to sf object\nhistorical_poly = sf::st_as_sf(historical_poly) \n\n# write polygons as a kml file\nsf::st_write(historical_poly, \n             driver = \"KML\", \n             dsn = here::here(\"data/outputs/kml/historical-amphibians.kml\"),\n             delete_layer = TRUE) # overwrite existing layer\n\nWriting layer `historical-amphibians' to data source \n  `/Users/katherine/Documents/GitHub/blitz-the-gap/data/outputs/kml/historical-amphibians.kml' using driver `KML'\n\n\nWarning in CPL_write_ogr(obj, dsn, layer, driver,\nas.character(dataset_options), : GDAL Message 1: Layer name\n'historical-amphibians' adjusted to 'historical_amphibians' for XML validity.\n\n\nWriting 435 features with 1 fields and geometry type Polygon."
   },
   {
-    "objectID": "challenges/challenge2_mayBAs.html",
-    "href": "challenges/challenge2_mayBAs.html",
-    "title": "Conservation Priorities in Canada (MayBAs)",
+    "objectID": "challenges/Trailblazers_challenge.html",
+    "href": "challenges/Trailblazers_challenge.html",
+    "title": "Trailblazers challenge",
     "section": "",
-    "text": "image from Birds Canada\n\n\n“30 by 30” is an initiative by 120 countries worldwide, including Canada, to protect 30% of land, inland waters, and sea by 2030. Canada plays a big role in reaching this goal thanks to our huge land area and its biodiversity. But the lands are not chosen randomly, they are chosen to maximize their impact on preserving biodiversity. Making those choices means we need data, and this is where citizen scientists like you can help. By getting out and observing what species are present in potential key areas that are currently underdocumented, you can make a real difference in the 30 by 30 initiative. Citizen scientist observations of key species could be the data we need to inform the public and governments about which areas need to be preserved.\nJoin the iNaturalist project!"
+    "text": "Did you know that most iNaturalist observations made by hikers are taken in close proximity to the trailhead? Having a more even spread in observations over the complete length of popular trails will provide researchers with a more representative view of the biodiversity that Canadians have access to."
   },
   {
-    "objectID": "challenges/challenge2_mayBAs.html#how-can-you-help-to-conserve-and-protect-canadas-biodiversity",
-    "href": "challenges/challenge2_mayBAs.html#how-can-you-help-to-conserve-and-protect-canadas-biodiversity",
-    "title": "Conservation Priorities in Canada (MayBAs)",
+    "objectID": "challenges/Trailblazers_challenge.html#whats-the-problem",
+    "href": "challenges/Trailblazers_challenge.html#whats-the-problem",
+    "title": "Trailblazers challenge",
     "section": "",
-    "text": "image from Birds Canada\n\n\n“30 by 30” is an initiative by 120 countries worldwide, including Canada, to protect 30% of land, inland waters, and sea by 2030. Canada plays a big role in reaching this goal thanks to our huge land area and its biodiversity. But the lands are not chosen randomly, they are chosen to maximize their impact on preserving biodiversity. Making those choices means we need data, and this is where citizen scientists like you can help. By getting out and observing what species are present in potential key areas that are currently underdocumented, you can make a real difference in the 30 by 30 initiative. Citizen scientist observations of key species could be the data we need to inform the public and governments about which areas need to be preserved.\nJoin the iNaturalist project!"
+    "text": "Did you know that most iNaturalist observations made by hikers are taken in close proximity to the trailhead? Having a more even spread in observations over the complete length of popular trails will provide researchers with a more representative view of the biodiversity that Canadians have access to."
   },
   {
-    "objectID": "challenges/challenge2_mayBAs.html#key-biodiversity-areas",
-    "href": "challenges/challenge2_mayBAs.html#key-biodiversity-areas",
-    "title": "Conservation Priorities in Canada (MayBAs)",
-    "section": "Key Biodiversity Areas",
-    "text": "Key Biodiversity Areas\nKey Biodiversity Areas (KBAs) are sites that contribute disproportionately to the persistence of biodiversity. If these sites are lost or degraded, species or ecosystems could disappear from Canada or the planet. KBAs are a building block for biodiversity conservation in Canada. They are used for: planning protected areas and other effective area-based conservation measures, land use planning, stewardship, restoration, Indigenous-led conservation, biodiversity monitoring, education and inspiration. KBAs are also summarised as an indicator of progress towards federal conservation commitments (such as the Kunming-Montreal Global Biodiversity Framework).\n“MayBAs” are areas which computer models or historical data have identified as areas where we need more data to make an informed decision on them becoming a KBA. We have included a map of these areas so citizen scientists like yourself can help build a pool of observations of priority species from a variety of groups and directly contribute to the decision process within Canada for what areas get protected."
-  },
-  {
-    "objectID": "challenges/challenge2_mayBAs.html#where-should-you-go",
-    "href": "challenges/challenge2_mayBAs.html#where-should-you-go",
-    "title": "Conservation Priorities in Canada (MayBAs)",
+    "objectID": "challenges/Trailblazers_challenge.html#where-should-you-go",
+    "href": "challenges/Trailblazers_challenge.html#where-should-you-go",
+    "title": "Trailblazers challenge",
     "section": "Where should you go?",
-    "text": "Where should you go?\nTo bridge this gap, we encourage you to revisit sites that could become KBAs, but we need more data to be sure:\n\n\n\n\n\n\n\nWarning\n\n\n\nThe locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites."
+    "text": "Where should you go?\nFor this challenge we encourage you to go stretch your legs in the most popular parks throughout Canada. Which species you observe is not important: the more the merrier. The only requirement is that you are located at least 1 km away from a trailhead or road.\nFor hiking inspiration you can look at the relevant park website!"
   },
   {
-    "objectID": "challenges/challenge2_mayBAs.html#what-species-should-you-look-for",
-    "href": "challenges/challenge2_mayBAs.html#what-species-should-you-look-for",
-    "title": "Conservation Priorities in Canada (MayBAs)",
-    "section": "What species should you look for?",
-    "text": "What species should you look for?\nAny species in these places are important to look for! The KBA team has a list of species they need more data about to inform conservation. If you find one of these species, your observation will be logged in this iNaturalist project. Keep an eye out for them!"
+    "objectID": "challenges/Trailblazers_challenge.html#title-for-your-map",
+    "href": "challenges/Trailblazers_challenge.html#title-for-your-map",
+    "title": "Trailblazers challenge",
+    "section": "Title for your map",
+    "text": "Title for your map\n{=html, echo = TRUE, eval = FALSE} &lt;iframe width=\"900\" height=\"700\" src=\"maps/challenge_trailblazers_map.html\" title=\"Trailblazers\"&gt;&lt;/iframe&gt;"
   },
   {
-    "objectID": "challenges/challenge2_mayBAs.html#who-made-this-challenge",
-    "href": "challenges/challenge2_mayBAs.html#who-made-this-challenge",
-    "title": "Conservation Priorities in Canada (MayBAs)",
-    "section": "Who made this challenge?",
-    "text": "Who made this challenge?\nThis challenge was made by the Canadian Institute of Ecology and Evolution’s Living Data Project in collaboration with the Wildlife Conservation Society (WCS) as part of the “Blitz the Gap” working group.\nBlitz the Gap was conceived and led by Katherine Hebert and Laura Pollock of the Quantitative Biodiversity Lab at McGill University, and David Hunt from the Living Data Project. The working group involved MSc and PhD students from McGill University, Université de Montréal, and Université de Sherbrooke. The MayBA maps were provided by WCS Canada thanks to Peter Soroye, the KBA Assessment and Outreach Coordinator, and Ciara Raudsepp-Hearne, who leads the WCS Canada KBA team to identify and map KBAs in Canada."
+    "objectID": "challenges/Trailblazers_challenge.html#who-created-this-challenge",
+    "href": "challenges/Trailblazers_challenge.html#who-created-this-challenge",
+    "title": "Trailblazers challenge",
+    "section": "Who created this challenge?",
+    "text": "Who created this challenge?\nThis challenge was created for Blitz the Gap, designed by Lukas Van Riel, a PhD student at Université de Montréal looking into how climate change will impact Canadian forests."
   },
   {
-    "objectID": "challenges/Seaweeds_challenge.html",
-    "href": "challenges/Seaweeds_challenge.html",
-    "title": "Canadian Seaweed Safari",
+    "objectID": "challenges/climate_gaps_challenge.html#whats-the-problem",
+    "href": "challenges/climate_gaps_challenge.html#whats-the-problem",
+    "title": "Closing the Climate Gap",
+    "section": "What’s the problem?",
+    "text": "What’s the problem?\nCanada hosts a wide range of climates due to its vast size and diverse geography. Understanding how different climates contribute to the collective housing of biodiversity helps us make predictions about how biodiversity is adapted for its environment, and therefore how it might change in the future. Much of the biodiversity across complex and varied climates remains poorly understood, limiting our ability to describe biodiversity in the full range of climates across Canada.\nJoin the iNaturalist project!"
+  },
+  {
+    "objectID": "challenges/climate_gaps_challenge.html#where-should-you-go",
+    "href": "challenges/climate_gaps_challenge.html#where-should-you-go",
+    "title": "Closing the Climate Gap",
+    "section": "Where should you go?",
+    "text": "Where should you go?\nTo bridge this gap, we encourage you to visit some areas that represent unique Canadian climates that have yet to be surveyed thoroughly. We’ve highlighted these areas across the country for you to choose from, which you can see on this map:\n\n\n\n\n\n\n\nWarning\n\n\n\nThe locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites."
+  },
+  {
+    "objectID": "challenges/climate_gaps_challenge.html#who-created-this-challenge",
+    "href": "challenges/climate_gaps_challenge.html#who-created-this-challenge",
+    "title": "Closing the Climate Gap",
+    "section": "Who created this challenge?",
+    "text": "Who created this challenge?\nThis challenge was created by a team of ecologists, graduate students, and community scientists. This team includes scientists who study the effects of climate change on biodiversity and iNaturalist users like you who help collect the species occurrence data needed for this research. The Blitz-the-Gap umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation (https://blitzthegap.org/), and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.\nNicole Kester is a MSc student studying invasive plants and patterns of their spread into new climatic conditions.\nJoshua Lee is a PhD student studying how additional biodiversity metrics can be integrated into conservation management in Australia.\nBrian Starzomski is the Ian McTaggart Cowan Professor of Biodiversity Conservation and Ecological Restoration, and co-leads the BC Biodiversity project.\nDiane Srivastava leads the Living Data Project and studies how species and food webs respond to climate change and other environmental shifts.\nSandra Emry is a postdoctoral fellow with the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology.\nShirley Morrison is an avid iNaturalist user and contributor to the Butterflies in My Backyard Project (BIMBY).\nStephen Deedes-Vincke volunteers with the BIMBY project and is a Certified Pollinator Steward and Butterfly Ranger.\nMichelle Tseng is an Associate Professor who studies how climate change affects insect communities and aquatic food webs. She uses iNaturalist data extensively in her research, including the BIMBY data."
+  },
+  {
+    "objectID": "challenges/Too_hot_to_handle_challenge.html#whats-the-problem",
+    "href": "challenges/Too_hot_to_handle_challenge.html#whats-the-problem",
+    "title": "Too Hot to Handle!",
+    "section": "What’s the problem?",
+    "text": "What’s the problem?\nCanada’s climate is warming quickly, but more so in some parts of the country than others. You can help scientists and communities track how species are responding to these changes by joining this Blitz-the-Gap project. Record species - any species - in these hotspots for climate change to help build the knowledge that scientists need to propose actions for conservation. We have already found for you the places in Canada that are easy to access, and warming the fastest, but where there are very few if any iNaturalist observations."
+  },
+  {
+    "objectID": "challenges/Too_hot_to_handle_challenge.html#where-should-you-go",
+    "href": "challenges/Too_hot_to_handle_challenge.html#where-should-you-go",
+    "title": "Too Hot to Handle!",
+    "section": "Where should you go?",
+    "text": "Where should you go?\nAny locations on the map! These locations are the easiest way to make a difference in tracking species changes in response to climate warming.\n\nJoin the iNaturalist project!\n\n\n\n\n\n\nWarning\n\n\n\nThe locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites."
+  },
+  {
+    "objectID": "challenges/Too_hot_to_handle_challenge.html#who-created-this-challenge",
+    "href": "challenges/Too_hot_to_handle_challenge.html#who-created-this-challenge",
+    "title": "Too Hot to Handle!",
+    "section": "Who created this challenge?",
+    "text": "Who created this challenge?\nThis challenge was created by a team of ecologists, graduate students, and community scientists. This team includes scientists who study the effects of climate change on biodiversity and iNaturalist users like you who help collect the species occurrence data needed for. The Blitz-the-Gap umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation (https://blitzthegap.org/), and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.\nJoshua Lee is a PhD student studying how additional biodiversity metrics can be integrated into conservation management in Australia.\nNicole Kester is a MSc student studying invasive plants and patterns of their spread into new climatic conditions.\nBrian Starzomski is the Ian McTaggart Cowan Professor of Biodiversity Conservation and Ecological Restoration, and co-leads the BC Biodiversity project.\nDiane Srivastava leads the Living Data Project and studies how species and food webs respond to climate change and other environmental shifts.\nSandra Emry is a postdoctoral fellow with the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology.\nShirley Morrison is an avid iNaturalist user and contributor to the Butterflies in My Backyard Project (BIMBY).\nStephen Deedes-Vincke volunteers with the BIMBY project and is a Certified Pollinator Steward and Butterfly Ranger.\nMichelle Tseng is an Associate Professor who studies how climate change affects insect communities and aquatic food webs. She uses iNaturalist data extensively in her research, including the BIMBY data."
+  },
+  {
+    "objectID": "challenges/challenge1_revisit-the-past.html",
+    "href": "challenges/challenge1_revisit-the-past.html",
+    "title": "Revisiting the past",
     "section": "",
-    "text": "There are an estimated # of seaweed species in British Columbia, but # of seaweed species make up #% of the observations on iNaturalist. B.C.’s coastlines host a huge diversity of seaweeds and we want to encourage you to observe more than just these # species. Read your local tide table and head down to the rocky shores at low tide, look under the canopy of larger kelps and see what you can find! Here are some resources to help you become an expert seaweed identifier!\n- seaweed sorter app\nJoin the iNaturalist project!"
+    "text": "To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!\nSome of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses."
   },
   {
-    "objectID": "challenges/Seaweeds_challenge.html#whats-the-problem",
-    "href": "challenges/Seaweeds_challenge.html#whats-the-problem",
-    "title": "Canadian Seaweed Safari",
+    "objectID": "challenges/challenge1_revisit-the-past.html#whats-the-gap",
+    "href": "challenges/challenge1_revisit-the-past.html#whats-the-gap",
+    "title": "Revisiting the past",
     "section": "",
-    "text": "There are an estimated # of seaweed species in British Columbia, but # of seaweed species make up #% of the observations on iNaturalist. B.C.’s coastlines host a huge diversity of seaweeds and we want to encourage you to observe more than just these # species. Read your local tide table and head down to the rocky shores at low tide, look under the canopy of larger kelps and see what you can find! Here are some resources to help you become an expert seaweed identifier!\n- seaweed sorter app\nJoin the iNaturalist project!"
+    "text": "To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!\nSome of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses."
   },
   {
-    "objectID": "challenges/Seaweeds_challenge.html#where-should-you-go",
-    "href": "challenges/Seaweeds_challenge.html#where-should-you-go",
-    "title": "Canadian Seaweed Safari",
+    "objectID": "challenges/challenge1_revisit-the-past.html#where-should-you-go",
+    "href": "challenges/challenge1_revisit-the-past.html#where-should-you-go",
+    "title": "Revisiting the past",
+    "section": "Where should you go?",
+    "text": "Where should you go?\nTo bridge this gap, we encourage you to revisit places that were sampled in the past. We’ve highlighted historically-sampled places that are close to roads for you to choose from, which you can see on these maps:"
+  },
+  {
+    "objectID": "challenges/challenge1_revisit-the-past.html#amphibians",
+    "href": "challenges/challenge1_revisit-the-past.html#amphibians",
+    "title": "Revisiting the past",
+    "section": "Amphibians",
+    "text": "Amphibians\n\n\n\n\n\n\n\nWarning\n\n\n\nThe locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites."
+  },
+  {
+    "objectID": "challenges/challenge1_revisit-the-past.html#who-created-this-challenge",
+    "href": "challenges/challenge1_revisit-the-past.html#who-created-this-challenge",
+    "title": "Revisiting the past",
+    "section": "Who created this challenge?",
+    "text": "Who created this challenge?\nThis challenge was the first one created for Blitz the Gap, designed by Laura Pollock, Isaac Eckert, Pierre Rogy, and Katherine Hébert. We are all part of the Quantitative Biodiversity Lab at McGill University led by Laura. We use data from sources like iNaturalist to build biodiversity models that help us understand and predict biodiversity and how it is changing."
+  },
+  {
+    "objectID": "challenges/challenge-template.html",
+    "href": "challenges/challenge-template.html",
+    "title": "Challenge title",
+    "section": "",
+    "text": "[blurb about the gap you want to fill]"
+  },
+  {
+    "objectID": "challenges/challenge-template.html#whats-the-problem",
+    "href": "challenges/challenge-template.html#whats-the-problem",
+    "title": "Challenge title",
+    "section": "",
+    "text": "[blurb about the gap you want to fill]"
+  },
+  {
+    "objectID": "challenges/challenge-template.html#where-should-you-go",
+    "href": "challenges/challenge-template.html#where-should-you-go",
+    "title": "Challenge title",
     "section": "Where should you go?",
     "text": "Where should you go?\nTo bridge this gap, we encourage you to [visit sites / look for species that …]. We’ve highlighted [places…] for you to choose from, which you can see on these maps:"
   },
   {
-    "objectID": "challenges/Seaweeds_challenge.html#title-for-your-map",
-    "href": "challenges/Seaweeds_challenge.html#title-for-your-map",
-    "title": "Canadian Seaweed Safari",
+    "objectID": "challenges/challenge-template.html#title-for-your-map",
+    "href": "challenges/challenge-template.html#title-for-your-map",
+    "title": "Challenge title",
     "section": "Title for your map",
     "text": "Title for your map\nWe’ll insert your html widget map here, like this:\n{=html, echo = TRUE, eval = FALSE} &lt;iframe width=\"900\" height=\"700\" src=\"maps/your_challenge_map.html\" title=\"YourTitle\"&gt;&lt;/iframe&gt;"
   },
   {
-    "objectID": "challenges/Seaweeds_challenge.html#who-created-this-challenge",
-    "href": "challenges/Seaweeds_challenge.html#who-created-this-challenge",
-    "title": "Canadian Seaweed Safari",
+    "objectID": "challenges/challenge-template.html#who-created-this-challenge",
+    "href": "challenges/challenge-template.html#who-created-this-challenge",
+    "title": "Challenge title",
     "section": "Who created this challenge?",
-    "text": "Who created this challenge?\nThis challenge was created for Blitz the Gap, designed by Sandra Emry and Nathan Earley. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]"
+    "text": "Who created this challenge?\nThis challenge was created for Blitz the Gap, designed by [names]. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]"
+  },
+  {
+    "objectID": "workflows.html",
+    "href": "workflows.html",
+    "title": "Workflows",
+    "section": "",
+    "text": "Here are some tutorials to access and analyse iNaturalist Canada data to make Blitz the Gap challenges.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccessing the STAC Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking priority maps for Blitz the Gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing the iNaturalist Canada parquet file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "challenges/challenge-Butterfly.html",
@@ -168,109 +245,123 @@
     "text": "Who created this challenge?\nThis challenge was created for Blitz the Gap, designed by Camila Diaz. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]"
   },
   {
-    "objectID": "workflows.html",
-    "href": "workflows.html",
-    "title": "Workflows",
-    "section": "",
-    "text": "Here are some tutorials to access and analyse iNaturalist Canada data to make Blitz the Gap challenges.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccessing the STAC Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking priority maps for Blitz the Gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing the iNaturalist Canada parquet file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "challenges/Seaweeds_challenge.html#whats-the-problem",
+    "href": "challenges/Seaweeds_challenge.html#whats-the-problem",
+    "title": "Seaweeds of Canada",
+    "section": "What’s the problem?",
+    "text": "What’s the problem?\nAhoy! Beachcombers, beachgoers, and beach bums rejoice! Have we got a challenge for you!\nWhen you’re admiring the crazy things you find by the sea why not contribute to biodiversity data and learn about the seaweeds you find along the way. All you need to do is take photos of the seaweeds you find and upload them to iNaturalist to learn all about their crazy forms, functions, and life history.\nJoin the iNaturalist project!"
   },
   {
-    "objectID": "challenges/challenge-template.html",
-    "href": "challenges/challenge-template.html",
-    "title": "Challenge title",
-    "section": "",
-    "text": "[blurb about the gap you want to fill]"
+    "objectID": "challenges/Seaweeds_challenge.html#tips-and-tricks",
+    "href": "challenges/Seaweeds_challenge.html#tips-and-tricks",
+    "title": "Seaweeds of Canada",
+    "section": "Tips and Tricks",
+    "text": "Tips and Tricks\nTry to get the best photos you can of as many structures as you can. There are seaweed identification resources like books (e.g. Pacific Seaweeds: A Guide to Common Seaweeds of the West Coast), apps (e.g. https://seaweedsorter.com/), and websites (e.g. https://www.centralcoastbiodiversity.org/seaweeds-algae-and-seagrasses.html) that have a ton of great information about what to look for and what you should try to take pictures of… apart from that, the iNaturalist Computer Vision (AI) is getting better and better so check those recommendations as well."
   },
   {
-    "objectID": "challenges/challenge-template.html#whats-the-problem",
-    "href": "challenges/challenge-template.html#whats-the-problem",
-    "title": "Challenge title",
-    "section": "",
-    "text": "[blurb about the gap you want to fill]"
+    "objectID": "challenges/Seaweeds_challenge.html#best-finds",
+    "href": "challenges/Seaweeds_challenge.html#best-finds",
+    "title": "Seaweeds of Canada",
+    "section": "Best Finds",
+    "text": "Best Finds\nWe all love Bull Kelp and Knotted Wrack but we hope you’ll also love observing some of the other underreported species you can find in coastal Canadian waters. Here are some neat finds to start you on your seaweed safari treasure hunt:\n\nDead Man’s Fingers (Codium fragile)\nThe Five Ribbed Kelp (Costaria costata)\nSea Cauliflower (Leathesia marina)\nThe Winged Kelp (Alaria marginata) *bonus points if your specimen has ‘wings’ at the base (sporophylls)\nMermaid’s Tresses (Chorda filum)\nRed Eyelet Silk (Sparlingia pertusa)\nMazzaella japonica which is an invasive species in British Columbia"
   },
   {
-    "objectID": "challenges/challenge-template.html#where-should-you-go",
-    "href": "challenges/challenge-template.html#where-should-you-go",
-    "title": "Challenge title",
-    "section": "Where should you go?",
-    "text": "Where should you go?\nTo bridge this gap, we encourage you to [visit sites / look for species that …]. We’ve highlighted [places…] for you to choose from, which you can see on these maps:"
-  },
-  {
-    "objectID": "challenges/challenge-template.html#title-for-your-map",
-    "href": "challenges/challenge-template.html#title-for-your-map",
-    "title": "Challenge title",
+    "objectID": "challenges/Seaweeds_challenge.html#title-for-your-map",
+    "href": "challenges/Seaweeds_challenge.html#title-for-your-map",
+    "title": "Seaweeds of Canada",
     "section": "Title for your map",
     "text": "Title for your map\nWe’ll insert your html widget map here, like this:\n{=html, echo = TRUE, eval = FALSE} &lt;iframe width=\"900\" height=\"700\" src=\"maps/your_challenge_map.html\" title=\"YourTitle\"&gt;&lt;/iframe&gt;"
   },
   {
-    "objectID": "challenges/challenge-template.html#who-created-this-challenge",
-    "href": "challenges/challenge-template.html#who-created-this-challenge",
-    "title": "Challenge title",
+    "objectID": "challenges/Seaweeds_challenge.html#who-created-this-challenge",
+    "href": "challenges/Seaweeds_challenge.html#who-created-this-challenge",
+    "title": "Seaweeds of Canada",
     "section": "Who created this challenge?",
-    "text": "Who created this challenge?\nThis challenge was created for Blitz the Gap, designed by [names]. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]"
+    "text": "Who created this challenge?\nThis challenge was made during the Blitz the Gap working group supported by the Canadian Institute of Ecology and Evolution’s Living Data Project (CIEE LDP). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia. This challenge was made by:\n- Sandra Emry is a Postdoctoral Fellow at the University of British Columbia and the Living Data Project. @sea_hugger\n- Nathan Earley is a PhD student at the University of Victoria where he studies species occurrence data and underreported species. @earley_bird\n- Bridgette Clarkston is an Associate Professor of Teaching at the University of British Columbia and the author of Pacific Seaweeds: A Guide to Common Seaweeds of the West Coast. @bclarkston"
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html",
-    "href": "challenges/challenge1_revisit-the-past.html",
-    "title": "Revisiting the past",
+    "objectID": "challenges/challenge_canadas_most_wanted.html",
+    "href": "challenges/challenge_canadas_most_wanted.html",
+    "title": "Canada’s Most Wanted",
     "section": "",
-    "text": "To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!\nSome of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses."
+    "text": "1 in 5 species in Canada are at some level of risk of extinction. Over 2,200 species are currently threatened nationally or within individual provinces and territories.\nAt the same time, Invasive species cost the Canadian economy over $34 billion each year in damages and management. They outcompete native species, destroy habitats, and often go unnoticed until it’s too late. We have gathered a list of the most critically endangered native species, and the invasive species with the worst impact - CANADA’S MOST WANTED, and we need your help to get them!"
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html#whats-the-gap",
-    "href": "challenges/challenge1_revisit-the-past.html#whats-the-gap",
-    "title": "Revisiting the past",
+    "objectID": "challenges/challenge_canadas_most_wanted.html#whats-the-problem",
+    "href": "challenges/challenge_canadas_most_wanted.html#whats-the-problem",
+    "title": "Canada’s Most Wanted",
     "section": "",
-    "text": "To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!\nSome of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses."
+    "text": "1 in 5 species in Canada are at some level of risk of extinction. Over 2,200 species are currently threatened nationally or within individual provinces and territories.\nAt the same time, Invasive species cost the Canadian economy over $34 billion each year in damages and management. They outcompete native species, destroy habitats, and often go unnoticed until it’s too late. We have gathered a list of the most critically endangered native species, and the invasive species with the worst impact - CANADA’S MOST WANTED, and we need your help to get them!"
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html#where-should-you-go",
-    "href": "challenges/challenge1_revisit-the-past.html#where-should-you-go",
-    "title": "Revisiting the past",
+    "objectID": "challenges/challenge_canadas_most_wanted.html#where-should-you-go",
+    "href": "challenges/challenge_canadas_most_wanted.html#where-should-you-go",
+    "title": "Canada’s Most Wanted",
     "section": "Where should you go?",
-    "text": "Where should you go?\nTo bridge this gap, we encourage you to revisit places that were sampled in the past. We’ve highlighted historically-sampled places that are close to roads for you to choose from, which you can see on these maps:"
+    "text": "Where should you go?\nAnywhere in Canada! Whether you’re: Hiking in a park Walking your dog Fishing by the lake Walking to work or school Going on a road trip\nYou Don’t Need to Be a Scientist. Just Be Curious. Photograph plants and animals anywhere in Canada. All it takes is your phone, a bit of time outdoors, and an eye for plants and animals. Your photo uploads make a real difference."
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html#amphibians",
-    "href": "challenges/challenge1_revisit-the-past.html#amphibians",
-    "title": "Revisiting the past",
-    "section": "Amphibians",
-    "text": "Amphibians\n\n\n\n\n\n\n\nWarning\n\n\n\nThe locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites."
+    "objectID": "challenges/challenge_canadas_most_wanted.html#too-hot-to-handle-map-of-highest-warming-and-undersampled",
+    "href": "challenges/challenge_canadas_most_wanted.html#too-hot-to-handle-map-of-highest-warming-and-undersampled",
+    "title": "Canada’s Most Wanted",
+    "section": "Too hot to handle: Map of highest warming and undersampled",
+    "text": "Too hot to handle: Map of highest warming and undersampled\n{=html, echo = TRUE, eval = FALSE} &lt;iframe width=\"900\" height=\"700\" src=\"01_outdata/maps/whole_map_canada\" title=\"Canada’s Most Wanted\"&gt;&lt;/iframe&gt;"
   },
   {
-    "objectID": "challenges/challenge1_revisit-the-past.html#who-created-this-challenge",
-    "href": "challenges/challenge1_revisit-the-past.html#who-created-this-challenge",
-    "title": "Revisiting the past",
+    "objectID": "challenges/challenge_canadas_most_wanted.html#what-species-should-you-look-for",
+    "href": "challenges/challenge_canadas_most_wanted.html#what-species-should-you-look-for",
+    "title": "Canada’s Most Wanted",
+    "section": "What species should you look for?",
+    "text": "What species should you look for?\nUpload every and any species you find! If they are endangered or invasive, this project will capture them automatically, you don’t need to figure that out yourself! FYI, here are the species in each category with the fewest observations:\nMOST WANTED RARE SPECIES Atlantic Whitefish, Lake Sturgeon, Vancouver Island Marmot, North Pacific Right Whale, Western Prairie Fringed Orchid, Little Brown Bat, Beluga Whale, Johnson’s Hairstreak, White Sturgeon, Peary Caribou, and Wolverine.\nMOST WANTED INVASIVE SPECIES Asian Long-horned Beetle, Striped Cucumber Beetle, Giant African Snail,Summer Fruit Tortrix, Jointed Goatgrass"
+  },
+  {
+    "objectID": "challenges/challenge_canadas_most_wanted.html#who-created-this-challenge",
+    "href": "challenges/challenge_canadas_most_wanted.html#who-created-this-challenge",
+    "title": "Canada’s Most Wanted",
     "section": "Who created this challenge?",
-    "text": "Who created this challenge?\nThis challenge was the first one created for Blitz the Gap, designed by Laura Pollock, Isaac Eckert, Pierre Rogy, and Katherine Hébert. We are all part of the Quantitative Biodiversity Lab at McGill University led by Laura. We use data from sources like iNaturalist to build biodiversity models that help us understand and predict biodiversity and how it is changing."
+    "text": "Who created this challenge?\nThis challenge was created for Blitz the Gap, designed by Eniola Olu-Ayorinde, Sarfaroz Yunusov, Nathan Earley, and John Reynolds."
   },
   {
-    "objectID": "challenges/climate_gaps_challenge.html",
-    "href": "challenges/climate_gaps_challenge.html",
-    "title": "Closing the climate gap",
+    "objectID": "challenges/challenge2_mayBAs.html",
+    "href": "challenges/challenge2_mayBAs.html",
+    "title": "Conservation Priorities in Canada (MayBAs)",
     "section": "",
-    "text": "Join the iNaturalist project!"
+    "text": "image from Birds Canada\n\n\n“30 by 30” is an initiative by 120 countries worldwide, including Canada, to protect 30% of land, inland waters, and sea by 2030. Canada plays a big role in reaching this goal thanks to our huge land area and its biodiversity. But the lands are not chosen randomly, they are chosen to maximize their impact on preserving biodiversity. Making those choices means we need data, and this is where citizen scientists like you can help. By getting out and observing what species are present in potential key areas that are currently underdocumented, you can make a real difference in the 30 by 30 initiative. Citizen scientist observations of key species could be the data we need to inform the public and governments about which areas need to be preserved.\nJoin the iNaturalist project!"
   },
   {
-    "objectID": "challenges/climate_gaps_challenge.html#whats-the-problem",
-    "href": "challenges/climate_gaps_challenge.html#whats-the-problem",
-    "title": "Closing the climate gap",
-    "section": "What’s the problem?",
-    "text": "What’s the problem?\nCanada hosts a wide range of climates due to its vast size and diverse geography. Understanding how different climates contribute to the collective housing of biodiversity helps us make predictions about how biodiversity is adapted for its environment, and therefore how it might change in the future. Much of the biodiversity across complex and varied climates remains poorly understood, limiting our ability to describe biodiversity in the full range of climates across Canada."
+    "objectID": "challenges/challenge2_mayBAs.html#how-can-you-help-to-conserve-and-protect-canadas-biodiversity",
+    "href": "challenges/challenge2_mayBAs.html#how-can-you-help-to-conserve-and-protect-canadas-biodiversity",
+    "title": "Conservation Priorities in Canada (MayBAs)",
+    "section": "",
+    "text": "image from Birds Canada\n\n\n“30 by 30” is an initiative by 120 countries worldwide, including Canada, to protect 30% of land, inland waters, and sea by 2030. Canada plays a big role in reaching this goal thanks to our huge land area and its biodiversity. But the lands are not chosen randomly, they are chosen to maximize their impact on preserving biodiversity. Making those choices means we need data, and this is where citizen scientists like you can help. By getting out and observing what species are present in potential key areas that are currently underdocumented, you can make a real difference in the 30 by 30 initiative. Citizen scientist observations of key species could be the data we need to inform the public and governments about which areas need to be preserved.\nJoin the iNaturalist project!"
   },
   {
-    "objectID": "challenges/climate_gaps_challenge.html#where-should-you-go",
-    "href": "challenges/climate_gaps_challenge.html#where-should-you-go",
-    "title": "Closing the climate gap",
+    "objectID": "challenges/challenge2_mayBAs.html#key-biodiversity-areas",
+    "href": "challenges/challenge2_mayBAs.html#key-biodiversity-areas",
+    "title": "Conservation Priorities in Canada (MayBAs)",
+    "section": "Key Biodiversity Areas",
+    "text": "Key Biodiversity Areas\nKey Biodiversity Areas (KBAs) are sites that contribute disproportionately to the persistence of biodiversity. If these sites are lost or degraded, species or ecosystems could disappear from Canada or the planet. KBAs are a building block for biodiversity conservation in Canada. They are used for: planning protected areas and other effective area-based conservation measures, land use planning, stewardship, restoration, Indigenous-led conservation, biodiversity monitoring, education and inspiration. KBAs are also summarised as an indicator of progress towards federal conservation commitments (such as the Kunming-Montreal Global Biodiversity Framework).\n“MayBAs” are areas which computer models or historical data have identified as areas where we need more data to make an informed decision on them becoming a KBA. We have included a map of these areas so citizen scientists like yourself can help build a pool of observations of priority species from a variety of groups and directly contribute to the decision process within Canada for what areas get protected."
+  },
+  {
+    "objectID": "challenges/challenge2_mayBAs.html#where-should-you-go",
+    "href": "challenges/challenge2_mayBAs.html#where-should-you-go",
+    "title": "Conservation Priorities in Canada (MayBAs)",
     "section": "Where should you go?",
-    "text": "Where should you go?\nTo bridge this gap, we encourage you to visit some areas that represent unique Canadian climates that have yet to be surveyed thoroughly. We’ve highlighted these areas across the country for you to choose from, which you can see on this map:\n\n\n\n\n\n\n\nWarning\n\n\n\nThe locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites."
+    "text": "Where should you go?\nTo bridge this gap, we encourage you to revisit sites that could become KBAs, but we need more data to be sure:\n\n\n\n\n\n\n\nWarning\n\n\n\nThe locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites."
   },
   {
-    "objectID": "challenges/climate_gaps_challenge.html#who-created-this-challenge",
-    "href": "challenges/climate_gaps_challenge.html#who-created-this-challenge",
-    "title": "Closing the climate gap",
-    "section": "Who created this challenge?",
-    "text": "Who created this challenge?\nThis challenge was created by a team of ecologists, graduate students, and community scientists. This team includes scientists who study the effects of climate change on biodiversity and iNaturalist users like you who help collect the species occurrence data needed for. The Blitz-the-Gap umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation (https://blitzthegap.org/), and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.\nNicole Kester is a MSc student studying invasive plants and patterns of their spread into new climatic conditions.\nJoshua Lee is a PhD student studying how additional biodiversity metrics can be integrated into conservation management in Australia.\nBrian Starzomski is the Ian McTaggart Cowan Professor of Biodiversity Conservation and Ecological Restoration, and co-leads the BC Biodiversity project.\nDiane Srivastava leads the Living Data Project and studies how species and food webs respond to climate change and other environmental shifts.\nSandra Emry is a postdoctoral fellow with the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology.\nShirley Morrison is an avid iNaturalist and contributor to the Butterflies in My Backyard Project (BIMBY)\nStephen Deedes-Vincke volunteers with the BIMBY project and is a Certified Pollinator Steward and Butterfly Ranger.\nMichelle Tseng is an Associate Professor who studies how climate change affects insect communities and aquatic food webs. She uses iNaturalist data extensively in her research, including the BIMBY data."
+    "objectID": "challenges/challenge2_mayBAs.html#what-species-should-you-look-for",
+    "href": "challenges/challenge2_mayBAs.html#what-species-should-you-look-for",
+    "title": "Conservation Priorities in Canada (MayBAs)",
+    "section": "What species should you look for?",
+    "text": "What species should you look for?\nAny species in these places are important to look for! The KBA team has a list of species they need more data about to inform conservation. If you find one of these species, your observation will be logged in this iNaturalist project. Keep an eye out for them!"
+  },
+  {
+    "objectID": "challenges/challenge2_mayBAs.html#who-made-this-challenge",
+    "href": "challenges/challenge2_mayBAs.html#who-made-this-challenge",
+    "title": "Conservation Priorities in Canada (MayBAs)",
+    "section": "Who made this challenge?",
+    "text": "Who made this challenge?\nThis challenge was made by the Canadian Institute of Ecology and Evolution’s Living Data Project in collaboration with the Wildlife Conservation Society (WCS) as part of the “Blitz the Gap” working group.\nBlitz the Gap was conceived and led by Katherine Hebert and Laura Pollock of the Quantitative Biodiversity Lab at McGill University, and David Hunt from the Living Data Project. The working group involved MSc and PhD students from McGill University, Université de Montréal, and Université de Sherbrooke. The MayBA maps were provided by WCS Canada thanks to Peter Soroye, the KBA Assessment and Outreach Coordinator, and Ciara Raudsepp-Hearne, who leads the WCS Canada KBA team to identify and map KBAs in Canada."
   },
   {
     "objectID": "workflows/parquet-file.html",

@@ -1,0 +1,44 @@
+---
+title: Too Hot to Handle!
+image: images/2hot_image_crop.jpg
+---
+
+![](images/2hot_image.jpg)
+
+## What's the problem?
+
+Canada’s climate is warming quickly, but more so in some parts of the country than others. You can help scientists and communities track how species are responding to these changes by joining this Blitz-the-Gap project. Record species - any species - in these hotspots for climate change to help build the knowledge that scientists need to propose actions for conservation. We have already found for you the places in Canada that are easy to access, and warming the fastest, but where there are very few if any iNaturalist observations.
+
+## Where should you go?
+
+Any locations on the map! These locations are the easiest way to make a difference in tracking species changes in response to climate warming. 
+
+```{=html}
+<iframe width="900" height="700" src="maps/toohottohandlemap.html" title="Too Hot To Handle"></iframe>
+```
+
+[Join the iNaturalist project!](https://www.inaturalist.org/projects/blitz-the-gap-too-hot-to-handle){.btn .btn-primary .btn role="button"}
+
+::: callout-warning
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
+## Who created this challenge?
+
+This challenge was created by a team of ecologists, graduate students, and community scientists. This team includes scientists who study the effects of climate change on biodiversity and iNaturalist users like you who help collect the species occurrence data needed for. The Blitz-the-Gap umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation (https://blitzthegap.org/), and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.
+
+Joshua Lee is a PhD student studying how additional biodiversity metrics can be integrated into conservation management in Australia.
+
+Nicole Kester is a MSc student studying invasive plants and patterns of their spread into new climatic conditions.
+
+Brian Starzomski is the Ian McTaggart Cowan Professor of Biodiversity Conservation and Ecological Restoration, and co-leads the BC Biodiversity project.
+
+Diane Srivastava leads the Living Data Project and studies how species and food webs respond to climate change and other environmental shifts.
+
+Sandra Emry is a postdoctoral fellow with the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology.
+
+Shirley Morrison is an avid iNaturalist user and contributor to the Butterflies in My Backyard Project (BIMBY).
+
+Stephen Deedes-Vincke volunteers with the BIMBY project and is a Certified Pollinator Steward and Butterfly Ranger.
+
+Michelle Tseng is an Associate Professor who studies how climate change affects insect communities and aquatic food webs. She uses iNaturalist data extensively in her research, including the BIMBY data.

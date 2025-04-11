@@ -1,15 +1,17 @@
 ---
-title: Closing the climate gap
-image: images/close_climate_gap_banner.jpg
+title: Closing the Climate Gap
+image: images/close_climate_gap_image.jpg
 ---
 
 ![](images/close_climate_gap_banner.jpg)
 
-[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-closing-the-climate-gap){.btn .btn-primary .btn role="button"}
 
 ## What's the problem?
 
 Canada hosts a wide range of climates due to its vast size and diverse geography. Understanding how different climates contribute to the collective housing of biodiversity helps us make predictions about how biodiversity is adapted for its environment, and therefore how it might change in the future. Much of the biodiversity across complex and varied climates remains poorly understood, limiting our ability to describe biodiversity in the full range of climates across Canada.
+
+
+[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-closing-the-climate-gap){.btn .btn-primary .btn role="button"}
 
 ## Where should you go?
 
@@ -25,7 +27,7 @@ The locations on this map are suggestions and not exact coordinates of where to 
 
 ## Who created this challenge?
 
-This challenge was created by a team of ecologists, graduate students, and community scientists. This team includes scientists who study the effects of climate change on biodiversity and iNaturalist users like you who help collect the species occurrence data needed for. The Blitz-the-Gap umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation (https://blitzthegap.org/), and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.
+This challenge was created by a team of ecologists, graduate students, and community scientists. This team includes scientists who study the effects of climate change on biodiversity and iNaturalist users like you who help collect the species occurrence data needed for this research. The Blitz-the-Gap umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation (<https://blitzthegap.org/>), and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.
 
 Nicole Kester is a MSc student studying invasive plants and patterns of their spread into new climatic conditions.
 
@@ -37,7 +39,7 @@ Diane Srivastava leads the Living Data Project and studies how species and food 
 
 Sandra Emry is a postdoctoral fellow with the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology.
 
-Shirley Morrison is an avid iNaturalist and contributor to the Butterflies in My Backyard Project (BIMBY)
+Shirley Morrison is an avid iNaturalist user and contributor to the Butterflies in My Backyard Project (BIMBY).
 
 Stephen Deedes-Vincke volunteers with the BIMBY project and is a Certified Pollinator Steward and Butterfly Ranger.
 

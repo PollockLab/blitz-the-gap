@@ -1,0 +1,40 @@
+---
+title: Canada's Most Wanted
+image: 04_challenge/images/figure_most_wanted.png
+---
+
+## What's the problem?
+  
+1 in 5 species in Canada are at some level of risk of extinction. Over 2,200 species are currently threatened nationally or within individual provinces and territories.  
+
+At the same time, Invasive species cost the Canadian economy over $34 billion each year in damages and management. They outcompete native species, destroy habitats, and often go unnoticed until it’s too late. We have gathered a list of the most critically endangered native species, and the invasive species with the worst impact - CANADA’S MOST WANTED, and we need your help to get them!
+
+## **Where should you go?**
+
+Anywhere in Canada! Whether you're:
+Hiking in a park
+Walking your dog
+Fishing by the lake
+Walking to work or school
+Going on a road trip
+
+You Don’t Need to Be a Scientist. Just Be Curious. Photograph plants and animals anywhere in Canada. All it takes is your phone, a bit of time outdoors, and an eye for plants and animals. Your photo uploads make a real difference.
+
+## Too hot to handle: Map of highest warming and undersampled
+```{=html, echo = TRUE, eval = FALSE}
+<iframe width="900" height="700" src="01_outdata/maps/whole_map_canada" title="Canada’s Most Wanted"></iframe>
+```
+
+## **What species should you look for?**
+Upload every and any species you find! 
+If they are endangered or invasive, this project will capture them automatically, you don’t need to figure that out yourself! FYI, here are the species in each category with the fewest observations:
+
+MOST WANTED RARE SPECIES
+Atlantic Whitefish, Lake Sturgeon, Vancouver Island Marmot, North Pacific Right Whale, Western Prairie Fringed Orchid, Little Brown Bat, Beluga Whale, Johnson’s Hairstreak, White Sturgeon, Peary Caribou, and Wolverine.
+
+MOST WANTED INVASIVE SPECIES
+Asian Long-horned Beetle, Striped Cucumber Beetle, Giant African Snail,Summer Fruit Tortrix, Jointed Goatgrass 
+
+## **Who created this challenge?**
+
+This challenge was created for Blitz the Gap, designed by Eniola Olu-Ayorinde, Sarfaroz Yunusov, Nathan Earley, and John Reynolds. 

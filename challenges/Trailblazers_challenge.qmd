@@ -1,0 +1,24 @@
+---
+title: Trailblazers challenge
+image: images/trailblazers.jpg
+---
+
+## What's the problem?
+
+Did you know that most iNaturalist observations made by hikers are taken in close proximity to the trailhead? Having a more even spread in observations over the complete length of popular trails will provide researchers with a more representative view of the biodiversity that Canadians have access to. 
+
+## **Where should you go?**
+
+For this challenge we encourage you to go stretch your legs in the most popular parks throughout Canada. Which species you observe is not important: the more the merrier. The only requirement is that you are located at least 1 km away from a trailhead or road. 
+
+For hiking inspiration you can look at the relevant park website!
+
+## Title for your map
+
+```{=html, echo = TRUE, eval = FALSE}
+<iframe width="900" height="700" src="maps/challenge_trailblazers_map.html" title="Trailblazers"></iframe>
+```
+
+## **Who created this challenge?**
+
+This challenge was created for Blitz the Gap, designed by Lukas Van Riel, a PhD student at Université de Montréal looking into how climate change will impact Canadian forests.
