@@ -15,7 +15,7 @@ For hiking inspiration you can look at the relevant park website!
 
 ## Title for your map
 
-```{=html, echo = TRUE, eval = FALSE}
+```{=html}
 <iframe width="900" height="700" src="maps/challenge_trailblazers_map.html" title="Trailblazers"></iframe>
 ```
 
