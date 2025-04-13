@@ -26,7 +26,7 @@ Check out this interesting species!
 
 We have endemic butterfly and moth species here in Canada. On this map, you can see the ones that have been recorded. Help us gather more information about them
 
-```{=html, echo = TRUE, eval = TRUE}
+```{=html}
 <iframe width="900" height="700" src="maps/challenge_MadeCanada_Butterfly_map.html" title="Endemic butterflies and moths species"></iframe>
 ```
 
@@ -54,7 +54,7 @@ Have you seen this butterfly?
 
 Help find these missing Canadian species 
 
-```{=html, echo = TRUE, eval = TRUE}
+```{=html}
 <iframe width="900" height="700" src="maps/challenge_wanted_butterfly_map.html" title="Most wanted butterflies and moths"></iframe>
 ```
 

@@ -228,14 +228,14 @@
     "href": "challenges/challenge-Butterfly.html#made-in-canada",
     "title": "More than the Monarch",
     "section": "Made in Canada",
-    "text": "Made in Canada\nWe have endemic butterfly and moth species here in Canada. On this map, you can see the ones that have been recorded. Help us gather more information about them\n{=html, echo = TRUE, eval = TRUE} &lt;iframe width=\"900\" height=\"700\" src=\"maps/challenge_MadeCanada_Butterfly_map.html\" title=\"Endemic butterflies and moths species\"&gt;&lt;/iframe&gt;\nSadly, some endemic species haven’t been recorded yet. Help us find them, take a photo and upload it!\n\n\n\nSpecies\nCommon Name\nGroup\n\n\n\n\nAnimomyia hardwicki\nGeometrid moth\nMoths\n\n\nElachista cicadella\nGlass miner moth\nMoths\n\n\nElachista serra\nGlass miner moth\nMoths\n\n\nEuxoa apopsis\nDart moth\nMoths\n\n\nEuxoa muldersi\nMulder’s Dart Moth\nMoths\n\n\nFeltia troubridgei\nNoctuid moth\nMoths\n\n\nHydrelia terraenovae\nCarpet moth\nMoths\n\n\nLasionycta gelida\nNoctuid moth\nMoths\n\n\nPelochrista louisana\nTortricid moth\nMoths\n\n\nStenoptilia grandipuncta\nPlume moth\nMoths"
+    "text": "Made in Canada\nWe have endemic butterfly and moth species here in Canada. On this map, you can see the ones that have been recorded. Help us gather more information about them\n\nSadly, some endemic species haven’t been recorded yet. Help us find them, take a photo and upload it!\n\n\n\nSpecies\nCommon Name\nGroup\n\n\n\n\nAnimomyia hardwicki\nGeometrid moth\nMoths\n\n\nElachista cicadella\nGlass miner moth\nMoths\n\n\nElachista serra\nGlass miner moth\nMoths\n\n\nEuxoa apopsis\nDart moth\nMoths\n\n\nEuxoa muldersi\nMulder’s Dart Moth\nMoths\n\n\nFeltia troubridgei\nNoctuid moth\nMoths\n\n\nHydrelia terraenovae\nCarpet moth\nMoths\n\n\nLasionycta gelida\nNoctuid moth\nMoths\n\n\nPelochrista louisana\nTortricid moth\nMoths\n\n\nStenoptilia grandipuncta\nPlume moth\nMoths"
   },
   {
     "objectID": "challenges/challenge-Butterfly.html#canada-most-wanted",
     "href": "challenges/challenge-Butterfly.html#canada-most-wanted",
     "title": "More than the Monarch",
     "section": "Canada most wanted",
-    "text": "Canada most wanted\nHave you seen this butterfly?\nHelp find these missing Canadian species\n{=html, echo = TRUE, eval = TRUE} &lt;iframe width=\"900\" height=\"700\" src=\"maps/challenge_wanted_butterfly_map.html\" title=\"Most wanted butterflies and moths\"&gt;&lt;/iframe&gt;"
+    "text": "Canada most wanted\nHave you seen this butterfly?\nHelp find these missing Canadian species"
   },
   {
     "objectID": "challenges/challenge-Butterfly.html#who-created-this-challenge",
