@@ -1,6 +1,6 @@
 # Website for Blitz the Gap: Challenges 🌱
 
-[![badge](https://img.shields.io/static/v1?style=for-the-badge&label=View&message=Website&color=a3be8c)](https://pollocklab.github.io/blitz-the-gap/) [![badge](https://img.shields.io/static/v1?style=for-the-badge&label=Download&message=Challenge-Template&color=b48ead)](https://github.com/PollockLab/blitz-the-gap/blob/master/challenges/challenge-template.qmd)
+[![badge](https://img.shields.io/static/v1?style=for-the-badge&label=View&message=Website&color=a3be8c)](https://pollocklab.github.io/blitz-the-gap/) [![badge](https://img.shields.io/static/v1?style=for-the-badge&label=Download&message=Challenge-Template&color=b48ead)](https://github.com/PollockLab/blitz-the-gap/blob/master/data/outputs/challenge-template.qmd)
 
 
 
