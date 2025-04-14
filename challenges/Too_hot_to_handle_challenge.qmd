@@ -3,7 +3,7 @@ title: Too Hot to Handle!
 image: images/2hot_image_crop.jpg
 ---
 
-![](images/2hot_image.jpg)
+![](images/2hot_image.jpg){fig-align="center"}
 
 ## What's the problem?
 
@@ -11,7 +11,7 @@ Canada’s climate is warming quickly, but more so in some parts of the country 
 
 ## Where should you go?
 
-Any locations on the map! These locations are the easiest way to make a difference in tracking species changes in response to climate warming. 
+Any locations on the map! These locations are the easiest way to make a difference in tracking species changes in response to climate warming.
 
 ```{=html}
 <iframe width="900" height="700" src="maps/toohottohandlemap.html" title="Too Hot To Handle"></iframe>

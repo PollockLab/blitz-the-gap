@@ -7,9 +7,9 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Challenges
       - href: https://blitzthegap.org
-        text: About Blitz the Gap
+        text: About
       - href: https://inaturalist.ca/projects/blitz-the-gap
         text: iNaturalist
       - href: workflows.qmd

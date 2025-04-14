@@ -1,0 +1,38 @@
+---
+title: Getting Even!
+image: images/scales.png
+---
+
+![](images/getting-even.png){fig-align="center"}
+
+## What's the problem?
+
+There are **a lot** of observations on iNaturalist - which is great! But sometimes those observations are skewed towards certain groups of organisms, especially in certain places. For example, in Calgary AB, we have over **70,000** bird observations and almost **100,000** plant observations, but less than **300** observations of both reptiles and amphibians. We know they might be a bit harder to find, but we can do better!
+
+The goal of this project is to even out observations across different groups of species and correct for some of that bias. To do this we identified areas with plenty observations of some species, but very few of other species (even though we know they should be there). Now we are relying on you to go to those places and upload some observations of those species!
+
+[Join the iNaturalist project!](https://www.inaturalist.org/projects/blitz-the-gap-getting-even){.btn .btn-primary .btn role="button"}
+
+## Where should you go?
+
+Check out the map below to find some priority locations for each major group of species. Select your group of choice and look for places near you where we are missing those observations.
+
+```{=html}
+<iframe width="900" height="700" src="maps/getting-even/herps-map.html" title="Getting Even"></iframe>
+```
+
+::: callout-warning
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
+## How will this data be used?
+
+Having lots of observations of different types of organisms in the same place can be really useful! This data can help us uncover the community of organisms that reside in each ecosystem. This can also help us better understand the distribution of the species that make up that community and how they might be interacting.
+
+All of these factors can help inform conservation programs. To better protect the species living across Canada, we first need to know who is found where so we can determine conservation priorities.
+
+## Who created this challenge?
+
+This challenge was created by a team of ecologists, graduate students, and community scientists. This team includes scientists who study the effects of climate change on biodiversity and iNaturalist users like you who help collect the species occurrence data needed for. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.
+
+This particular challenge was designed by [Lucas Eckert](https://www.lucaseckert.ca/) and [Laura Pollock](https://qbiodiversity.org/). Lucas is a PhD student at McGill University (and avid iNat user), who researches how organisms respond and adapt to changing environmental conditions. Laura is a professor, also at McGill, who researchers large-scale patterns of biodiversity, often using data from iNaturalist.

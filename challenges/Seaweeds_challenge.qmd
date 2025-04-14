@@ -3,8 +3,7 @@ title: Seaweeds of Canada
 image: images/Seaweeds_Canada_banner.jpg
 ---
 
-
-![](images/Seaweeds_Canada_banner.jpg)
+![](images/Seaweeds_Canada_banner.jpg){fig-align="center"}
 
 ## What's the problem?
 
@@ -22,27 +21,17 @@ Try to get the best photos you can of as many structures as you can. There are s
 
 We all love Bull Kelp and Knotted Wrack but we hope you'll also love observing some of the other underreported species you can find in coastal Canadian waters. Here are some neat finds to start you on your seaweed safari treasure hunt:
 
-- Dead Man's Fingers (*Codium fragile*) 
-- The Five Ribbed Kelp (*Costaria costata*)
-- Sea Cauliflower (*Leathesia marina*)
-- The Winged Kelp (*Alaria marginata*) *bonus points if your specimen has 'wings' at the base (sporophylls)
-- Mermaid's Tresses (*Chorda filum*)
-- Red Eyelet Silk (*Sparlingia pertusa*) 
-- *Mazzaella japonica* which is an invasive species in British Columbia
-
-## Title for your map
-
-We'll insert your html widget map here, like this:
-
-```{=html}
-<iframe width="900" height="700" src="maps/your_challenge_map.html" title="YourTitle"></iframe>
-```
+-   Dead Man's Fingers (*Codium fragile*)
+-   The Five Ribbed Kelp (*Costaria costata*)
+-   Sea Cauliflower (*Leathesia marina*)
+-   The Winged Kelp (*Alaria marginata*) \*bonus points if your specimen has 'wings' at the base (sporophylls)
+-   Mermaid's Tresses (*Chorda filum*)
+-   Red Eyelet Silk (*Sparlingia pertusa*)
+-   *Mazzaella japonica* which is an invasive species in British Columbia
 
 ## **Who created this challenge?**
 
-This challenge was made during the Blitz the Gap working group supported by the Canadian Institute of Ecology and Evolution’s Living Data Project (CIEE LDP). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
-This challenge was made by:  
-- Sandra Emry is a Postdoctoral Fellow at the University of British Columbia and the Living Data Project. @sea_hugger   
-- Nathan Earley is a PhD student at the University of Victoria where he studies species occurrence data and underreported species. @earley_bird   
-- Bridgette Clarkston is an Associate Professor of Teaching at the University of British Columbia and the author of Pacific Seaweeds: A Guide to Common Seaweeds of the West Coast. @bclarkston   
-
+This challenge was made during the Blitz the Gap working group supported by the Canadian Institute of Ecology and Evolution’s Living Data Project (CIEE LDP). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia. This challenge was made by:\
+- Sandra Emry is a Postdoctoral Fellow at the University of British Columbia and the Living Data Project. @sea_hugger\
+- Nathan Earley is a PhD student at the University of Victoria where he studies species occurrence data and underreported species. @earley_bird\
+- Bridgette Clarkston is an Associate Professor of Teaching at the University of British Columbia and the author of Pacific Seaweeds: A Guide to Common Seaweeds of the West Coast. @bclarkston
