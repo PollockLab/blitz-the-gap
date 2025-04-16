@@ -1,0 +1,87 @@
+---
+title: Make a splash!
+image: images/freshwater_challenge_crop.png
+---
+
+## What's the gap?
+
+Did you know?
+
+Freshwater habitats are some of the most biodiverse areas in the world! Although they only cover about 1% of the Earth’s surface, they contain one third of all described vertebrate species - that’s huge! Freshwater ecosystems and the species they harbor provide countless services to Humanity, such as food security, climate regulation, and culture services.
+
+Unfortunately, freshwater biodiversity has historically received little interest from politicians, conservation scientists, and the general public, contributing to a big gap in our data! That’s why we are counting on you, citizen scientists, to help us blitz this freshwater gap!
+
+
+## **Where should you go & what should you look for??**
+
+For this challenge, head to your favourite lake, river, pond, or wetland and start observing! Focus all your efforts on capturing photos of fish, amphibians, reptiles, invertebrates, and plants, since birds are very well-documented on iNaturalist already (thanks, Birders!). 
+
+To help you find the best spot to visit, we have created a priority site map (below). On this map, we have categorized lakes and rivers across the country into four categories:
+High priority (#1): Sites with many organisms that are endemic to Canada, and have a low number of observations (less than 5) in iNaturalist.
+Medium priority (#2): Sites with many organisms that are endemic to Canada, but with many observations in iNaturalist.
+Medium priority (#3): Sites with fewer organisms that are endemic to Canada, and have a low number of observations (less than 5) in iNaturalist.
+Lowest priority (#4): Sites with fewer organisms that are endemic to Canada, and that have many observations in iNaturalist.
+
+Curious fishers, show off your prized catches! 
+Aspiring herpetologists, spot basking turtles and calling frogs!
+Invertebrate enthusiasts, turn over submerged rocks to find aquatic critters! 
+Budding botanists, wade into shallow waters and soggy wetlands to discover aquatic plants!
+
+[Join the iNaturalist project!](https://inaturalist.ca/projects/https://inaturalist.ca/projects/make-a-splash){.btn .btn-primary .btn role="button"}
+
+
+## Make a Splash! project map:
+
+```{=html}
+<iframe width="900" height="700" src="maps/challenge_freshwater_map.html" title="Make a Splash! project map"></iframe>
+```
+
+
+## **How will these data be used?**
+
+Since freshwater species are so often overlooked, our knowledge of what species are present and where they occur is limited. By contributing to this project, you are helping us better understand the distribution of freshwater species in Canada! This data is extremely useful, as it allows us to assess how freshwater species are impacted by humans and climate change. 
+
+Here are some examples of studies that have harnessed iNaturalist observations to better understand regional biodiversity:
+
+Ahern A, Hughes DF. 2024. Citizen science initiatives document biodiversity baselines at an urban lake. PeerJ 12:e17209 https://doi.org/10.7717/peerj.17209
+Henke T, Bárðarson H, Thorlacius M, Ólafsdóttir GA (2025) Have you seen this fish? Important contribution of stakeholder observations in documenting the distribution and spread of an alien fish species in Iceland. NeoBiota 97: 67-90. https://doi.org/10.3897/neobiota.97.132365
+
+
+## **How do you join?**
+
+It’s easy! Anytime you observe a Canadian freshwater animal or plant in any lake, river, or wetland, your observation will automatically be included as part of the “Make a Splash!” project.
+
+Ready? Set? Blitz the gap!
+
+
+## **Who created this challenge?**
+
+This challenge was made during the Blitz the Gap working group supported by the Canadian Institute of Ecology and Evolution’s Living Data Project (CIEE LDP). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia. 
+
+This challenge was made by: 
+Christophe Brabant, a PhD Student at McGill University who studies threatened freshwater animals.
+Lindsay Trottier, a PhD Candidate at McGill University who studies aquatic plants.
+
+
+## **Interested in initiatives like this?**
+
+For the naturalists who are interested in identifying the species they observe, here are some identification resources to get you started:
+
+Fish: 
+https://www.dfo-mpo.gc.ca/species-especes/identify-eng.html
+https://fishbase.se/keys/description.php?keycode=97 
+
+Amphibians and Reptiles: 
+https://canadianherpetology.ca/species/ 
+https://catalog.ontarionature.org/ontario-reptile-and-amphibian-atlas/page/1 
+
+Invertebrates: 
+https://www.macroinvertebrates.org/key 
+https://www.canada.ca/content/dam/eccc/documents/pdf/science-technology/cabin/050_TaxonomicGroupsRefGuide_EN.pdf 
+
+Plants: 
+https://alms.ca/wp-content/uploads/2020/07/ALMS-Plant-Book-2020.pdf 
+https://www.ducks.ca/assets/2014/12/field-guide-low-res.pdf (Appendix 5, page 57)
+https://www.lakechamplaincommittee.org/fileadmin/files/Photo%20Archive/Learn/Native_Aquatic_Plants_files/LCC_Native_Aquatic_Plant_ID_Cards_-_Web_Version.pdf 
+
+
