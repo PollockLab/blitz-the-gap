@@ -294,6 +294,34 @@
     "text": "Here are some tutorials to access and analyse iNaturalist Canada data to make Blitz the Gap challenges.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccessing the STAC Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking priority maps for Blitz the Gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing the iNaturalist Canada parquet file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "challenges/99-percent.html#whats-the-problem",
+    "href": "challenges/99-percent.html#whats-the-problem",
+    "title": "The Other 99%",
+    "section": "What’s the problem?",
+    "text": "What’s the problem?\nCanada is a big place. And even though you’ve submitted a lot of observations, most of those are found in a pretty small set of locations, especially cities. In fact, over half of all iNat observations in Canada are found in areas that make up just 1% of Canada’s total area. This means we are missing a lot of observations from the vast majority of our country.\nIn this challenge, we are asking you to visit the other 99% of Canada and document the incredible diversity of organisms found all our across our country.\nJoin the iNaturalist project!"
+  },
+  {
+    "objectID": "challenges/99-percent.html#where-should-you-go",
+    "href": "challenges/99-percent.html#where-should-you-go",
+    "title": "The Other 99%",
+    "section": "Where should you go?",
+    "text": "Where should you go?\nThe map below shows you which counties (or equivalent census districts) are most densely sampled and which could use some more observations. In the iNat project, we have included observations from all across Canada except for the 50 most densely sampled counties, shown in red on the map - these are the ones to avoid. As an extra challenge, try avoiding the next 60 most sampled counties, shown in yellow. The red and yellow areas contain over 75% of all Canadian iNat observations while representing just 3.5% of Canada’s area."
+  },
+  {
+    "objectID": "challenges/99-percent.html#how-will-this-data-be-used",
+    "href": "challenges/99-percent.html#how-will-this-data-be-used",
+    "title": "The Other 99%",
+    "section": "How will this data be used?",
+    "text": "How will this data be used?\nMore observations from places that are poorly sampled can really help us understand how organisms are distributed. This type of data is crucial to planning conservation programs."
+  },
+  {
+    "objectID": "challenges/99-percent.html#who-created-this-challenge",
+    "href": "challenges/99-percent.html#who-created-this-challenge",
+    "title": "The Other 99%",
+    "section": "Who created this challenge?",
+    "text": "Who created this challenge?\nThis challenge was created by a team of ecologists, graduate students, and community scientists. The Blitz-the-Gap umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.\nThis particular challenge was designed by Lucas Eckert and Laura Pollock. Lucas is a PhD student at McGill University (and avid iNat user), who researches how organisms respond and adapt to changing environmental conditions. Laura is a professor, also at McGill, who researchers large-scale patterns of biodiversity, often using data from iNaturalist."
+  },
+  {
     "objectID": "challenges/challenge-Butterfly.html",
     "href": "challenges/challenge-Butterfly.html",
     "title": "More than the Monarch",
@@ -522,6 +550,6 @@
     "href": "index.html",
     "title": "Challenges",
     "section": "",
-    "text": "Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNaturalist, we are still lacking data for a whole host of ecological and conservation applications.\nTo assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, we just need more data - and we need your help!\n \n  \n   \n  \n    \n     Join on iNaturalist\n  \n\n\n\n\nChallenges\nTo Blitz the Gap, choose from a series of challenges to fill biodiversity data gaps in Canada, according to what inspires you the most. These challenges were designed by graduate students throughout Canada to help guide iNaturalists like you towards places that deserve a little more attention. Remember: even one observation can be enough to make a difference in our understanding of biodiversity change.\nReady? Set? Blitz the Gap!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBooks, Butterflies & Blooms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClosing the Climate Gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConservation Priorities in Canada (MayBAs)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Even!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMake a splash!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore than the Monarch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRevisiting the past\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeaweeds of Canada\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToo Hot to Handle!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrailblazers challenge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blitz the Gap is a Canada-wide bioblitz to help us fill gaps in our knowledge of biodiversity in Canada. Canada is a large country and hosts tons of amazing biodiversity - which makes it a challenging place to survey. Though we’ve made progress thanks to community science platforms like iNaturalist, we are still lacking data for a whole host of ecological and conservation applications.\nTo assess at-risk species, track the changes in species’ ranges due to climate change, rapidly detect species losses and invasions, we just need more data - and we need your help!\n \n  \n   \n  \n    \n     Join on iNaturalist\n  \n\n\n\n\nChallenges\nTo Blitz the Gap, choose from a series of challenges to fill biodiversity data gaps in Canada, according to what inspires you the most. These challenges were designed by graduate students throughout Canada to help guide iNaturalists like you towards places that deserve a little more attention. Remember: even one observation can be enough to make a difference in our understanding of biodiversity change.\nReady? Set? Blitz the Gap!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBooks, Butterflies & Blooms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClosing the Climate Gap\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConservation Priorities in Canada (MayBAs)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Even!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMake a splash!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore than the Monarch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRevisiting the past\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeaweeds of Canada\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Other 99%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToo Hot to Handle!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrailblazers challenge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
