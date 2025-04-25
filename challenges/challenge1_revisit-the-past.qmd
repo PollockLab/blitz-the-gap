@@ -75,7 +75,7 @@ The locations on these maps are suggestions and not exact coordinates of where t
 ## Plants
 
 ```{=html}
-<iframe width="900" height="700" src="maps/historical-challenge/last_seen_plants.html" title="Plants"></iframe>
+<iframe width="900" height="700" src="maps/historical-challenge/last_seen_plants_map.html" title="Plants"></iframe>
 ```
 
 ## Fungi

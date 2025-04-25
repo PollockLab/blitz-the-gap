@@ -3,6 +3,8 @@ title: The Other 99%
 image: images/cities.png
 ---
 
+![](images/other-99-percent-2.jpeg){fig-align="center"}
+
 ## What's the problem?
 
 Canada is a big place. And even though you've submitted a lot of observations, most of those are found in a pretty small set of locations, especially cities. In fact, **over half** of all iNat observations in Canada are found in areas that make up **just 1%** of Canada's total area. This means we are missing a lot of observations from the vast majority of our country.
