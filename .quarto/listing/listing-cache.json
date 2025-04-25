@@ -1,0 +1,10 @@
+{
+  "listingMap": {
+    "workflows.qmd": [
+      "workflows"
+    ],
+    "challenge-details.qmd": [
+      "challenges"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+gdalcubes
+rstac
+knitr
+abind
+sf
+stars
+terra
+ggplot2
+mapview

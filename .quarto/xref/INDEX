@@ -1,0 +1,56 @@
+{
+  "workflows.qmd": {
+    "workflows.html": "357a82ea"
+  },
+  "challenges/99-percent.qmd": {
+    "99-percent.html": "bda9cf2e"
+  },
+  "challenges/getting-even.qmd": {
+    "getting-even.html": "7b00c4fd"
+  },
+  "challenges/challenge-Butterfly.qmd": {
+    "challenge-Butterfly.html": "d52b212d"
+  },
+  "challenges/challenge-libraries.qmd": {
+    "challenge-libraries.html": "850840b5"
+  },
+  "challenges/challenge1_revisit-the-past.qmd": {
+    "challenge1_revisit-the-past.html": "f8e735ce"
+  },
+  "challenges/freshwater-challenge-template.qmd": {
+    "freshwater-challenge-template.html": "710eaed1"
+  },
+  "challenges/Seaweeds_challenge.qmd": {
+    "Seaweeds_challenge.html": "a6e305b1"
+  },
+  "challenges/Too_hot_to_handle_challenge.qmd": {
+    "Too_hot_to_handle_challenge.html": "af821df4"
+  },
+  "challenges/climate_gaps_challenge.qmd": {
+    "climate_gaps_challenge.html": "c351c9e2"
+  },
+  "challenges/challenge2_mayBAs.qmd": {
+    "challenge2_mayBAs.html": "b710f21e"
+  },
+  "challenges/Trailblazers_challenge.qmd": {
+    "Trailblazers_challenge.html": "9f95155c"
+  },
+  "workflows/parquet-file.qmd": {
+    "parquet-file.html": "97bd2ea3"
+  },
+  "workflows/tutorial.qmd": {
+    "tutorial.html": "2f1cb7a0"
+  },
+  "workflows/access-data.qmd": {
+    "access-data.html": "f5559088"
+  },
+  "index.qmd": {
+    "index.html": "b48a0ef9"
+  },
+  "challenge-details.qmd": {
+    "challenge-details.html": "abc5f64a"
+  },
+  "data/outputs/challenge-template.qmd": {
+    "challenge-template.html": "4963f4eb"
+  }
+}
