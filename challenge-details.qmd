@@ -1,0 +1,9 @@
+---
+title: "Read more about these challenges"
+listing: 
+  contents: challenges
+  type: grid 
+  image-height: 250px
+---
+
+These challenges were created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the [Living Data Project](https://www.ciee-icee.ca/ldp.html). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.

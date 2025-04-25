@@ -3,8 +3,6 @@ title: The Other 99%
 image: images/cities.png
 ---
 
-![]()
-
 ## What's the problem?
 
 Canada is a big place. And even though you've submitted a lot of observations, most of those are found in a pretty small set of locations, especially cities. In fact, **over half** of all iNat observations in Canada are found in areas that make up **just 1%** of Canada's total area. This means we are missing a lot of observations from the vast majority of our country.
@@ -20,12 +18,13 @@ The map below shows you which counties (or equivalent census districts) are most
 ```{=html}
 <iframe width="900" height="700" src="maps/99-percent-map.html" title="The Other 99%"></iframe>
 ```
+
 ## How will this data be used?
 
 More observations from places that are poorly sampled can really help us understand how organisms are distributed. This type of data is crucial to planning conservation programs.
 
 ## Who created this challenge?
 
-This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project.
+This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project. The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia. 
 
 This particular challenge was designed by [Lucas Eckert](https://www.lucaseckert.ca/) and [Laura Pollock](https://qbiodiversity.org/). Lucas is a PhD student at McGill University (and avid iNat user), who researches how organisms respond and adapt to changing environmental conditions. Laura is a professor, also at McGill, who researchers large-scale patterns of biodiversity, often using data from iNaturalist.

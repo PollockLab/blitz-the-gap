@@ -11,13 +11,13 @@ Some of the most valuable information we have from the past is from naturalists 
 
 [Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-revisiting-the-past){.btn .btn-primary .btn role="button"}
 
-## **Where should you go?**
+## Where should you go?
 
 To blitz this gap, we encourage you to revisit places that were sampled in the past. We’ve highlighted historically-sampled places that are close to roads for you to choose from, which you can see on these maps. 
 
 Priority cells are places where there has not been any observation of these species groups in over 15 years! 
 
-## **What should you look for?**
+## What should you look for?
 
 Choose a species group and look for locations near you. Any observation of the species group you choose in these priority cells will help to the temporal gaps in our data! Log as many species of the group as you can find on iNaturalist!
 
@@ -32,13 +32,13 @@ The locations on these maps are suggestions and not exact coordinates of where t
 ## Amphibians
 
 ```{=html}
-<iframe width="900" height="700" src="maps/history_amphibians.html" title="Amphibians"></iframe>
+<iframe width="900" height="700" src="maps/historical-challenge/amphibians_last_seen.html" title="Amphibians"></iframe>
 ```
 
 ## Reptiles
 
 ```{=html}
-<iframe width="900" height="700" src="maps/history_squamates.html" title="Squamates"></iframe>
+<iframe width="900" height="700" src="maps/historical-challenge/reptiles_last_seen.html" title="Reptiles"></iframe>
 ```
 
 ## Mammals
@@ -53,12 +53,6 @@ The locations on these maps are suggestions and not exact coordinates of where t
 ## Invertebrates
 
 ::: {.panel-tabset}
-
-## Butterflies & moths
-
-```{=html}
-<iframe width="900" height="700" src="maps/history_lepidoptera.html" title="Lepidoptera"></iframe>
-```
 
 ## Hymenoptera
 
@@ -81,7 +75,7 @@ The locations on these maps are suggestions and not exact coordinates of where t
 ## Plants
 
 ```{=html}
-<iframe width="900" height="700" src="maps/history_plants.html" title="Plants"></iframe>
+<iframe width="900" height="700" src="maps/historical-challenge/last_seen_plants.html" title="Plants"></iframe>
 ```
 
 ## Fungi
@@ -92,7 +86,12 @@ The locations on these maps are suggestions and not exact coordinates of where t
 
 :::
 
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
 
 ## **Who created this challenge?**
 
-This challenge was the first one created for Blitz the Gap, designed by Laura Pollock, Isaac Eckert, Pierre Rogy, and Katherine Hébert. We are all part of the Quantitative Biodiversity Lab at McGill University led by Laura. We use data from sources like iNaturalist to build biodiversity models that help us understand and predict biodiversity and how it is changing.
+This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the [Living Data Project](https://www.ciee-icee.ca/ldp.html). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
+
+This particular challenge was designed by [Laura Pollock](https://qbiodiversity.org/), [Katherine Hébert]((https://katherinehebert.github.io/), [Isaac Eckert](https://www.isaaceckert.ca/), [Pierre Rogy](https://www.researchgate.net/profile/Pierre-Rogy), and [Janaína Serrano](https://www.researchgate.net/profile/Janaina-Serrano). Laura is a professor at McGill, who researchers large-scale patterns of biodiversity, often using data from iNaturalist. Katherine is a Postdoctoral Researcher at McGill who researches indicators of biodiversity change. Isaac is a PhD candidate, also at McGill, who studies how climate, biotic interactions, species' functional traits, and landscape connectivity influence the spatial patterns of biodiversity across Canada to inform conservation action. Pierre is a Postdoctoral Researcher at McGill, and an arthropod enthusiast. He researches how to bridge two different fields of ecological theory: ecological stoichiometry and energy channels with computer models, observational studies and manipulative field experiments. Janaína is a PhD candidate at McGill who studies threats to terrestrial vertebrate species, and how these species will respond to those threats in the future. We all use data from sources like iNaturalist to build biodiversity models that help us understand and predict biodiversity and how it is changing.

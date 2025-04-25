@@ -5,20 +5,26 @@ image: images/trailblazers.jpg
 
 ## What's the problem?
 
-Did you know that most iNaturalist observations made by hikers are taken in close proximity to the trailhead? Having a more even spread in observations over the complete length of popular trails will provide researchers with a more representative view of the biodiversity that Canadians have access to. 
+Did you know that most iNaturalist observations made by hikers are most often taken in close proximity to the trailhead? Having a more even spread in observations over the complete length of popular trails will provide researchers with a more representative view of the biodiversity that Canadians have access to. 
 
-## **Where should you go?**
+## Where should you go?
 
-For this challenge we encourage you to go stretch your legs in the most popular parks throughout Canada. Which species you observe is not important: the more the merrier. The only requirement is that you are located at least 1 km away from a trailhead or road. 
+For this challenge we encourage you to go stretch your legs in the most popular parks throughout Canada. Which species you observe is not important: the more the merrier. The only requirement is that you are located __at least 1 km away from a trailhead or road__. 
 
-For hiking inspiration you can look at the relevant park website!
+For hiking inspiration, take a look at the trail maps on the website for the park you choose!
 
-## Title for your map
+## Find your next hike!
 
 ```{=html}
 <iframe width="900" height="700" src="maps/challenge_trailblazers_map.html" title="Trailblazers"></iframe>
 ```
 
-## **Who created this challenge?**
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
 
-This challenge was created for Blitz the Gap, designed by Lukas Van Riel, a PhD student at Université de Montréal looking into how climate change will impact Canadian forests.
+## Who created this challenge?
+
+This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project. The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia. 
+
+This particular challenge was designed by [Lukas Van Riel](https://qcbs.ca/fr/membre-etudiant/?student=3207), a PhD student at Université de Montréal, who researches how climate change will impact Canadian forests.

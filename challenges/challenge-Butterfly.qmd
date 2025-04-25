@@ -30,6 +30,10 @@ We have endemic butterfly and moth species here in Canada. On this map, you can 
 <iframe width="900" height="700" src="maps/challenge_MadeCanada_Butterfly_map.html" title="Endemic butterflies and moths species"></iframe>
 ```
 
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
 Sadly, some endemic species haven't been recorded yet. Help us find them, take a photo and upload it!
 
 Species                   |Common Name        |Group
@@ -46,8 +50,6 @@ Pelochrista louisana      |Tortricid moth     |Moths
 Stenoptilia grandipuncta  |Plume moth         |Moths
 
 
-
-
 ## Canada most wanted
 
 Have you seen this butterfly?  
@@ -58,6 +60,12 @@ Help find these missing Canadian species
 <iframe width="900" height="700" src="maps/challenge_wanted_butterfly_map.html" title="Most wanted butterflies and moths"></iframe>
 ```
 
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
 ## **Who created this challenge?**
 
-This challenge was created for Blitz the Gap, designed by Camila Diaz. [Some information about yourselves and how you use iNaturalist, or use their data in your own research, etc.]
+This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project. The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
+
+This particular challenge was designed by [Camila Diaz](https://www.researchgate.net/profile/Maria-Corzo-6). Camila is a PhD student at Université de Sherbrooke working on linking expert models to species distribution models to identify priority places for conservation.

@@ -7,13 +7,15 @@ image: images/public-library-challenge-banner.jpg
 
 Team up with your local public library to photograph plants, animals, fungi and more! Beginners welcome. Help us survey biodiversity across this vast and beautiful country.
 
+_This challenge is still in construction. Stay tuned for more details!_
+
 ## What's the problem?
 
 Canada is so vast that 90% of the country’s biodiversity remains poorly studied. Without a clear understanding of which species live where, we cannot detect when they disappear. Species extinctions could have far-reaching consequences for our natural resources, food security, and the health of our ecosystems. For example, butterflies are important pollinators of flowers. Help scientists and conservation biologists by signing up for iNaturalist and uploading as many observations of plants, animals, fungi (and more!) as you can.
 
-## How do I get started??
+## How do I get started?
 
-We are collaborating with public libraries across Canada to help people get started. Your public library should have access to iNaturalist help guides as well as guides to help you learn about plants, animals, and more. If your local library doesn’t know about this activity, contact us and we will email materials to them. Libraries associated with the most observations will win prizes. Fill in \[THIS SHORT FORM\] so that we know which library ‘team’ to link your observations to.
+We are collaborating with public libraries across Canada to help people get started. Your public library should have access to iNaturalist help guides as well as guides to help you learn about plants, animals, and more. If your local library doesn’t know about this activity, contact us and we will email materials to them. Libraries associated with the most observations will win prizes. Fill in \[THIS SHORT FORM\] (stay tuned!) so that we know which library ‘team’ to link your observations to.
 
 ## Where should you go?
 
@@ -25,6 +27,10 @@ Use the map below to help search for your closest library. Contact us if your cl
 <iframe width="450" height="350" src="maps/challenge_library_map.html" title="Libraries"></iframe>
 ```
 
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
 ## Where should you go to take pictures?
 
 Anywhere safe and interesting to you! Don't forget to tell us which library team you are joining (see How do I get Started)
@@ -35,4 +41,6 @@ We use the data to help figure out where different species are found in Canada. 
 
 ## Who created this challenge?
 
-This challenge was created for Blitz the Gap and designed by Michelle Tseng, Eniola Olu-Ayorinde and Diane Srivastava. Eniola Olu-Ayorinde is a graduate student in quantitative ecology at the University of Regina. Michelle Tseng and Diane Srivastava are ecology professors at the University of British Columbia.
+This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the [Living Data Project](https://www.ciee-icee.ca/ldp.html). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
+
+This challenge was created for Blitz the Gap and designed by [Michelle Tseng](https://www.bugsandplankton.com/), [Eniola Olu-Ayorinde](https://www.linkedin.com/in/eniola-multipotentialite-oni300/?originalSubdomain=ca) and [Diane Srivastava](https://www.zoology.ubc.ca/~srivast/). Eniola Olu-Ayorinde is a graduate student in quantitative ecology at the University of Regina. Michelle Tseng and Diane Srivastava are ecology professors at the University of British Columbia.
