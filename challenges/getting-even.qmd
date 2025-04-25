@@ -18,7 +18,7 @@ The goal of this project is to even out observations across different groups of 
 Check out the map below to find some priority locations for each major group of species. Select your group of choice and look for places near you where we are missing those observations.
 
 ```{=html}
-<iframe width="900" height="700" src="maps/getting-even/herps-map.html" title="Getting Even"></iframe>
+<iframe width="900" height="700" src="maps/getting-even-county-map.html" title="Getting Even"></iframe>
 ```
 
 ::: callout-warning
