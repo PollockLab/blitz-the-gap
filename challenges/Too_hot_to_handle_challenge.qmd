@@ -3,17 +3,26 @@ title: Too Hot to Handle!
 image: images/2hot_image_crop.jpg
 ---
 
-![](images/2hot_image.jpg){fig-align="center"}
+![](images/too-hot-to-handle.png){fig-align="center"}
 
-## What's the problem?
+## Why?
 
-Canada’s climate is warming quickly, but more so in some parts of the country than others. You can help scientists and communities track how species are responding to these changes by joining this Blitz-the-Gap project. Record species - any species - in these hotspots for climate change to help build the knowledge that scientists need to propose actions for conservation. We have already found for you the places in Canada that are easy to access, and warming the fastest, but where there are very few if any iNaturalist observations.
+Climate change is impacting some parts of the country more than others. You can help scientists and communities track how species are responding to these changes by joining this Blitz-the-Gap project. 
+Record any species on this list to help build the knowledge that scientists need to propose actions for conservation. These species are those that models suggest could be negatively impacted by climate change–in some cases losing substantial parts of their range. These species don’t have enough data for us to know if they are indeed shrinking from climate change. 
+
+Many of these species are found in montane, boreal and arctic ecosystems.
+
+Examples include the Snowy Owl (<a href="https://inaturalist.ca/observations?taxon_id=144594"><i>Bubo scandiacus</i></a>), the Thinhorn/Dall’s Sheep (<a href="https://inaturalist.ca/observations?taxon_id=42390"><i>Ovis dalli</i></a>), and the Freija fritillary (<a href="https://inaturalist.ca/observations?taxon_id=204862"><i>Boloria freija</i></a>).
+
+Plants include the Arctic Willow (<a href="https://inaturalist.ca/observations?taxon_id=67799"><i>Salix arctica</i></a>), Boreal Fescue (<a href="https://inaturalist.ca/observations?taxon_id=162954"><i>Festuca hyperborea</i></a>), and many more. 
+
+__See more of these species on the iNaturalist project:__
 
 [Join the iNaturalist project!](https://www.inaturalist.org/projects/blitz-the-gap-too-hot-to-handle){.btn .btn-primary .btn role="button"}
 
 ## Where should you go?
 
-Any locations on the map! These locations are the easiest way to make a difference in tracking species changes in response to climate warming.
+Any locations that are likely to have the species on the list. We also made a map of general locations that you can see below, where we ranked areas in Canada by the severity of expected warming. These locations were in the top 25%. Recording species in these particular locations is the easiest way to make a difference in tracking species changes in response to climate warming (these areas are not included in the iNaturalist leaderboard, but will be evaluated separately). 
 
 ```{=html}
 <iframe width="900" height="700" src="maps/toohottohandlemap.html" title="Too Hot To Handle"></iframe>
@@ -31,18 +40,20 @@ We've made a list of species (see the Taxa listed [here](https://www.inaturalist
 
 This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the [Living Data Project](https://www.ciee-icee.ca/ldp.html). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
 
--   Joshua Lee is a PhD student studying how additional biodiversity metrics can be integrated into conservation management in Australia.
+-   Joshua Lee (@josh_lee) is a PhD student studying how additional biodiversity metrics can be integrated into conservation management in Australia.
 
--   Nicole Kester is a MSc student studying invasive plants and patterns of their spread into new climatic conditions.
+-   Nicole Kester (@nkester) is a MSc student studying invasive plants and patterns of their spread into new climatic conditions.
 
--   [Brian Starzomski](https://starzomski.weebly.com/) is the Ian McTaggart Cowan Professor of Biodiversity Conservation and Ecological Restoration, and co-leads the BC Biodiversity project.
+-   [Brian Starzomski](https://starzomski.weebly.com/) (@bstarzomski) is the Ian McTaggart Cowan Professor of Biodiversity Conservation and Ecological Restoration, and co-leads the BC Biodiversity project.
 
--   [Diane Srivastava](https://www.zoology.ubc.ca/~srivast/) leads the Living Data Project and studies how species and food webs respond to climate change and other environmental shifts.
+-   [Diane Srivastava](https://www.zoology.ubc.ca/~srivast/) (@diane_srivastava) leads the Living Data Project and studies how species and food webs respond to climate change and other environmental shifts.
 
--   [Sandra Emry](https://sandramemry.weebly.com/) is a postdoctoral fellow with the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology.
+-   [Sandra Emry](https://sandramemry.weebly.com/) (@sea_hugger) is a postdoctoral fellow with the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology.
 
--   [Shirley Morrison](https://inaturalist.ca/people/shirleymorrison) is an avid iNaturalist user and contributor to the Butterflies in My Backyard Project (BIMBY).
+-   [Shirley Morrison](https://inaturalist.ca/people/shirleymorrison) (@shirleymorrison) is an avid iNaturalist user and contributor to the Butterflies in My Backyard Project (BIMBY).
 
--   [Stephen Deedes-Vincke](https://inaturalist.ca/people/deedesie) volunteers with the BIMBY project and is a Certified Pollinator Steward and Butterfly Ranger.
+-   [Stephen Deedes-Vincke](https://inaturalist.ca/people/deedesie) (@deedesie) volunteers with the BIMBY project and is a Certified Pollinator Steward and Butterfly Ranger.
 
--   [Michelle Tseng](https://www.bugsandplankton.com/) is an Associate Professor who studies how climate change affects insect communities and aquatic food webs. She uses
+-   [Michelle Tseng](https://www.bugsandplankton.com/) (@michelletseng) is an Associate Professor who studies how climate change affects insect communities and aquatic food webs. She uses
+
+Species distribution models and analyses were contributed by Laura Pollock, Isaac Eckert, and Noah Wightman (Quantitative Biodiversity Lab, McGill). See [Eckert et al. 2023](https://www.nature.com/articles/s41467-023-42737-x) for an example of how data like this is used.
