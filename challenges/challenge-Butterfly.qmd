@@ -3,28 +3,29 @@ title: More than the Monarch
 image: images/Butterfly_banner.png
 ---
 
+![](images/more-than-monarch.png){fig-align="center"}
+
 ## What's the problem?
 
 In Canada, we have more than 5,000 species recorded of butterflies and moths, one of which is the Monarch (Danaus plexippus), the fifth most recorded species in the country. That’s awesome! 
 
 Unfortunately, most of these species have only been recorded a few times in specific locations, and we lack further information about them. You can help! Next time you're outside, whether on a hike or doing fieldwork, take a photo of any butterflies or moths you see and upload it to iNaturalist. 
 
-Or if you're interested in contributing checklist data and recording your observations in a more structured way, check out [eButterfly](https://www.e-butterfly.org/ebapp/en)
+[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-more-than-the-monarch){.btn .btn-primary .btn role="button"}
 
-## **Where should you go?**
+Or if you're interested in contributing checklist data and recording your observations in a more structured way, you can also check out [eButterfly](https://www.e-butterfly.org/ebapp/en)!
 
-All Canada!
+## Where should you go and what should you look for?
 
-Whenever you're doing an outdoor activity, look for butterflies and moths, take a picture and upload it in the iNaturalist app. Every observation counts.
+All Canada! Whenever you're doing an outdoor activity this summer, look for butterflies and moths, take a picture and upload it in the iNaturalist app. Every observation counts. 
+
+Check out some more detailed recommendations below!
 
 ## **Not sure what to look for?**
 
-Check out this interesting species!
+### Made in Canada species
 
-
-## Made in Canada
-
-We have endemic butterfly and moth species here in Canada. On this map, you can see the ones that have been recorded. Help us gather more information about them
+We have endemic butterfly and moth species here in Canada. On this map, you can see the ones that have been recorded. Help us gather more information about them!
 
 ```{=html}
 <iframe width="900" height="700" src="maps/challenge_MadeCanada_Butterfly_map.html" title="Endemic butterflies and moths species"></iframe>
@@ -50,11 +51,9 @@ Pelochrista louisana      |Tortricid moth     |Moths
 Stenoptilia grandipuncta  |Plume moth         |Moths
 
 
-## Canada most wanted
+## Help find these missing Canadian species!
 
-Have you seen this butterfly?  
-
-Help find these missing Canadian species 
+Have you seen this butterfly? These species are known to live in Canada, but haven't been observed yet on iNaturalist. Can you find them?
 
 ```{=html}
 <iframe width="900" height="700" src="maps/challenge_wanted_butterfly_map.html" title="Most wanted butterflies and moths"></iframe>

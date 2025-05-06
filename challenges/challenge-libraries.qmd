@@ -17,6 +17,8 @@ Canada is so vast that 90% of the country’s biodiversity remains poorly studie
 
 We are collaborating with public libraries across Canada to help people get started. Your public library should have access to iNaturalist help guides as well as guides to help you learn about plants, animals, and more. If your local library doesn’t know about this activity, contact us and we will email materials to them. Libraries associated with the most observations will win prizes. Fill in \[THIS SHORT FORM\] (stay tuned!) so that we know which library ‘team’ to link your observations to.
 
+[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-books-butterflies-blooms){.btn .btn-primary .btn role="button"}
+
 ## Where should you go?
 
 Use the map below to help search for your closest library. Contact us if your closest library is not listed and we will add it to the map.

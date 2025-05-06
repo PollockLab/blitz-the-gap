@@ -9,16 +9,18 @@ image: images/scales.png
 
 There are **a lot** of observations on iNaturalist - which is great! But sometimes those observations are skewed towards certain groups of organisms, especially in certain places. For example, in Calgary AB, we have over **70,000** bird observations and almost **100,000** plant observations, but less than **300** observations of both reptiles and amphibians. We know they might be a bit harder to find, but we can do better!
 
-The goal of this project is to even out observations across different groups of species and correct for some of that bias. To do this we identified areas with plenty observations of some species, but very few of other species (even though we know they should be there). Now we are relying on you to go to those places and upload some observations of those species!
+The goal of this project is to even out observations across different groups of species and correct for some of that bias. To do this we identified which major group of organisms has a surprisingly low number of observations for each county (or census district) across Canada. Now we are counting on folks in those areas to go out and help even out our observations!
 
 [Join the iNaturalist project!](https://www.inaturalist.org/projects/blitz-the-gap-getting-even){.btn .btn-primary .btn role="button"}
 
 ## Where should you go?
 
-Check out the map below to find some priority locations for each major group of species. Select your group of choice and look for places near you where we are missing those observations.
+Check out the map below to see which groups of organisms are most under-represented in your county and in the counties near you!
+
+Note that we've excluded birds from this analysis because they are very well represented in our datasets from eBird. Sorry birders!
 
 ```{=html}
-<iframe width="900" height="700" src="maps/getting-even-county-map.html" title="Getting Even"></iframe>
+<iframe width="900" height="700" src="maps/getting-even-nobirds.html" title="Getting Even"></iframe>
 ```
 
 ::: callout-warning
@@ -27,9 +29,7 @@ The locations on this map are suggestions and not exact coordinates of where to 
 
 ## How will this data be used?
 
-Having lots of observations of different types of organisms in the same place can be really useful! This data can help us uncover the community of organisms that reside in each ecosystem. This can also help us better understand the distribution of the species that make up that community and how they might be interacting.
-
-All of these factors can help inform conservation programs. To better protect the species living across Canada, we first need to know who is found where so we can determine conservation priorities.
+Having lots of observations of different types of organisms in the same place can be really useful! This data can help us uncover the community of organisms that reside in each ecosystem. This can also help us better understand the distribution of the species that make up that community and how they might be interacting. All of these factors can help inform conservation programs. To better protect the species living across Canada, we first need to know who is found where so we can determine conservation priorities.
 
 ## Who created this challenge?
 

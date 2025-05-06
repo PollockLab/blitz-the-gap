@@ -3,6 +3,8 @@ title: Trailblazers challenge
 image: images/trailblazers.jpg
 ---
 
+![](images/trailblazers-banner.png){fig-align="center"}
+
 ## What's the problem?
 
 Did you know that most iNaturalist observations made by hikers are most often taken in close proximity to the trailhead? Having a more even spread in observations over the complete length of popular trails will provide researchers with a more representative view of the biodiversity that Canadians have access to. 
@@ -12,6 +14,8 @@ Did you know that most iNaturalist observations made by hikers are most often ta
 For this challenge we encourage you to go stretch your legs in the most popular parks throughout Canada. Which species you observe is not important: the more the merrier. The only requirement is that you are located __at least 1 km away from a trailhead or road__. 
 
 For hiking inspiration, take a look at the trail maps on the website for the park you choose!
+
+[Join the iNaturalist project!](https://www.inaturalist.org/projects/blitz-the-gap-trailblazers){.btn .btn-primary .btn role="button"}
 
 ## Find your next hike!
 
