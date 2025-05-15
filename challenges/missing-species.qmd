@@ -3,6 +3,8 @@ title: "Missing Canadian Species"
 format: html
 ---
 
+![](images/missing-all-species-banner.png){fig-align="center"}
+
 Thousands of Canadian species have not been recorded on iNaturalist. Can you be the first to find them?
 
 Des milliers d’espèces canadiennes n’ont pas encore été observées sur iNaturalist. Pourriez-vous être le premier à les trouver?
@@ -14,6 +16,8 @@ Of the estimated 80 000 species in Canada, only about half have been recorded on
 [Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-missing-canadian-species){.btn .btn-primary .btn role="button"}
 
 ### Insect challenge
+
+![](images/missing-insects-banner.png){fig-align="center"}
 
 **Curious about missing insects?** As insects are the most diverse group of animals, we’ve created a separate challenge on iNaturalist ([Blitz the Gap: Canada’s Missing Insects](https://inaturalist.ca/projects/blitz-the-gap-missing-canadian-species-insects)) to specifically target Canadian insects and arachnids missing from iNaturalist. Insect and arachnid observations will only count toward this separate challenge!
 
