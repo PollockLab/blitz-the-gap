@@ -27,6 +27,8 @@ __“MayBAs”__ are areas that experts or historical data have identified as pl
 
 This [species list](https://docs.google.com/spreadsheets/d/13sVfHA7ZQC7CR3s1qJyea5NH210DEXG2/edit?usp=sharing&ouid=100802341057493756245&rtpof=true&sd=true) contains a list of species that are rare and/or threatened, and which are on the KBA “Wanted List” because more information on where they’re found and their population at these places could lead to new KBAs. Any information that you can help gather for these species could help to find new KBAs that could help inform conservation and protect species. Use the filtering on the spreadsheet to find species or taxonomic groups you’re interested in, or search through the “Recorded Distribution” field to find the list of species that are found in your area. For more information on species, try searching for COSEWIC reports, IUCN reports, or other information online. 
 
+To explore and learn more about all the published and in-progress KBAs, visit the [KBACanada website](https://kbacanada.org/explore/map-viewer/), or the [KBACanada iNaturalist page](https://www.inaturalist.org/projects/key-biodiversity-areas-of-canada). 
+
 If you’re looking for specific places to visit, we have created an interactive map that you can use to find areas near you that have been identified as MayBAs. For most sites, the interactive map will show the specific species of KBA interest at the site to keep a special eye out for, but for many of these places, any information you can help collect about the diversity within them will help. The sites are coloured according to the approximate time (in driving hours) from the nearest city (of at least 10,000 people).
 
 ```{=html}
