@@ -20,7 +20,7 @@ For hiking inspiration, take a look at the trail maps on the website for the par
 ## Find your next hike!
 
 ```{=html}
-<iframe width="900" height="700" src="https://pollocklab.github.io/blitz-the-gap-trailblazers/challenge_trailblazers_map.html" title="Trailblazers Challenge"></iframe>
+<iframe width="900" height="700" src="https://pollocklab.github.io/blitz-the-gap-trailblazers/challenge_trailblazers_map.html" title="Trailblazers Challenge" data-external="1"></iframe>
 ```
 
 :::{.callout-warning}
