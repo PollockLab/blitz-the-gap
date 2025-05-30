@@ -1,0 +1,50 @@
+---
+title: Find new Key Biodiversity Areas for conservation!
+image: images/WESA_Kris-Cu.jpg
+---
+
+We need your help to identify priority areas for conservation! 
+
+Nous avons besoin de votre aide pour identifier des sites prioritaires pour la conservation! 
+
+## How can you help to conserve and protect Canada’s biodiversity?
+
+![image from Birds Canada](images/KBA-photos-by-Amanda-Bichel.jpg)
+
+“30X30” is the most well-known of the targets of the Kunming-Montreal Global Biodiversity Framework, signed by 120 countries in an agreement to protect 30% of their land, inland waters, and seas by 2030. Canada has committed to achieving 30X30, alongside other targets such as restoring degraded habitats, enhancing ecological connectivity and integrity, and engaging in spatial planning to reduce biodiversity loss. Where to focus resources for achieving these targets is an important question, as new protected areas and restoration sites should be selected to maximize their impact on preserving biodiversity [Canadian Geographic article](https://canadiangeographic.ca/articles/safeguarding-the-future-of-canadas-environment/).
+
+Decision-makers need data and information, and ideally transparent and participatory processes, to make these choices, and this is where citizen scientists like you can help. By getting out and observing what species are present in currently underdocumented but potentially key areas, you can make a real difference in making sure that Canada’s most important areas are capturing the attention of decision-makers, and have a better chance of being conserved through 30X30 and other initiatives. Citizen scientist observations of key species could be the data we need to inform the public and governments about which areas need to be preserved. 
+
+[Join the iNaturalist project!](https://inaturalist.ca/projects/maybas-conservation-priorities-in-canada){.btn .btn-primary .btn role="button"}
+
+## Key Biodiversity Areas 
+
+__Key Biodiversity Areas (KBAs)__ are sites that contribute disproportionately to the survival of biodiversity on lands and in waters. They contain high concentrations of threatened and rare species and ecosystems, and so if these sites are transformed or degraded, there is a greater chance of important biodiversity loss - species or ecosystems could disappear from Canada or the planet. KBAs are an important building block for biodiversity conservation in Canada because they represent a standardized, transparent and credible information tool that Canadian conservation organizations and scientists have embraced. KBAs are already being used by governments, funders, and NGOs across the country in protected area planning, land use planning, stewardship, restoration, Indigenous-led conservation, biodiversity monitoring, education and inspiration. KBAs are also helping track progress towards federal conservation commitments (such as the Kunming-Montreal Global Biodiversity Framework). 
+
+__“MayBAs”__ are areas that experts or historical data have identified as places that could be KBAs, but where we need more data to confirm their status. We have included a map of these areas so citizen scientists like yourself can help build a pool of observations of priority species from a variety of groups and directly contribute to decision processes within Canada about what areas receive priority conservation attention. Join this challenge, and you could be directly responsible for identifying a new KBA!  
+
+## Where should you go?
+
+This [species list](https://docs.google.com/spreadsheets/d/13sVfHA7ZQC7CR3s1qJyea5NH210DEXG2/edit?usp=sharing&ouid=100802341057493756245&rtpof=true&sd=true) contains a list of species that are rare and/or threatened, and which are on the KBA “Wanted List” because more information on where they’re found and their population at these places could lead to new KBAs. Any information that you can help gather for these species could help to find new KBAs that could help inform conservation and protect species. Use the filtering on the spreadsheet to find species or taxonomic groups you’re interested in, or search through the “Recorded Distribution” field to find the list of species that are found in your area. For more information on species, try searching for COSEWIC reports, IUCN reports, or other information online. 
+
+To explore and learn more about all the published and in-progress KBAs, visit the [KBACanada website](https://kbacanada.org/explore/map-viewer/), or the [KBACanada iNaturalist page](https://www.inaturalist.org/projects/key-biodiversity-areas-of-canada). 
+
+If you’re looking for specific places to visit, we have created an interactive map that you can use to find areas near you that have been identified as MayBAs. For most sites, the interactive map will show the specific species of KBA interest at the site to keep a special eye out for, but for many of these places, any information you can help collect about the diversity within them will help. The sites are coloured according to the approximate time (in driving hours) from the nearest city (of at least 10,000 people).
+
+```{=html}
+<iframe width="800" height="600" src="https://pollocklab.github.io/blitzthegap-mayBA/challenge_mayBA_map.html" title="MayBAs in Canada" data-external="1"></iframe>
+```
+
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
+## What species should you look for?
+
+Any species in these places are important to look for! The KBA team has a list of species they need more data about to inform conservation. If you find one of these species, your observation will be logged in this [iNaturalist project](https://inaturalist.ca/projects/maybas-conservation-priorities-in-canada). Keep an eye out for them!
+
+## Who made this challenge?
+
+This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project. The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia. 
+
+This particular challenge was made by [Katherine Hébert](https://katherinehebert.github.io/), [Laura Pollock](https://qbiodiversity.org/), [David Hunt](https://davidagahunt.weebly.com/about.html) in collaboration with [Peter Soroye](https://wcscanada.org/about/contact/peter-soroye/) and [Ciara Raudsepp-Hearne](https://wcscanada.org/about/contact/ciara-raudsepp-hearne/) from the Wildlife Conservation Society (WCS). Peter is the KBA Assessment and Outreach Coordinator at WCS and Ciara leads the WCS Canada KBA team to identify and map KBAs in Canada. Katherine is a Postdoctoral Researcher at McGill who researches indicators of biodiversity change. Laura is a professor, also at McGill, who researchers large-scale patterns of biodiversity, often using data from iNaturalist. David is a Living Data Project postdoc at McGill and Université de Montréal who researches the predictability and repeatability of evolution in natural systems. 

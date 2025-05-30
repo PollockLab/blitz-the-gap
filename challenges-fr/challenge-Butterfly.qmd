@@ -1,0 +1,70 @@
+---
+title: More than the Monarch
+image: images/Butterfly_banner.png
+---
+
+![](images/more-than-monarch.png){fig-align="center"}
+
+## What's the problem?
+
+In Canada, we have more than 5,000 species recorded of butterflies and moths, one of which is the Monarch (Danaus plexippus), the fifth most recorded species in the country. That’s awesome! 
+
+Unfortunately, most of these species have only been recorded a few times in specific locations, and we lack further information about them. You can help! Next time you're outside, whether on a hike or doing fieldwork, take a photo of any butterflies or moths you see and upload it to iNaturalist. 
+
+[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-more-than-the-monarch){.btn .btn-primary .btn role="button"}
+
+Or if you're interested in contributing checklist data and recording your observations in a more structured way, you can also check out [eButterfly](https://www.e-butterfly.org/ebapp/en)!
+
+## Where should you go and what should you look for?
+
+All Canada! Whenever you're doing an outdoor activity this summer, look for butterflies and moths, take a picture and upload it in the iNaturalist app. Every observation counts. 
+
+Check out some more detailed recommendations below!
+
+## **Not sure what to look for?**
+
+### Made in Canada species
+
+We have endemic butterfly and moth species here in Canada. On this map, you can see the ones that have been recorded. Help us gather more information about them!
+
+```{=html}
+<iframe width="900" height="700" src="maps/challenge_MadeCanada_Butterfly_map.html" title="Endemic butterflies and moths species"></iframe>
+```
+
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
+Sadly, some endemic species haven't been recorded yet. Help us find them, take a photo and upload it!
+
+Species                   |Common Name        |Group
+--------------------------|-------------------|-------
+Animomyia hardwicki       |Geometrid moth     |Moths
+Elachista cicadella       |Glass miner moth   |Moths
+Elachista serra           |Glass miner moth   |Moths
+Euxoa apopsis             |Dart moth          |Moths
+Euxoa muldersi            |Mulder's Dart Moth |Moths
+Feltia troubridgei        |Noctuid moth       |Moths
+Hydrelia terraenovae      |Carpet moth        |Moths
+Lasionycta gelida         |Noctuid moth       |Moths
+Pelochrista louisana      |Tortricid moth     |Moths
+Stenoptilia grandipuncta  |Plume moth         |Moths
+
+
+## Help find these missing Canadian species!
+
+Have you seen this butterfly? These species are known to live in Canada, but haven't been observed yet on iNaturalist. Can you find them?
+
+```{=html}
+<iframe width="900" height="700" src="maps/challenge_wanted_butterfly_map.html" title="Most wanted butterflies and moths"></iframe>
+```
+
+:::{.callout-warning}
+The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+:::
+
+## **Who created this challenge?**
+
+This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project. The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
+
+This particular challenge was designed by [Camila Diaz](https://www.researchgate.net/profile/Maria-Corzo-6). Camila is a PhD student at Université de Sherbrooke working on linking expert models to species distribution models to identify priority places for conservation.
