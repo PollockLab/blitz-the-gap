@@ -5,26 +5,35 @@ website:
   title: "Blitz the Gap"
   search: false
   navbar:
+    logo: images/Logo2.png
     left:
-      - href: index.qmd
-        text: Challenge List
-      - href: challenge-details.qmd
-        text: Details
+      - href: index.qmd#challenges
+        text: Challenges
       - href: https://blitzthegap.org
-        text: About Blitz the Gap
+        text: About
       - href: https://inaturalist.ca/projects/blitz-the-gap
-        text: iNaturalist
+        text: Join on iNaturalist
       - href: workflows.qmd
-        text: Workflows
-
+        text: Code
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Starting soon!** Blitz the Gap kicks off on June 1st!"
+    type: success
+    position: below-navbar
 format:
   html:
     theme: 
     - yeti
     - custom.scss
     embed-resources: true
+    page-layout: full
     smooth-scroll: true
     toc: true
     fontsize: 12pt
     grid:
-      margin-width: 0px
+      margin-width: 100px
+      body-width: 700px
+      sidebar-width: 300px
+
+      
