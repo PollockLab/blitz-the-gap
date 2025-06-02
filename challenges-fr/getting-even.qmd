@@ -1,0 +1,38 @@
+---
+title: Espèces en déséquilibre
+image: images/scales.png
+---
+
+![](images/getting-even.png){fig-align="center"}
+
+## Notre manque de connaissances…
+
+Il y a **beaucoup** d’observations sur iNaturalist - c’est super! Par contre, ces observations peuvent être biaisées vers certains groupes d’organismes, surtout dans certaines régions. Par exemple, à Calgary, nous avons plus de **70 000** d’observations d’oiseaux et **100 000** pour les plantes, mais moins de **300** observations pour les reptiles et amphibiens. On sait qu’ils peuvent souvent être difficiles à trouver, mais on peut s’améliorer!
+
+Le but de ce projet est d’égaliser les observations à travers les différents groupes d’espèces pour corriger le biais. Pour faire ceci, nous avons identifié le groupe d’espèces avec le moins d’observations dans chaque comté (ou district de recensement) à travers le Canada. Nous comptons maintenant sur les habitants de ces régions pour nous aider à égaliser les observations!
+
+[Voir ce projet sur iNaturalist!](https://www.inaturalist.org/projects/blitz-the-gap-getting-even){.btn .btn-primary .btn role="button"}
+
+## Où aller, et quoi chercher?
+
+Vérifiez la carte ci-dessous pour voir quels groupes d’organismes sont le moins représentés dans votre comté et dans les comtés autour de vous!
+
+Notez que nous avions enlevé les oiseaux de cette analyse car ils sont déjà très bien représentés dans nos données de eBird. Désolé aux amateurs d’oiseaux!
+
+```{=html}
+<iframe width="900" height="700" src="maps/getting-even-nobirds.html" title="Espèces en déséquilibre"></iframe>
+```
+
+::: callout-warning
+Les emplacements sur cette carte sont que des suggestions et ne sont pas des instructions exactes pour votre échantillonage. On peut pas déterminer la sécurité, l'accès, ou le propriétaire de ces terres. Veuillez vérifier si l'accès est sécuritaire et légal.
+:::
+
+## Comment ces données nous seront utiles…
+
+Avoir des observations dans plusieurs groupes d'organismes dans une région est très utile! Ces données nous aident à découvrir les communautés d’organismes qui vivent dans chaque écosystème. De plus, ça nous aide à mieux comprendre la répartition des espèces dans cette communauté, et comment ils interagissent. Tout cela nous aide à mieux informer des projets de conservation. Pour savoir quelles espèces sont à prioriser et à protéger au Canada, il faut premièrement savoir qui est présent et où ils se retrouvent.
+
+## Qui a lancé ce défi?
+
+Ce défi a été créé par un groupe d’écologistes, d’étudiants de deuxième cycle, et de scientifiques citoyens. Cette équipe comprend des scientifiques qui étudient l’effet des changements climatiques sur la biodiversité, et des utilisateurs de iNaturalist comme vous qui aident à la collecte des données nécessaires. Le projet-cadre Blitz-The-Gap tente d’augmenter le nombre d’observations iNaturalist qui peuvent être utilisées en science et en conservation, et est soutenu par: la Fédération Canadienne de la Faune, le Wildlife Conservation Society Canada, Zones Clés pour la Biodiversité Canada, Biodiversité au Campus, le Data4Nature cluster de l’Université de la Colombie-Britannique, l’Université McGill, et l’Institut Canadien de l’Écologie et de l’Évolution, y compris le projet Living Data.
+
+Ce défi particulier a été créé par [Lucas Eckert](https://www.lucaseckert.ca/) et [Laura Pollock](https://qbiodiversity.org/). Lucas est un étudiant au doctorat à l’Université McGill (et un passionné de iNat), qui étudie comment des organismes peuvent s’adapter aux changements environnementaux. Laura est une professeure McGill qui étudie les modèles de biodiversité, souvent en utilisant les données de iNaturalist.

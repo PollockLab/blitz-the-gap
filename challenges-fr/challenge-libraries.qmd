@@ -1,0 +1,48 @@
+---
+title: Livres, lichens, et libellules
+image: images/public-library-challenge-banner.jpg
+---
+
+![](images/public-library-challenge-banner.png){fig-align="center"}
+
+Joignez-vous à votre bibliothèque publique locale pour photographier des plants, des animaux, des champignons et plus! Les débutants sont bienvenue. Aidez-nous à charactériser la biodiversité à travers ce grand pays merveilleux.
+
+*Ce défi est encore en construction. Restez à l'écoute pour plus de détails.*
+
+## Quel est le problème?
+
+Le Canada est si vaste que 90% de sa biodiversité reste mal charactérisée. Sans des connaissances concrètes sur quelles espèces sont présentes et où elles se trouvent, on ne peut pas détecter quand ils disparaissent. Des extinctions peuvent avoir de grandes conséquences sur nos ressources naturelles, la sécurité alimentaire, et la santé de nos écosystèmes. Par exemple, les papillons sont d'importantes pollinisateurs de nos fleurs. Aidez nos scientifiques et nos biologistes en téléchargeant iNaturalist et en enregistrant le plus d'observations de plantes, d'animaux, et de champignons (parmi d'autres!) que possible.
+
+## Par où commencer?
+
+On collabore avec des bibliothèques publiques à travers le Canada pour vous aider à démarrer. Votre bibliothèque publique devrait avoir accès aux guides d'aide de iNaturalist ainsi que des guides pour vous aider à apprendre davantage sur les plantes, les animaux, et plus. Si votre bibliothèque locale n'est pas encore au courant de ce projet, veuillez nous contacter par courriel - on est là pour les aider. Les bibliothèques qui accumulent le plus d'observations pourront gagner des prix! Veuillez remplir \[ce formulaire\] (Restez à l’affût!) pour qu'on puisse savoir à quelle "équipe" de biblithèque on doit associer vos observations.
+
+[Voir le projet sur iNaturalist!](https://inaturalist.ca/projects/blitz-the-gap-books-butterflies-blooms){.btn .btn-primary .btn role="button"}
+
+## Trouver une bibliothèque:
+
+Utiliser la carte ci-dessous pour vous aider à trouver la bibliothèque la plus proche de vous. Veuillez nous contacter si votre bibliothèque n'apparaît pas sur la carte - on l'ajoutera.
+
+## Les bibliothèques publiques au Canada:
+
+```{=html}
+<iframe width="450" height="350" src="maps/challenge_library_map.html" title="Bibliothèques"></iframe>
+```
+
+::: callout-warning
+Les emplacements sur cette carte sont que des suggestions et ne sont pas des instructions exactes pour votre échantillonage. On peut pas déterminer la sécurité, l'accès, ou le propriétaire de ces terres. Veuillez vérifier si l'accès est sécuritaire et légal.
+:::
+
+## Où aller pour prendre vos observations?
+
+Tout emplacement qui est sécuritaire et intéressant pour vous! N'oubliez pas de nous indiquer quelle équipe de bibliothèque vous avez joint (voir *Par Où Commencer*)
+
+## Comment ces observations nous sont utiles...
+
+On utilise ces données pour comprendre où se retrouvent nos espèces canadiennes. Les observations provenant de communautées rurales et isolées sont particulièrement précieuses car on connaît comparativement très peu à propos de la biodiversité dans ces régions.
+
+## Qui a lancé ce défi?
+
+Ce défi a été créé par le groupe de travail Blitz the Gap, supporté par le Projet Living Data de l’Institut Canadien d’Écologie et d’Évolution (ICEE PLD). Le groupe de travail est dirigé par Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, et Sandra Emry de l’Université McGill et l’Université de la Colombie-Britannique.
+
+Ce défi a été créé pour Blitz the Gap et a été conçu par [Michelle Tseng](https://www.bugsandplankton.com/), [Eniola Olu-Ayorinde](https://www.linkedin.com/in/eniola-multipotentialite-oni300/?originalSubdomain=ca) et [Diane Srivastava](https://www.zoology.ubc.ca/~srivast/). Eniola Olu-Ayorinde est une étudiante au deuxième cycle en écologie quantitative à l'Université de Regina. Michelle Tseng and Diane Srivastava sont des professeures d'écologie à L'Université de la Colombie-Brittanique.

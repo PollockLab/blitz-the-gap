@@ -1,0 +1,67 @@
+---
+title: Au delà du monarque
+image: images/Butterfly_banner.png
+---
+
+![](images/more-than-monarch.png){fig-align="center"}
+
+## Notre manque de connaissances:
+
+Au Canada, on a plus de 5,000 espèces de papillons et de papillons de nuit. Le monarque (Danaus plexippus) en fait partie, étant la cinquième espèce la plus observée au pays. C’est super!
+
+Malheureusement, la plupart de ces espèces ont seulement été enregistrées une couple de fois à des emplacements spécifiques; on ne les connaît pas assez bien. Vous pouvez nous aider! La prochaine fois que vous êtes dehors, soit sur une randonnée ou sur le terrain, prenez des photos des papillons qui vous entourent et téléchargez-les sur iNaturalist.
+
+[Voir le projet sur iNaturalist!](https://inaturalist.ca/projects/blitz-the-gap-more-than-the-monarch){.btn .btn-primary .btn role="button"}
+
+Ou, si vous souhaitez contribuer aux données de listes de contrôle et enregistrer vos observations de manière plus structurée, consultez [eButterfly](https://www.e-butterfly.org/ebapp/en)!
+
+## Où aller, et quoi chercher?
+
+Partout au Canada! Quand vous êtes dehors, photographiez les papillons et les papillons de nuit, et téléchargez-les sur l’application iNaturalist. Toute observation compte! La carte ci-dessous vous donne des recommendations plus précises.
+
+## **Vous ne savez pas quoi chercher?**
+
+### Les espèces uniquement canadiennes
+
+Il y a plusieurs espèces de papillons et de mites qui sont endémiques au Canada. Sur cette carte, vous pouvez voir celles qui ont déjà été observées. Aidez-nous à en savoir davantage à travers vos observations!
+
+```{=html}
+<iframe width="900" height="700" src="maps/challenge_MadeCanada_Butterfly_map.html" title="Les papillons et les mites endémiques au Canada"></iframe>
+```
+
+::: callout-warning
+Les emplacements sur cette carte sont que des suggestions et ne sont pas des instructions exactes pour votre échantillonage. On peut pas déterminer la sécurité, l'accès, ou le propriétaire de ces terres. Veuillez vérifier si l'accès est sécuritaire et légal.
+:::
+
+Malheureusement, certaines espèces endémiques n'ont pas encore été observées. Aidez-nous à les Sadly, some endemic species haven't been recorded yet. Help us find them, take a photo and upload it!
+
+| Espèce                   | Nom Commun         | Groupe |
+|--------------------------|--------------------|--------|
+| Animomyia hardwicki      | Geometrid moth     | Moths  |
+| Elachista cicadella      | Glass miner moth   | Moths  |
+| Elachista serra          | Glass miner moth   | Moths  |
+| Euxoa apopsis            | Dart moth          | Moths  |
+| Euxoa muldersi           | Mulder's Dart Moth | Moths  |
+| Feltia troubridgei       | Noctuid moth       | Moths  |
+| Hydrelia terraenovae     | Carpet moth        | Moths  |
+| Lasionycta gelida        | Noctuid moth       | Moths  |
+| Pelochrista louisana     | Tortricid moth     | Moths  |
+| Stenoptilia grandipuncta | Plume moth         | Moths  |
+
+## Aidez-nous à trouver ces papillons canadiennes manquantes!
+
+Avez-vous vu ce papillon? Ces espèces qui vivent au Canada n'ont pas encore été observées sur iNaturalist. Pouvez-cous les trouver?
+
+```{=html}
+<iframe width="900" height="700" src="maps/challenge_wanted_butterfly_map.html" title="Most wanted butterflies and moths"></iframe>
+```
+
+::: callout-warning
+Les emplacements sur cette carte sont que des suggestions et ne sont pas des instructions exactes pour votre échantillonage. On peut pas déterminer la sécurité, l'accès, ou le propriétaire de ces terres. Veuillez vérifier si l'accès est sécuritaire et légal.
+:::
+
+## **Qui a lancé ce défi?**
+
+Ce défi a été créé par une équipe d'écologistes, d'étudiants diplômés et de scientifiques communautaires. Le projet-cadre [Blitz-the-Gap](https://blitzthegap.org/) vise à augmenter le nombre d'observations iNaturalist pouvant être utilisées à des fins scientifiques et de conservation, et est soutenu par : la Fédération Canadienne de la Faune, le Wildlife Conservation Society Canada, Zones Clés pour la Biodiversité Canada, Biodiversité au Campus, le Data4Nature cluster de l’Université de la Colombie-Britannique, l’Université McGill, et l’Institut Canadien de l’Écologie et de l’Évolution, y compris le projet Living Data. Le groupe de travail est dirigé par Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, et Sandra Emry de l’Université McGill et l’Université de la Colombie-Britannique.
+
+Ce défi a été créé par [Camila Diaz](https://www.researchgate.net/profile/Maria-Corzo-6), un étudiant au doctorat à l’Université de Sherbrooke, qui tente de lier des modèles expertes au répartitions d’espèces pour identifier les zones de haute priorité pour la conservation.

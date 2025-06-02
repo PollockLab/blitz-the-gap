@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+<script src="challenge_freshwater_map_files/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="challenge_freshwater_map_files/maplibre-gl-5.0.0/maplibre-gl.css" rel="stylesheet" />
+<script src="challenge_freshwater_map_files/maplibre-gl-5.0.0/maplibre-gl.js"></script>
+<link href="challenge_freshwater_map_files/mapbox-gl-draw-1.4.3/mapbox-gl-draw.css" rel="stylesheet" />
+<script src="challenge_freshwater_map_files/mapbox-gl-draw-1.4.3/mapbox-gl-draw.js"></script>
+<script src="challenge_freshwater_map_files/freehand-mode-1.0.0/freehand-mode.js"></script>
+<link href="challenge_freshwater_map_files/maplibre-gl-geocoder-1.5.0/maplibre-gl-geocoder.css" rel="stylesheet" />
+<script src="challenge_freshwater_map_files/maplibre-gl-geocoder-1.5.0/maplibre-gl-geocoder.min.js"></script>
+<script src="challenge_freshwater_map_files/mapbox-gl-globe-minimap-1.2.1/bundle.js"></script>
+<script src="challenge_freshwater_map_files/pmtiles-3.2.0/pmtiles.js"></script>
+<script src="challenge_freshwater_map_files/h3j-h3t-0.9.2/h3j_h3t.js"></script>
+<script src="challenge_freshwater_map_files/maplibregl-binding-0.2.1/maplibregl.js"></script>
+<link href="challenge_freshwater_map_files/layers-control-1.0.0/layers-control.css" rel="stylesheet" />
+  <title>Make a splash!</title>
+</head>
+<body>
+<div id="htmlwidget_container">
+  <div id="htmlwidget-756855629f774e9c0d96" style="width:100%;height:500px;" class="maplibregl html-widget"></div>
+</div>
+<script type="application/json" data-for="htmlwidget-756855629f774e9c0d96">{"x":{"style":"https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json","center":[-90,60],"zoom":3,"bearing":0,"pitch":0,"additional_params":[],"layers":[{"id":"Priority","type":"fill","source":{"type":"vector","url":"pmtiles://https://object-arbutus.cloud.computecanada.ca/bq-io/blitz-the-gap/out3.pmtiles"},"source_layer":"water3","paint":{"fill-antialias":true,"fill-color":["match",["get","Priority"],"1","#D36135","2","#7FB069","3","#277CCB","4","#706BD1","red"],"fill-opacity":0.5,"fill-translate-anchor":"map"},"layout":{"visibility":"visible"},"slot":null,"minzoom":null,"maxzoom":null,"popup":"popup","tooltip":"Name","hover_options":{"fill_color":"yellow","fill_opacity":1},"before_id":null,"filter":null}],"legend_html":"<div id=\"legend-a6cd0\" class=\"mapboxgl-legend top-left\"><h2>Priority Level<\/h2><div class=\"legend-item\"><div class=\"legend-patch-container\" style=\"width:20px; height:20px;\"><span class=\"legend-color\" style=\"background-color:#D36135;width: 20px; height: 20px;\"><\/span><\/div><span class=\"legend-text\">1 (High Endemism, Low Observations)<\/span><\/div><div class=\"legend-item\"><div class=\"legend-patch-container\" style=\"width:20px; height:20px;\"><span class=\"legend-color\" style=\"background-color:#7FB069;width: 20px; height: 20px;\"><\/span><\/div><span class=\"legend-text\">2 (High Endemism, High Observations)<\/span><\/div><div class=\"legend-item\"><div class=\"legend-patch-container\" style=\"width:20px; height:20px;\"><span class=\"legend-color\" style=\"background-color:#277CCB;width: 20px; height: 20px;\"><\/span><\/div><span class=\"legend-text\">3 (Low Endemism, Low Observations)<\/span><\/div><div class=\"legend-item\"><div class=\"legend-patch-container\" style=\"width:20px; height:20px;\"><span class=\"legend-color\" style=\"background-color:#706BD1;width: 20px; height: 20px;\"><\/span><\/div><span class=\"legend-text\">4 (Low Endemism, High Observations)<\/span><\/div><\/div>","legend_css":"\n    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');\n    #legend-a6cd0 h2 {\n      font-size: 14px;\n      font-family: 'Open Sans';\n      line-height: 20px;\n      margin-bottom: 10px;\n      margin-top: 0px;\n      white-space: nowrap;\n      max-width: 100%;\n      overflow: hidden;\n      text-overflow: ellipsis;\n    }\n    #legend-a6cd0 {\n      position: absolute;\n      border-radius: 10px;\n      margin: 10px;\n      max-width: 250px;\n      background-color: #ffffff80;\n      padding: 10px 20px;\n      z-index: 1002;\n    }\n    #legend-a6cd0.top-left {\n      top: 10px;\n      left: 10px;\n    }\n    #legend-a6cd0.bottom-left {\n      bottom: 10px;\n      left: 10px;\n    }\n    #legend-a6cd0.top-right {\n      top: 10px;\n      right: 10px;\n    }\n    #legend-a6cd0.bottom-right {\n      bottom: 10px;\n      right: 10px;\n    }\n    #legend-a6cd0 .legend-item {\n      display: flex;\n      align-items: center;\n      margin-bottom: 5px;\n      font-family: 'Open Sans';\n      white-space: nowrap;\n      max-width: 100%;\n      overflow: hidden;\n    }\n    #legend-a6cd0 .legend-patch-container {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-right: 5px;\n    }\n    #legend-a6cd0 .legend-color {\n      display: inline-block;\n      flex-shrink: 0;\n    }\n    #legend-a6cd0 .legend-text {\n      flex-grow: 1;\n      text-overflow: ellipsis;\n      overflow: hidden;\n    }\n  "},"evals":[],"jsHooks":[]}</script>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-756855629f774e9c0d96">{"viewer":{"width":"100%","height":"100vh","padding":0,"fill":false},"browser":{"width":"100%","height":"100vh","padding":0,"fill":false}}</script>
+</body>
+</html>

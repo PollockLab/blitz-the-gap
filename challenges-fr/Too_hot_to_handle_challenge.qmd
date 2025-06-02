@@ -1,0 +1,58 @@
+---
+title: Coup de chaleur
+image: images/2hot_image_crop.jpg
+---
+
+![](images/too-hot-to-handle.png){fig-align="center"}
+
+## Pourquoi?
+
+Les changements climatiques impactent certains endroits du pays plus que d’autres. Vous pouvez aider les scientifiques et les communautés à suivre comment certaines espèces vont répondre à ces changements en contribuant vos observations à ce projet iNaturalist.
+
+Enregistrez n’importe quelle espèce dans cette liste pour bâtir les connaissances nécessaires pour faire des suggestions informées en conservation. Il s'agit des espèces qui, selon nos prévisions, seront les plus touchées par les changements climatiques, parfois en perdant une grande partie de leur répartition. On n’a pas assez de données sur ces espèces pour savoir si leurs répartitions vont réduire.
+
+Plusieurs de ces espèces se trouvent dans les écosystèmes montagnards, boréaux et arctiques.
+
+Parmi ceux-ci est l’harfang des neiges ([*Bubo scandiacus*](https://inaturalist.ca/observations?taxon_id=144594)), la fétuque hyperboréale ([*Festuca hyperborea*](https://inaturalist.ca/observations?taxon_id=162954)), et plusieurs d'autres.
+
+**Voir d'autres espèces comme ceux-ci sur iNaturalist:**
+
+[Voir ce projet sur iNaturalist](https://www.inaturalist.org/projects/blitz-the-gap-too-hot-to-handle){.btn .btn-primary .btn role="button"}
+
+## Où aller?
+
+Visiter les emplacements qui pourraient avoir les espèces dans cette liste. La carte ci-dessous représente un classement de régions au Canada par le degré de réchauffement prévu. Les endroits indiqués étaient dans le top 25% par sévérité du réchauffement. Vos observations d’espèces dans ces régions est la meilleure façon de faire une différence dans nos efforts pour suivre la réponse des espèces au réchauffement de la planète (celles-ci ne seront pas incluses dans le leaderboard iNaturalist, mais seront évaluées séparément).
+
+```{=html}
+<iframe width="900" height="700" src="maps/toohottohandlemap.html" title="Coup de chaleur"></iframe>
+```
+
+::: callout-warning
+Les emplacements sur cette carte sont que des suggestions et ne sont pas des instructions exactes pour votre échantillonage. On peut pas déterminer la sécurité, l'accès, ou le propriétaire de ces terres. Veuillez vérifier si l'accès est sécuritaire et légal.
+:::
+
+## Quoi chercher?
+
+On a compilé une liste d'espèces (voir les taxons énumérés [ici](https://www.inaturalist.org/projects/blitz-the-gap-too-hot-to-handle)) qui sont dans le 10% des espèces les plus menacées par les changements climatiques. Tout observation de ces espèces sera inclu dans le projet [Blitz the Gap: Too Hot To Handle project](https://www.inaturalist.org/projects/blitz-the-gap-too-hot-to-handle).
+
+## Qui a lancé ce défi?
+
+Ce défi a été créé par un groupe d’écologistes, d’étudiants de deuxième cycle, et de scientifiques citoyens. Cette équipe comprend des scientifiques qui étudient l’effet des changements climatiques sur la biodiversité, et des utilisateurs de iNaturalist comme vous qui aident à la collecte des données nécessaires. Le projet-cadre [Blitz-The-Gap](https://blitzthegap.org/) tente d’augmenter le nombre d’observations iNaturalist qui peuvent être utilisées en science et en conservation, et est soutenu par: la Fédération Canadienne de la Faune, le Wildlife Conservation Society Canada, Zones Clés pour la Biodiversité Canada, Biodiversité au Campus, le Data4Nature cluster de l’Université de la Colombie-Britannique, l’Université McGill, et l’Institut Canadien de l’Écologie et de l’Évolution, y compris le projet Living Data.
+
+-   Joshua Lee (@josh_lee) est un étudiant au doctorat qui étudie comment de nouveaux indicateurs de biodiversité peuvent être intégrés dans la conservation en Australie.
+
+-   Nicole Kester (@nkester) est une étudiante en maîtrise qui étudie les plantes invasives, et les modèles de leur propagation vers de nouvelles conditions climatiques.
+
+-   Brian Starzomski (@bstarzomski) est le professeur Ian McTaggart Cowan de la Conservation de la Biodiversité et de la Restauration Écologique, et codirige le BC Biodiversity project.
+
+-   Diane Srivastava (@diane_srivastava) mène le Projet Living Data et étudie comment les espèces et les réseaux alimentaires répondent aux changements climatiques et d’autres changements environnementaux.
+
+-   Sandra Emry (@sea_hugger) est une boursière postdoctorale chez le Projet Living Data, et étudie l’effet des coups de chaleur et d’autres changements à l’écologie marine.
+
+-   Shirley Morrison (@shirleymorrison) est une fervente utilisatrice de iNaturalist, et une contributrice au projet Butterflies in My Backyard (BIMBY)
+
+-   Stephen Deedes-Vincke (@deedesie) est bénévole chez BIMBY, et est certifié comme Intendant de Pollinisateurs et Ranger de Papillons.
+
+-   Michelle Tseng (@michelletseng) est une professeure qui étudie comment les changements climatiques affectent les communautés d’insectes et des réseaux alimentaires. Elle utilise souvent les données provenant de iNaturalist dans ses projets, notamment les données de BIMBY.
+
+Les modèles de répartition des espèces et les analyses associés sont des contributions de Laura Pollock, Isaac Eckert, and Noah Wightman (Quantitative Biodiversity Lab, McGill). Voir [Eckert et al. 2023](https://www.nature.com/articles/s41467-023-42737-x) comme exemple de comment ces données sont utilisées.
