@@ -1,48 +1,48 @@
 ---
-title: Books, Butterflies & Blooms
+title: Livres, lichens, et libellules
 image: images/public-library-challenge-banner.jpg
 ---
 
 ![](images/public-library-challenge-banner.png){fig-align="center"}
 
-Team up with your local public library to photograph plants, animals, fungi and more! Beginners welcome. Help us survey biodiversity across this vast and beautiful country.
+Joignez-vous à votre bibliothèque publique locale pour photographier des plants, des animaux, des champignons et plus! Les débutants sont bienvenue. Aidez-nous à charactériser la biodiversité à travers ce grand pays merveilleux.
 
-_This challenge is still in construction. Stay tuned for more details!_
+*Ce défi est encore en construction. Restez à l'écoute pour plus de détails.*
 
-## What's the problem?
+## Quel est le problème?
 
-Canada is so vast that 90% of the country’s biodiversity remains poorly studied. Without a clear understanding of which species live where, we cannot detect when they disappear. Species extinctions could have far-reaching consequences for our natural resources, food security, and the health of our ecosystems. For example, butterflies are important pollinators of flowers. Help scientists and conservation biologists by signing up for iNaturalist and uploading as many observations of plants, animals, fungi (and more!) as you can.
+Le Canada est si vaste que 90% de sa biodiversité reste mal charactérisée. Sans des connaissances concrètes sur quelles espèces sont présentes et où elles se trouvent, on ne peut pas détecter quand ils disparaissent. Des extinctions peuvent avoir de grandes conséquences sur nos ressources naturelles, la sécurité alimentaire, et la santé de nos écosystèmes. Par exemple, les papillons sont d'importantes pollinisateurs de nos fleurs. Aidez nos scientifiques et nos biologistes en téléchargeant iNaturalist et en enregistrant le plus d'observations de plantes, d'animaux, et de champignons (parmi d'autres!) que possible.
 
-## How do I get started?
+## Par où commencer?
 
-We are collaborating with public libraries across Canada to help people get started. Your public library should have access to iNaturalist help guides as well as guides to help you learn about plants, animals, and more. If your local library doesn’t know about this activity, contact us and we will email materials to them. Libraries associated with the most observations will win prizes. Fill in \[THIS SHORT FORM\] (stay tuned!) so that we know which library ‘team’ to link your observations to.
+On collabore avec des bibliothèques publiques à travers le Canada pour vous aider à démarrer. Votre bibliothèque publique devrait avoir accès aux guides d'aide de iNaturalist ainsi que des guides pour vous aider à apprendre davantage sur les plantes, les animaux, et plus. Si votre bibliothèque locale n'est pas encore au courant de ce projet, veuillez nous contacter par courriel - on est là pour les aider. Les bibliothèques qui accumulent le plus d'observations pourront gagner des prix! Veuillez remplir \[ce formulaire\] (Restez à l’affût!) pour qu'on puisse savoir à quelle "équipe" de biblithèque on doit associer vos observations.
 
-[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-books-butterflies-blooms){.btn .btn-primary .btn role="button"}
+[Voir le projet sur iNaturalist!](https://inaturalist.ca/projects/blitz-the-gap-books-butterflies-blooms){.btn .btn-primary .btn role="button"}
 
-## Where should you go?
+## Trouver une bibliothèque:
 
-Use the map below to help search for your closest library. Contact us if your closest library is not listed and we will add it to the map.
+Utiliser la carte ci-dessous pour vous aider à trouver la bibliothèque la plus proche de vous. Veuillez nous contacter si votre bibliothèque n'apparaît pas sur la carte - on l'ajoutera.
 
-## Public libraries in Canada
+## Les bibliothèques publiques au Canada:
 
 ```{=html}
-<iframe width="450" height="350" src="maps/challenge_library_map.html" title="Libraries"></iframe>
+<iframe width="450" height="350" src="maps/challenge_library_map.html" title="Bibliothèques"></iframe>
 ```
 
-:::{.callout-warning}
-The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+::: callout-warning
+Les emplacements sur cette carte sont que des suggestions et ne sont pas des instructions exactes pour votre échantillonage. On peut pas déterminer la sécurité, l'accès, ou le propriétaire de ces terres. Veuillez vérifier si l'accès est sécuritaire et légal.
 :::
 
-## Where should you go to take pictures?
+## Où aller pour prendre vos observations?
 
-Anywhere safe and interesting to you! Don't forget to tell us which library team you are joining (see How do I get Started)
+Tout emplacement qui est sécuritaire et intéressant pour vous! N'oubliez pas de nous indiquer quelle équipe de bibliothèque vous avez joint (voir *Par Où Commencer*)
 
-## How do we use the observations?
+## Comment ces observations nous sont utiles...
 
-We use the data to help figure out where different species are found in Canada. Observations from rural or remote locations are particularly valuable because a lot less is known about the biodiversity of these locations.
+On utilise ces données pour comprendre où se retrouvent nos espèces canadiennes. Les observations provenant de communautées rurales et isolées sont particulièrement précieuses car on connaît comparativement très peu à propos de la biodiversité dans ces régions.
 
-## Who created this challenge?
+## Qui a lancé ce défi?
 
-This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the [Living Data Project](https://www.ciee-icee.ca/ldp.html). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
+Ce défi a été créé par le groupe de travail Blitz the Gap, supporté par le Projet Living Data de l’Institut Canadien d’Écologie et d’Évolution (ICEE PLD). Le groupe de travail est dirigé par Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, et Sandra Emry de l’Université McGill et l’Université de la Colombie-Britannique.
 
-This challenge was created for Blitz the Gap and designed by [Michelle Tseng](https://www.bugsandplankton.com/), [Eniola Olu-Ayorinde](https://www.linkedin.com/in/eniola-multipotentialite-oni300/?originalSubdomain=ca) and [Diane Srivastava](https://www.zoology.ubc.ca/~srivast/). Eniola Olu-Ayorinde is a graduate student in quantitative ecology at the University of Regina. Michelle Tseng and Diane Srivastava are ecology professors at the University of British Columbia.
+Ce défi a été créé pour Blitz the Gap et a été conçu par [Michelle Tseng](https://www.bugsandplankton.com/), [Eniola Olu-Ayorinde](https://www.linkedin.com/in/eniola-multipotentialite-oni300/?originalSubdomain=ca) et [Diane Srivastava](https://www.zoology.ubc.ca/~srivast/). Eniola Olu-Ayorinde est une étudiante au deuxième cycle en écologie quantitative à l'Université de Regina. Michelle Tseng and Diane Srivastava sont des professeures d'écologie à L'Université de la Colombie-Brittanique.

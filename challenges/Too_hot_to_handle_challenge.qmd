@@ -7,22 +7,21 @@ image: images/2hot_image_crop.jpg
 
 ## Why?
 
-Climate change is impacting some parts of the country more than others. You can help scientists and communities track how species are responding to these changes by joining this Blitz-the-Gap project. 
-Record any species on this list to help build the knowledge that scientists need to propose actions for conservation. These species are those that models suggest could be negatively impacted by climate change–in some cases losing substantial parts of their range. These species don’t have enough data for us to know if they are indeed shrinking from climate change. 
+Climate change is impacting some parts of the country more than others. You can help scientists and communities track how species are responding to these changes by joining this Blitz-the-Gap project. Record any species on this list to help build the knowledge that scientists need to propose actions for conservation. These species are those that models suggest could be negatively impacted by climate change–in some cases losing substantial parts of their range. These species don’t have enough data for us to know if they are indeed shrinking from climate change.
 
 Many of these species are found in montane, boreal and arctic ecosystems.
 
-Examples include the Snowy Owl (<a href="https://inaturalist.ca/observations?taxon_id=144594"><i>Bubo scandiacus</i></a>), the Thinhorn/Dall’s Sheep (<a href="https://inaturalist.ca/observations?taxon_id=42390"><i>Ovis dalli</i></a>), and the Freija fritillary (<a href="https://inaturalist.ca/observations?taxon_id=204862"><i>Boloria freija</i></a>).
+Examples include the Snowy Owl ([*Bubo scandiacus*](https://inaturalist.ca/observations?taxon_id=144594)), the Thinhorn/Dall’s Sheep ([*Ovis dalli*](https://inaturalist.ca/observations?taxon_id=42390)), and the Freija fritillary ([*Boloria freija*](https://inaturalist.ca/observations?taxon_id=204862)).
 
-Plants include the Arctic Willow (<a href="https://inaturalist.ca/observations?taxon_id=67799"><i>Salix arctica</i></a>), Boreal Fescue (<a href="https://inaturalist.ca/observations?taxon_id=162954"><i>Festuca hyperborea</i></a>), and many more. 
+Plants include the Arctic Willow ([*Salix arctica*](https://inaturalist.ca/observations?taxon_id=67799)), Boreal Fescue ([*Festuca hyperborea*](https://inaturalist.ca/observations?taxon_id=162954)), and many more.
 
-__See more of these species on the iNaturalist project:__
+**See more of these species on the iNaturalist project:**
 
 [Join the iNaturalist project!](https://www.inaturalist.org/projects/blitz-the-gap-too-hot-to-handle){.btn .btn-primary .btn role="button"}
 
 ## Where should you go?
 
-Any locations that are likely to have the species on the list. We also made a map of general locations that you can see below, where we ranked areas in Canada by the severity of expected warming. These locations were in the top 25%. Recording species in these particular locations is the easiest way to make a difference in tracking species changes in response to climate warming (these areas are not included in the iNaturalist leaderboard, but will be evaluated separately). 
+Any locations that are likely to have the species on the list. We also made a map of general locations that you can see below, where we ranked areas in Canada by the severity of expected warming. These locations were in the top 25%. Recording species in these particular locations is the easiest way to make a difference in tracking species changes in response to climate warming (these areas are not included in the iNaturalist leaderboard, but will be evaluated separately).
 
 ```{=html}
 <iframe width="900" height="700" src="maps/toohottohandlemap.html" title="Too Hot To Handle"></iframe>

@@ -1,32 +1,32 @@
 ---
-title: The Other 99%
+title: L'autre 99%
 image: images/cities.png
 ---
 
 ![](images/other-99-percent-2.jpeg){fig-align="center"}
 
-## What's the problem?
+## Quel est le problème?
 
-Canada is a big place. And even though you've submitted a lot of observations, most of those are found in a pretty small set of locations, especially cities. In fact, **over half** of all iNat observations in Canada are found in areas that make up **just 1%** of Canada's total area. This means we are missing a lot of observations from the vast majority of our country.
+Le Canada est un grand pays. Et même si vous avez soumis beaucoup d'observations, la plupart d'entre elles se trouvent dans un ensemble assez restreint d'endroits, en particulier les villes. En fait, **plus de la moitié** de toutes les observations iNat au Canada se trouvent dans des zones qui ne représentent **que 1 %** de la superficie totale du Canada. Cela signifie que nous manquons beaucoup d'observations dans la grande majorité de notre pays.
 
-In this challenge, we are asking you to visit the **other 99%** of Canada and document the incredible diversity of organisms found all our across our country.
+Dans ce défi, nous vous demandons de visiter **l’autre 99 %** du Canada et de documenter l'incroyable diversité des organismes que l'on trouve partout dans notre pays.
 
-[Join the iNaturalist project!](https://www.inaturalist.org/projects/blitz-the-gap-the-other-99){.btn .btn-primary .btn role="button"}
+[Voir le projet sur iNaturalist!](https://www.inaturalist.org/projects/blitz-the-gap-the-other-99){.btn .btn-primary .btn role="button"}
 
-## Where should you go?
+## Où dois-je aller?
 
-The map below shows you which counties (or equivalent census districts) are most densely sampled and which could use some more observations. In the iNat project, we have included observations from all across Canada **except** for the 50 most densely sampled counties, shown in red on the map - these are the ones to avoid. As an extra challenge, try avoiding the next 60 most sampled counties, shown in yellow. The red and yellow areas contain **over 75%** of all Canadian iNat observations while representing **just 3.5%** of Canada's area.
+Dans ce projet iNat, nous avons inclus des observations provenant de tout le Canada **à l'exception** des 50 comtés les plus densément échantillonnés, en rouge sur la carte ci-dessous - il faut éviter ceux-ci. Pour passer au prochain niveau, essayez d’éviter les prochains 60 comtés avec le plus de données, en jaune sur la carte. Les comtés rouges jaunes contiennent **75%** de nos observations sur iNaturalist au Canada, mais constituent seulement **3.5%** de la superficie du pays.
 
 ```{=html}
 <iframe width="900" height="700" src="maps/99-percent-map.html" title="The Other 99%"></iframe>
 ```
 
-## How will this data be used?
+## Comment ces données seront-elles utilisées?
 
-More observations from places that are poorly sampled can really help us understand how organisms are distributed. This type of data is crucial to planning conservation programs.
+Un plus grand nombre d'observations provenant d'endroits mal échantillonnés peut vraiment nous aider à comprendre comment les organismes sont répartis. Ce type de données est essentiel pour planifier les programmes de conservation.
 
-## Who created this challenge?
+## Qui a créé ce défi?
 
-This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the Living Data Project. The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia. 
+Ce défi a été créé par une équipe d'écologistes, d'étudiants diplômés et de scientifiques communautaires. Le projet-cadre [Blitz-the-Gap](https://blitzthegap.org/) vise à augmenter le nombre d'observations iNaturalist pouvant être utilisées à des fins scientifiques et de conservation, et est soutenu par : la Fédération Canadienne de la Faune, le Wildlife Conservation Society Canada, Zones Clés pour la Biodiversité Canada, Biodiversité au Campus, le Data4Nature cluster de l’Université de la Colombie-Britannique, l’Université McGill, et l’Institut Canadien de l’Écologie et de l’Évolution, y compris le projet Living Data.
 
-This particular challenge was designed by [Lucas Eckert](https://www.lucaseckert.ca/) and [Laura Pollock](https://qbiodiversity.org/). Lucas is a PhD student at McGill University (and avid iNat user), who researches how organisms respond and adapt to changing environmental conditions. Laura is a professor, also at McGill, who researchers large-scale patterns of biodiversity, often using data from iNaturalist.
+Ce défi particulier a été conçu par [Lucas Eckert](https://www.lucaseckert.ca/) et [Laura Pollock](https://qbiodiversity.org/). Lucas est étudiant en doctorat à l'Université McGill (et fervent utilisateur d'iNat). Il étudie la façon dont les organismes réagissent et s'adaptent aux conditions environnementales changeantes. Laura est professeure à McGill, et étudie les modèles de biodiversité à grande échelle, en utilisant souvent les données d'iNaturalist.

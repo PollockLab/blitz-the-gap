@@ -1,36 +1,40 @@
 ---
-title: Seaweeds of Canada
+title: Les Algues du Canada
 image: images/Seaweeds_Canada_banner.jpg
 ---
 
 ![](images/Seaweeds_Canada_banner.jpg){fig-align="center"}
 
-## What's the problem?
+## Comment vous pouvez contribuer:
 
-Ahoy! Beachcombers, beachgoers, and beach bums rejoice! Have we got a challenge for you!
+Ohé! Baigneurs, amateurs de plage et de bronzage, réjouissez! Nous avons le défi parfait pour vous!
 
-When you're admiring the crazy things you find by the sea why not contribute to biodiversity data and learn about the seaweeds you find along the way. All you need to do is take photos of the seaweeds you find and upload them to iNaturalist to learn all about their crazy forms, functions, and life history.
+Lorsque vous admirez les choses incroyables que vous trouvez au bord de l’océan, pourquoi pas contribuer aux données sur la biodiversité et apprendre de nouvelles choses sur les algues que vous trouvez en chemin? Il faut simplement prendre des photos des algues que vous trouvez pour recevoir de l’info sur leur incroyables formes, fonctions, et modes de vie.
 
-[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-seaweeds-of-canada){.btn .btn-primary .btn role="button"}
+[Voir ce projet sur iNaturalist](https://inaturalist.ca/projects/blitz-the-gap-seaweeds-of-canada){.btn .btn-primary .btn role="button"}
 
-## **Tips and Tricks**
+## **Trucs et astuces**
 
-Try to get the best photos you can of as many structures as you can. There are seaweed identification resources like books (e.g. Pacific Seaweeds: A Guide to Common Seaweeds of the West Coast), apps (e.g. https://seaweedsorter.com/), and websites (e.g. https://www.centralcoastbiodiversity.org/seaweeds-algae-and-seagrasses.html) that have a ton of great information about what to look for and what you should try to take pictures of... apart from that, the iNaturalist Computer Vision (AI) is getting better and better so check those recommendations as well.
+Essayez de prendre les meilleures photos possibles incluant le plus de structures possibles. Il existe des ressources pour identifier les algues, comme des livres (ex. Pacific Seaweeds: A Guide to Common Seaweeds of the West Coast), des applis (ex. https://seaweedsorter.com/) et des sites web (ex. https://www.centralcoastbiodiversity.org/seaweeds-algae-and-seagrasses.html), qui peuvent vous conseiller sur quoi chercher et les genres de photos à prendre… à part de ça, le système AI de iNaturalist (“Computer Vision”) devient de mieux en mieux, donc consultez leur recommendations aussi.
 
-## **Best Finds**
+## **Meilleures Retrouvailles:**
 
-We all love Bull Kelp and Knotted Wrack but we hope you'll also love observing some of the other underreported species you can find in coastal Canadian waters. Here are some neat finds to start you on your seaweed safari treasure hunt:
+Nous aimons tous les algues les plus communes, mais nous espérons que vous allez aussi aimer les espèces canadiennes pour lesquelles on manque d’échantillons. Voici une liste d’espèces intéressantes que voir pourriez peut-être retrouver durant vos aventures à la recherche d’algues canadiennes:
 
--   Dead Man's Fingers (*Codium fragile*)
--   The Five Ribbed Kelp (*Costaria costata*)
--   Sea Cauliflower (*Leathesia marina*)
--   The Winged Kelp (*Alaria marginata*) \*bonus points if your specimen has 'wings' at the base (sporophylls)
--   Mermaid's Tresses (*Chorda filum*)
--   Red Eyelet Silk (*Sparlingia pertusa*)
--   *Mazzaella japonica* which is an invasive species in British Columbia
+-   Costaria costata (“Five ribbed kelp”)
+-   Leathesia marina (“Sea Cauliflower”)
+-   Alaria marginata (“Winged kelp”) \*points bonis si votre photo contient des “ailes” - (sporophylles) à la base du spécimen.
+-   Chorda filum (“Mermaid's Tresses”)
+-   Sparlingia pertusa (“Red eyelet silk”)
+-   Mazzaella japonica , une espèce invasive en Colombie-Britannique
+-   Codium fragile (“Dead man's fingers”)
 
-## **Who created this challenge?**
+## **Qui a lancé ce défi?**
 
-This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the [Living Data Project](https://www.ciee-icee.ca/ldp.html). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
+Ce défi a été conçu durant l’atelier Blitz the Gap supporté par le project ‘Living Data’ de l’Institut Canadien de l’Écologie et l’Évolution (PLD ICEE). Ce groupe est mené par Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry de l’Université McGill et l’Université de la Colombie-Britannique.
 
-This particular challenge was designed by [Sandra Emry](https://sandramemry.weebly.com/), [Nathan Earley](https://www.researchgate.net/profile/Nathan-Earley), and [Bridgette Clarkston](https://botany.ubc.ca/people/bridgette-clarkston/). Sandra ([@sea_hugger](https://inaturalist.ca/people/8983301)) is a Postdoctoral Fellow at the University of British Columbia and the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology. Nathan ([@earley_bird](https://inaturalist.ca/people/507683)) is a PhD student at the University of Victoria where he studies species occurrence data and underreported species. Bridgette ([@bclarkston](https://inaturalist.ca/people/270478)) is an Associate Professor of Teaching at the University of British Columbia and the author of [Pacific Seaweeds: A Guide to Common Seaweeds of the West Coast](https://harbourpublishing.com/products/9781550177374?srsltid=AfmBOop5ER0Rg_dDP99kM6ygj4Fe1wzSpSA0ggZZ8qZSgdDAVTfTRvRe). 
+Ce défi en particulier a été créé par: - Sandra Emry, une chercheuse postdoctorale à l’Université de la Colombie Britannique et au projet Living Data. @sea_hugger
+
+-   Nathan Earley, un étudiant au doctorat à l’Université de Victoria, ou il étudie les données de présence d’espèces ainsi que les espèces sous-estimées. @earley_bird
+
+-   Bridgette Clarkston, une professeure agrégé d’enseignement à l’Université de la Colombie Britannique et auteure de Pacific Seaweeds: A Guide to Common Seaweeds of the West Coast. @bclarkston

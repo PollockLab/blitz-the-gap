@@ -1,159 +1,178 @@
 ---
-title: Make a splash!
+title: Prêts à Plonger?
 image: images/freshwater_challenge_crop.png
 editor: 
   markdown: 
     wrap: 72
 ---
 
-## What's the gap?
+## Notre manque de connaissances…
 
-For this challenge, head to your favourite lake, river, pond, or wetland
-and start observing!
+Les écosystèmes d’eau douce sont parmi les plus diversifiées sur la
+terre. Couvrant que 1% de la superficie de la terre, ils contiennent un
+tiers des espèces de vertébrés - c’est énorme! Les écosystèmes d’eau
+douce et les espèces qu’ils abritent nous fournissent de multiples
+services à l’humanité, tels que la sécurité alimentaire, la régulation
+du climat, et les services culturels.
 
-Did you know? Freshwater habitats are some of the most biodiverse areas in the world!
-Although they only cover about 1% of the Earth’s surface, they contain
-one third of all described vertebrate species - that’s huge! Freshwater
-ecosystems and the species they harbor provide countless services to
-Humanity, such as food security, climate regulation, and culture
-services.
+Malheureusement, les écosystèmes d’eau douce n’ont jamais eu tant
+d’attention au part des politiciens, des spécialistes de conservation,
+ou du public. Ceci a créé une grande lacune dans nos données sur la
+biodiversité en eau douce. Pour cette raison, on compte sur vous, chers
+scientifiques citoyens, pour nous aider à combler notre manque de
+connaissances!
 
-Unfortunately, freshwater biodiversity has historically received little
-interest from politicians, conservation scientists, and the general
-public, contributing to a big gap in our data! That’s why we are
-counting on you, citizen scientists, to help us blitz this freshwater
-gap!
+## Où aller, et quoi chercher?
 
-## Where should you go & what should you look for?
+Pour ce défi, visitez votre lac, rivière, ou étang favori et observez la
+nature qui vous entoure! Essayez de vous concentrer sur les poissons,
+amphibiens, reptiles, invertébrés, et plantes, puisque les oiseaux sont
+déjà **très** bien documentés sur iNaturalist (merci, ornithologues!).
 
-For this challenge, head to your favourite lake, river, pond, or wetland
-and start observing! Focus all your efforts on capturing photos of fish,
-amphibians, reptiles, invertebrates, and plants, since birds are very
-well-documented on iNaturalist already (thanks, Birders!).
+Pour vous aider à trouver les meilleurs emplacements à visiter, on a
+créé une carte (ci-dessous) qui montre les lacs et rivières du Canada
+par ordre de priorité. Sur la carte, ces plans d’eau sont regroupés en
+trois catégories:
 
-To help you find the best spot to visit, we have created a priority site
-map (below). On this map, we have categorized lakes and rivers across
-the country into four categories:
+-   **Priorité haute (#1):** Sites avec plusieurs espèces endémiques au
+    Canada, et qui ont peu d’observations (moins de 5) sur iNaturalist.
 
--   **High priority (#1):** Sites with many organisms that are endemic
-    to Canada, and have a low number of observations (less than 5) in
+-   **Priorité moyenne (#2):** Sites avec plusieurs espèces endémiques
+    au Canada, mais qui ont plusieurs observations sur iNaturalist.
+
+-   **Priorité moyenne (#3):** Sites avec moins d’espèces endémiques au
+    Canada, mais qui ont peu d’observations (moins de 5) sur
     iNaturalist.
 
--   **Medium priority (#2):** Sites with many organisms that are endemic
-    to Canada, but with many observations in iNaturalist.
+-   **Priorité basse (#4):** Sites avec moins d’espèces endémiques au
+    Canada, et qui ont plusieurs observations sur iNaturalist.
 
--   **Medium priority (#3):** Sites with fewer organisms that are
-    endemic to Canada, and have a low number of observations (less
-    than 5) in iNaturalist.
+**Pêcheurs passionnés**, montrez-nous vos prises prisées!
 
--   **Lowest priority (#4):** Sites with fewer organisms that are
-    endemic to Canada, and that have many observations in iNaturalist.
+**Herpétologues habiles**, trouvez des grenouilles rares et les tortues
+méconnus!
 
-Curious fishers, show off your prized catches! Aspiring herpetologists,
-spot basking turtles and calling frogs! Invertebrate enthusiasts, turn
-over submerged rocks to find aquatic critters! Budding botanists, wade
-into shallow waters and soggy wetlands to discover aquatic plants!
+**Entomologistes énergétiques**, retournez des roches pour trouver des
+bestioles aquatiques!
 
-[Join the iNaturalist
-project!](https://inaturalist.ca/projects/https://inaturalist.ca/projects/make-a-splash){.btn
+**Botanistes bourgeonnants**, explorez les eaux pour découvrir des
+plantes aquatiques!
+
+[Voir ce projet sur
+iNaturalist!](https://inaturalist.ca/projects/https://inaturalist.ca/projects/make-a-splash){.btn
 .btn-primary .btn role="button"}
 
-## Make a Splash! project map:
+## Prêts à plonger? Carte intéractive:
 
 ```{=html}
-<iframe width="900" height="700" src="https://pollocklab.github.io/blitzthegap-freshwater/challenge_freshwater_map.html" title="Make a Splash!" data-external="1"></iframe>
+<iframe width="900" height="700" src="https://pollocklab.github.io/blitzthegap-freshwater/challenge_freshwater_map.html" title="Prêts à plonger?" data-external="1"></iframe>
 ```
 
 ::: callout-warning
-The locations on this map are suggestions and not exact coordinates of
-where to sample. We cannot determine safety, ownership, or access to
-these lands. Please verify that you can legally and safely access these
-sites.
+Les emplacements sur cette carte sont que des suggestions et ne sont pas
+des instructions exactes pour votre échantillonage. On peut pas
+déterminer la sécurité, l'accès, ou le propriétaire de ces terres.
+Veuillez vérifier si l'accès est sécuritaire et légal.
 :::
 
-## **How will these data be used?**
+## **Comment ces données nous seront utiles:**
 
-Since freshwater species are so often overlooked, our knowledge of what
-species are present and where they occur is limited. By contributing to
-this project, you are helping us better understand the distribution of
-freshwater species in Canada! This data is extremely useful, as it
-allows us to assess how freshwater species are impacted by humans and
-climate change.
+Puisque les écosystèmes d’eau douce sont si souvent ignorés, nos
+connaissances sur la présence et l’emplacement de leurs espèces sont
+limitées. En contribuant à ce projet, vous nous aidez à mieux comprendre
+la distribution des espèces d’eau douce du Canada! Ces données sont
+extrêmement utiles, puisqu’elles nous permettent d’analyser l’impact de
+l’homme et des changements climatiques sur nos espèces.
 
-Here are some examples of studies that have harnessed iNaturalist
-observations to better understand regional biodiversity:
+Voici quelques exemples d’études qui ont utilisés les observations de
+iNaturalist pour mieux comprendre la biodiversité régionale: - Ahern A,
+Hughes DF. 2024. Citizen science initiatives document biodiversity
+baselines at an urban lake. PeerJ 12:e17209
+https://doi.org/10.7717/peerj.17209 - Henke T, Bárðarson H, Thorlacius
+M, Ólafsdóttir GA (2025) Have you seen this fish? Important contribution
+of stakeholder observations in documenting the distribution and spread
+of an alien fish species in Iceland. NeoBiota 97: 67-90.
+https://doi.org/10.3897/neobiota.97.132365
 
-Ahern A, Hughes DF. 2024. Citizen science initiatives document
-biodiversity baselines at an urban lake. PeerJ 12:e17209
-https://doi.org/10.7717/peerj.17209 Henke T, Bárðarson H, Thorlacius M,
-Ólafsdóttir GA (2025) Have you seen this fish? Important contribution of
-stakeholder observations in documenting the distribution and spread of
-an alien fish species in Iceland. NeoBiota 97: 67-90.
-<https://doi.org/10.3897/neobiota.97.132365>
+## **Comment participer?**
 
-## **How do you join?**
+C’est facile! Chaque fois que vous observez un animal ou une plante dans
+n’importe quel plan d’eau canadien, votre observation comptera
+automatiquement envers le projet “Prêts à Plonger”.
 
-It’s easy! Anytime you observe a Canadian freshwater animal or plant in
-any lake, river, or wetland, your observation will automatically be
-included as part of the “Make a Splash!” project.
+**À vos marques, prêt.e.s, Blitsez!**
 
-Ready? Set? Blitz the gap!
+## **Qui a lancé ce défi?**
 
-## **Who created this challenge?**
+Ce défi a été créé par le groupe de travail Blitz the Gap, supporté par
+le Projet Living Data de l’Institut Canadien d’Écologie et d’Évolution
+(ICEE PLD). Le groupe de travail est dirigé par Laura Pollock, Diane
+Srivastava, Katherine Hébert, David Hunt, et Sandra Emry de l’Université
+McGill et l’Université de la Colombie-Britannique.
 
-This challenge was created by a team of ecologists, graduate students,
-and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/)
-umbrella project seeks to increase the number of iNaturalist
-observations that can be used for science and conservation, and is
-supported by: Canadian Wildlife Federation, Wildlife Conservation
-Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity
-Network, University of British Columbia’s Data4Nature cluster, McGill
-University, and the Canadian Institute for Ecology and Evolution,
-including the Living Data Project. The working group is led by Laura
-Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry
-from McGill University and University of British Columbia.
+Ce défi a été créé par: **Christophe Brabant**, un étudiant au doctorat
+à l’Université McGill qui étudie les poissons d’eau douce menacés.
+**Lindsay Trottier**, une candidate au doctorat à l’Université McGill
+qui étudie les plantes aquatiques.
 
-This particular challenge was designed by [Christophe
-Brabant](https://qcbs.ca/student-member/?student=3460), a PhD Student at
-McGill University who studies threatened freshwater animals and by
-[Lindsay
-Trottier](https://www.researchgate.net/profile/Lindsay-Trottier-2), a
-PhD Candidate at McGill University who studies aquatic plants.
+## **Ce genre d'initiative vous intéresse?**
 
-## **Interested in initiatives like this?**
+Pour les naturalistes intéressés par l’identification des espèces qu’ils
+observent, voici quelques ressources pour vous aider à démarrer:
 
-For the naturalists who are interested in identifying the species they
-observe, here are some identification resources to get you started:
-
-+----------------------------+------------------------------------------------------------------------------+
-| Species group              | Resource links                                                               |
-+============================+==============================================================================+
-| Fish                       | [Fisheres and Oceans Canada: Aquatic                                         |
-|                            | species](https://www.dfo-mpo.gc.ca/species-especes/identify-eng.html)        |
-|                            |                                                                              |
-|                            | [Fishbase](https://fishbase.se/keys/description.php?keycode=97)              |
-+----------------------------+------------------------------------------------------------------------------+
-| Amphibians and Reptiles    | [Canadian Herpetological Society](https://canadianherpetology.ca/species/)   |
-|                            |                                                                              |
-|                            | [Ontario Nature's The Ontario Reptile and Amphibian                          |
-|                            | Atlas](h                                                                     |
-|                            | ttps://catalog.ontarionature.org/ontario-reptile-and-amphibian-atlas/page/1) |
-+----------------------------+------------------------------------------------------------------------------+
-| Invertebrates              | [Macroinvertebrates.org](https://www.macroinvertebrates.org/key)             |
-|                            |                                                                              |
-|                            | [ECCC's Reference                                                            |
-|                            | Guide](https://www.canada.ca/content/dam/ecc                                 |
-|                            | c/documents/pdf/science-technology/cabin/050_TaxonomicGroupsRefGuide_EN.pdf) |
-+----------------------------+------------------------------------------------------------------------------+
-| Plants                     | [ALMS Plant                                                                  |
-|                            | Book](https://alms.ca/wp-content/uploads/2020/07/ALMS-Plant-Book-2020.pdf)   |
-|                            |                                                                              |
-|                            | [Ducks Unlimited Canada's Field                                              |
-|                            | Guide](https://www.ducks.ca/assets/2014/12/field-guide-low-res.pdf)          |
-|                            | (Appendix 5, page 57)                                                        |
-|                            |                                                                              |
-|                            | [Native Aquatic Plants in Lake                                               |
-|                            | Champlain](https                                                             |
-|                            | ://www.lakechamplaincommittee.org/fileadmin/files/Photo%20Archive/Learn/Nati |
-|                            | ve_Aquatic_Plants_files/LCC_Native_Aquatic_Plant_ID_Cards_-_Web_Version.pdf) |
-+----------------------------+------------------------------------------------------------------------------+
++-----------------------+-------------------------------------------+
+| Groupe                | Ressources                                |
++=======================+===========================================+
+| Poissons              | [Fisheres and Oceans Canada: Aquatic s    |
+|                       | pecie                                     |
+|                       | s](ht%20tps:/%2%200/www                   |
+|                       | %20.%20d%20f%20o%20-%20m%20p%20o%20.%%202 |
+|                       | 0gc.ca/species-especes/identify-eng.html) |
+|                       |                                           |
+|                       | \[Fish base\]                             |
+|                       | (htt%20p%20s%20:%20/%20/%20f%20i%20s%20h  |
+|                       | base.se/keys/description.php?keycode=97)  |
++-----------------------+-------------------------------------------+
+| Amphibiens et         | \[Canadian Herpetological S o c i e t y\] |
+| Reptiles              | (https://canadianherpetology.ca/species)  |
+|                       |                                           |
+|                       | [Ontario Nature's The Ontario Reptile and |
+|                       | Amphibian Atla                            |
+|                       | s](h%%20%20%2020ttp%                      |
+|                       | 20s://c%20atalo%20g.ont%20arion%2%200atur |
+|                       | %20e%20.%20o%20r%20g%20/%20o%20n%20t%%202 |
+|                       | 0ario-reptile-and-amphibian-atlas/page/1) |
++-----------------------+-------------------------------------------+
+| Invertébrés           | \[Macroinvertebr a t e s . o r g\]        |
+|                       | (https://www.macroinvertebrates.org/key)  |
+|                       |                                           |
+|                       | \[ECCC's Reference Gui de\] ( h           |
+|                       | ttps%20://www.ca%20nada%20.c%20a/c%20ont  |
+|                       | e n                                       |
+|                       | %20t/dam%20/ecc%%2020c/d%20ocume%20nts/p  |
+|                       | d f                                       |
+|                       | /science-tec%20h%20n%20o%20l%20o%20g%20y  |
+|                       | / c                                       |
+|                       | abin/050_TaxonomicGroupsRefGuide_EN.pdf)  |
++-----------------------+-------------------------------------------+
+| Plantes               | [ALMS Plant B                             |
+|                       | ook](https%20://al%20ms.ca%2%200/wp-      |
+|                       | %20c%20o%20n%20t%20e%20n%20t%20/%20u%%202 |
+|                       | 0ploads/2020/07/ALMS-Plant-Book-2020.pdf) |
+|                       |                                           |
+|                       | [Ducks Unlimited Canada's Field Guid      |
+|                       | e](ht%20tps:/%2%200/www                   |
+|                       | %20.%20d%20u%20c%20k%20s%20.%20c%20a%%202 |
+|                       | 0/assets/2014/12/field-guide-low-res.pdf) |
+|                       | (Appendix 5, page 57)                     |
+|                       |                                           |
+|                       | [Native Aquatic Plants in Lake Cham p     |
+|                       | lain](https%%202%200%20://www             |
+|                       | .l%20%20ake%20%20%20champl%20a%20inco%20m |
+|                       | mit%20te%20e.org%20/f%20%20ile%20admin/%2 |
+|                       | 0file%20s/Pho%20to%2%%202%2000A%20rch%20i |
+|                       | ve%20/L%20earn%20/%20Nati%%20%20%2020ve_% |
+|                       | 20Aquat%20ic_Pl%20ants_%20files%2%200/LCC |
+|                       | %20_%20N%20a%20t%20i%20v%20e%20_%20A%%202 |
+|                       | 0quatic_Plant_ID_Cards_-_Web_Version.pdf) |
++-----------------------+-------------------------------------------+

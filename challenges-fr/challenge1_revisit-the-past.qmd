@@ -1,38 +1,35 @@
 ---
-title: Revisiting the past
+title: Revisitez le passé
 image: images/revisit-the-past.jpg
 ---
 
-## What's the gap?
+## Saviez-vous que…
 
-To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!
+Certaines espèces n’ont pas été observées au Canada depuis que les pantalons à pattes d’éléphant étaient à la mode (la première fois). Le plus long qu’une espèce reste “disparue”, le plus qu’on se demande si elles sont encore présentes.
 
-Some of the most valuable information we have from the past is from naturalists who spent hours in the field, looking for species they love. Unfortunately, fewer and fewer of us can invest our lives into observing nature in this way, though we may share a passion for nature and the outdoors. Gaps are appearing not just in space, but also in time: as data gets older, we become less certain that the species is still there. By revisiting past observations, we can better understand how biodiversity is changing to prevent biodiversity losses.
+Pour les plantes indigènes, il y a 100 espèces qui n’ont pas été observées depuis 2010 et 19 qui n’ont pas été observées depuis les années 1970.
 
-[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-revisiting-the-past){.btn .btn-primary .btn role="button"}
+[Voir le projet sur iNaturalist!](https://inaturalist.ca/projects/blitz-the-gap-revisiting-the-past){.btn .btn-primary .btn role="button"}
 
-## Where should you go?
+## Pourquoi 2010?
 
-To blitz this gap, we encourage you to revisit places that were sampled in the past. We’ve highlighted historically-sampled places that are close to roads for you to choose from, which you can see on these maps. 
+2010 est considérée comme la condition de base pour les données de biodiversité par le Cadre Mondial de la Biodiversité de Kunming à Montréal. On a donc besoin de données récentes!
 
-Priority cells are places where there has not been any observation of these species groups in over 15 years! 
+## Où aller et quoi chercher?
 
-## What should you look for?
+Pour ce défi, tout emplacement au Canada comptera pour vos observations des espèces disparues depuis 2010. Dans les cartes ci-dessous, on souligne les emplacements qui ont été échantillonés dans le passé, proche de routes que vous pouvez accéder.
 
-Choose a species group and look for locations near you. Any observation of the species group you choose in these priority cells will help to the temporal gaps in our data! Log as many species of the group as you can find on iNaturalist!
+Les cellules de priorité sont les emplacements qui n'ont pas d'observations pour ces groupes d'espèces pour plus de 15 ans!
 
-:::{.callout-warning}
-The locations on these maps are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites. Read the iNaturalist.ca [Terms of Use](https://inaturalist.ca/pages/terms) for more information.
-:::
+Choisissez un groupe d'espèces et cherchez des emplacements proche de chez vous. Toute observation du groupe d'espèce que vous choisissez dans ces cellules de priorité nous aidera à réduire notre manque temporelle de données. Enregistrez le plus d'espèces de ce groupe que vous pouvez sur iNaturalist!
 
-## Vertebrates
+## Vertérbrés
 
-::: {.panel-tabset}
-
-## Amphibians
+::: panel-tabset
+## Amphibiens
 
 ```{=html}
-<iframe width="900" height="700" src="maps/historical-challenge/amphibians_last_seen.html" title="Amphibians"></iframe>
+<iframe width="900" height="700" src="maps/historical-challenge/amphibians_last_seen.html" title="Amphibiens"></iframe>
 ```
 
 ## Reptiles
@@ -41,19 +38,16 @@ The locations on these maps are suggestions and not exact coordinates of where t
 <iframe width="900" height="700" src="maps/historical-challenge/reptiles_last_seen.html" title="Reptiles"></iframe>
 ```
 
-## Mammals
+## Mammifères
 
 ```{=html}
-<iframe width="900" height="700" src="maps/history_mammals.html" title="Mammals"></iframe>
+<iframe width="900" height="700" src="maps/history_mammals.html" title="Mammifères"></iframe>
 ```
-
 :::
 
+## Invertébrés
 
-## Invertebrates
-
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Hymenoptera
 
 ```{=html}
@@ -65,33 +59,30 @@ The locations on these maps are suggestions and not exact coordinates of where t
 ```{=html}
 <iframe width="900" height="700" src="maps/history_hemiptera.html" title="Hemiptera"></iframe>
 ```
-
 :::
 
-## Plants & Fungi
+## Plantes et Champignons
 
-::: {.panel-tabset}
-
-## Plants
+::: panel-tabset
+## Plantes
 
 ```{=html}
-<iframe width="900" height="700" src="maps/historical-challenge/last_seen_plants_map.html" title="Plants"></iframe>
+<iframe width="900" height="700" src="maps/historical-challenge/last_seen_plants_map.html" title="Plantes"></iframe>
 ```
 
-## Fungi
+## Champignons
 
 ```{=html}
-<iframe width="900" height="700" src="maps/history_fungi.html" title="Fungi"></iframe>
+<iframe width="900" height="700" src="maps/history_fungi.html" title="Champignons"></iframe>
 ```
-
 :::
 
-:::{.callout-warning}
-The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+::: callout-warning
+Les emplacements sur cette carte sont que des suggestions et ne sont pas des instructions exactes pour votre échantillonage. On peut pas déterminer la sécurité, l'accès, ou le propriétaire de ces terres. Veuillez vérifier si l'accès est sécuritaire et légal.
 :::
 
-## **Who created this challenge?**
+## **Qui a lancé ce défi?**
 
-This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the [Living Data Project](https://www.ciee-icee.ca/ldp.html). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
+Ce défi a été créé par une équipe d'écologistes, d'étudiants diplômés et de scientifiques communautaires. Le projet-cadre Blitz-the-Gap vise à augmenter le nombre d'observations iNaturalist pouvant être utilisées à des fins scientifiques et de conservation, et est soutenu par : la Fédération Canadienne de la Faune, le Wildlife Conservation Society Canada, Zones Clés pour la Biodiversité Canada, Biodiversité au Campus, le Data4Nature cluster de l’Université de la Colombie-Britannique, l’Université McGill, et l’Institut Canadien de l’Écologie et de l’Évolution, y compris le projet Living Data. Le groupe de travail est dirigé par Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, et Sandra Emry de l’Université McGill et l’Université de la Colombie-Britannique.
 
-This particular challenge was designed by [Laura Pollock](https://qbiodiversity.org/), [Katherine Hébert]((https://katherinehebert.github.io/), [Isaac Eckert](https://www.isaaceckert.ca/), [Pierre Rogy](https://www.researchgate.net/profile/Pierre-Rogy), and [Janaína Serrano](https://www.researchgate.net/profile/Janaina-Serrano). Laura is a professor at McGill, who researchers large-scale patterns of biodiversity, often using data from iNaturalist. Katherine is a Postdoctoral Researcher at McGill who researches indicators of biodiversity change. Isaac is a PhD candidate, also at McGill, who studies how climate, biotic interactions, species' functional traits, and landscape connectivity influence the spatial patterns of biodiversity across Canada to inform conservation action. Pierre is a Postdoctoral Researcher at McGill, and an arthropod enthusiast. He researches how to bridge two different fields of ecological theory: ecological stoichiometry and energy channels with computer models, observational studies and manipulative field experiments. Janaína is a PhD candidate at McGill who studies threats to terrestrial vertebrate species, and how these species will respond to those threats in the future. We all use data from sources like iNaturalist to build biodiversity models that help us understand and predict biodiversity and how it is changing.
+Ce défi a été créé par [Laura Pollock](https://qbiodiversity.org/), [Katherine Hébert](https://katherinehebert.github.io/), [Isaac Eckert](https://www.isaaceckert.ca/), [Pierre Rogy](https://www.researchgate.net/profile/Pierre-Rogy), and [Janaína Serrano](https://www.researchgate.net/profile/Janaina-Serrano). Laura est professeure à McGill, et étudie les modèles de biodiversité à grande échelle, en utilisant souvent les données d'iNaturalist. Katherine est une chercheuse postdoctorale à McGill qui étudie les changements dans les indicateurs de la biodiversité. Isaac est un candidat au doctorat, aussi à McGill, qui étudie comment les facteurs climatiques, biotiques, des traits fonctionnels, et le connectivité du paysage influencent les facteurs spatiaux de la biodiversité au Canada, pour informer nos décisions en conservation. Pierre est un chercheur postdoctoral à McGill, et un enthousiaste d'arthropodes. Il recherche les liens entre deux domaines de théorie écologique: l'écologie stoechiométrique et les canaux d'énergie, en utilisant des modèles informatiques, des études par observation, et des études de terrain avec manipulation. Janaína est une candidate au doctorat à McGill qui étudie les menaces envers les vertébrés terrestres, et comment ces espèces vont répondre à ces menaces dans le futur. Tout ces chercheurs utilisent des données provenant de iNaturalist pour construire des modèles de biodiversité qui nous aident à comprendre et à prédire la biodiversité et ses changements.

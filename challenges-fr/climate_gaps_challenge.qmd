@@ -1,44 +1,46 @@
 ---
-title: Closing the Climate Gap
+title: Combler l’écart climatique
 image: images/close_climate_gap_image.jpg
 ---
 
 ![](images/close_climate_gap_banner.jpg)
 
-## What's the problem?
+## Notre manque de connaissances…
 
-Canada hosts a wide range of climates due to its vast size and diverse geography. Understanding how different climates contribute to the collective housing of biodiversity helps us make predictions about how biodiversity is adapted for its environment, and therefore how it might change in the future. Much of the biodiversity across complex and varied climates remains poorly understood, limiting our ability to describe biodiversity in the full range of climates across Canada.
+Le Canada a une immense variété de climats en raison de sa vaste grandeur et sa géographie diversifiée. En sachant comment ces divers climats influencent notre biodiversité, on peut mieux comprendre comment la biodiversité s'adapte à son environnement et, par conséquent, prédire comment elle pourrait évoluer. La biodiversité qui habite nos climats complexes et variés reste mal comprise, ce qui limite notre capacité à décrire la biodiversité dans toute la gamme des climats du Canada.
 
-[Join the iNaturalist project!](https://inaturalist.ca/projects/blitz-the-gap-closing-the-climate-gap){.btn .btn-primary .btn role="button"}
+[Voir ce projet sur iNaturalist!](https://inaturalist.ca/projects/blitz-the-gap-closing-the-climate-gap){.btn .btn-primary .btn role="button"}
 
-## Where should you go?
+## Où aller, et quoi chercher?
 
-To bridge this gap, we encourage you to visit some areas that represent unique Canadian climates that have yet to be surveyed thoroughly. We’ve highlighted these areas across the country for you to choose from, which you can see on this map:
+Pour réduire cette lacune, on vous encourage à visiter des régions en manque de données avec des climats uniques. Nous avons indiqué ces régions à travers le pays sur la carte ci-dessous.
 
 ```{=html}
-<iframe width="900" height="700" src="maps/climate-gap-map.html" title="Climate gaps"></iframe>
+<iframe width="900" height="700" src="maps/climate-gap-map.html" title="Écarts Climatiques"></iframe>
 ```
 
 ::: callout-warning
-The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
+Les emplacements sur cette carte sont que des suggestions et ne sont pas des instructions exactes pour votre échantillonage. On peut pas déterminer la sécurité, l'accès, ou le propriétaire de ces terres. Veuillez vérifier si l'accès est sécuritaire et légal.
 :::
 
-## Who created this challenge?
+## Qui a lancé ce défi?
 
-This challenge was created by a team of ecologists, graduate students, and community scientists. The [Blitz-the-Gap](https://blitzthegap.org/) umbrella project seeks to increase the number of iNaturalist observations that can be used for science and conservation, and is supported by: Canadian Wildlife Federation, Wildlife Conservation Society Canada, Canada Key Biodiversity Areas, Campus Biodiversity Network, University of British Columbia’s Data4Nature cluster, McGill University, and the Canadian Institute for Ecology and Evolution, including the [Living Data Project](https://www.ciee-icee.ca/ldp.html). The working group is led by Laura Pollock, Diane Srivastava, Katherine Hébert, David Hunt, Sandra Emry from McGill University and University of British Columbia.
+Ce défi a été créé par une équipe d’écologistes, étudiants et scientifiques citoyens. Cette équipe inclut des chercheurs qui étudient les effets du changement climatique sur la biodiversité, ainsi que des usagers de iNaturalist comme vous qui aident à la contribution de données.
 
--   Nicole Kester is a MSc student studying invasive plants and patterns of their spread into new climatic conditions.
+Le projet-cadre Blitz the Gap cherche à augmenter le nombre d’observations sur iNaturalist qui peuvent être utilisés pour la science et la conservation, et est supporté par: la Fédération Canadienne de la Faune, le Wildlife Conservation Society Canada, Zones Clés pour la Biodiversité Canada, Biodiversité au Campus, le Data4Nature cluster de l’Université de la Colombie-Britannique, l’Université McGill, et l’Institut Canadien de l’Écologie et de l’Évolution, y compris le projet Living Data.
 
--   Joshua Lee is a PhD student studying how additional biodiversity metrics can be integrated into conservation management in Australia.
+-   Nicole Kester est une étudiante de maîtrise qui étudie des plantes envahissantes et leur expansion dans des nouvelles conditions climatiques.
 
--   [Brian Starzomski](https://starzomski.weebly.com/) is the Ian McTaggart Cowan Professor of Biodiversity Conservation and Ecological Restoration, and co-leads the BC Biodiversity project.
+-   Joshua Lee est un étudiant de doctorat qui étudie l’incorporation de nouvelles métriques de biodiversité dans la gestion de conservation en Australie.
 
--   [Diane Srivastava](https://www.zoology.ubc.ca/~srivast/) leads the Living Data Project and studies how species and food webs respond to climate change and other environmental shifts.
+-   [Brian Starzomski](https://starzomski.weebly.com/) est le professor Ian McTaggart Cowan du Biodiversity Conservation and Ecological Restoration, et mène le BC Biodiversity project.
 
--   [Sandra Emry](https://sandramemry.weebly.com/) is a postdoctoral fellow with the Living Data Project, and studies the effects of heat waves and other disturbances on marine ecology.
+-   [Diane Srivastava](https://www.zoology.ubc.ca/~srivast/) lmène le projet Living Data et étudie comment les espèces ainsi que les réseaux alimentaires font face au changement climatique et autres changements environnementaux.
 
--   [Shirley Morrison](https://inaturalist.ca/people/shirleymorrison) is an avid iNaturalist user and contributor to the Butterflies in My Backyard Project (BIMBY).
+-   [Sandra Emry](https://sandramemry.weebly.com/) est une chercheuse postdoctorale avec le projet Living Data, et étudie les effets de canicules et autres dérangements sur l’écologie marine.
 
--   [Stephen Deedes-Vincke](https://inaturalist.ca/people/deedesie) volunteers with the BIMBY project and is a Certified Pollinator Steward and Butterfly Ranger.
+-   [Shirley Morrison](https://inaturalist.ca/people/shirleymorrison) est une usagère passionée sur iNaturalist et contributrice au Butterflies in My Backyard Project (BIMBY).
 
--   [Michelle Tseng](https://www.bugsandplankton.com/) is an Associate Professor who studies how climate change affects insect communities and aquatic food webs. She uses iNaturalist data extensively in her research, including the [BIMBY](https://davidsuzuki.org/take-action/volunteer/bimby/) data.
+-   [Stephen Deedes-Vincke](https://inaturalist.ca/people/deedesie) fait du bénévolat avec le projet BIMBY et est un ‘Certified Pollinator Steward and Butterfly Ranger’.
+
+-   [Michelle Tseng](https://www.bugsandplankton.com/) est une professeur agrégé qui étudie comment le changement climatique affecte les communautés d’insectes et reseaux alimentaires aquatiques. Elle utilise souvent les données de iNaturalist pour sa recherche, avec l’inclusion des données du projet BIMBY.
