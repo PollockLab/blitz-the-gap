@@ -1,0 +1,31 @@
+---
+title: "Missing-Insects"
+format: html
+image: images/missing-insects.png
+---
+
+![](images/missing_insects_banner.png)
+
+## Notre manque de connaissances:
+
+On estime que parmi les quelque 80 000 espèces présentes au Canada, seulement environ la moitié ont été observées sur iNaturalist, selon [cet article](https://www.inaturalist.org/posts/108240-help-find-these-missing-canadian-species) du blog iNaturalist. Ce défi vise les milliers d’espèces **d’insectes** qui en font partie.
+
+**Pour les curieux, de champignons, de plantes, et d'autres animaux:** On a créé des défis individuels qui visent uniquement les insectes, les champignons, et les plantes du Canada absents sur iNaturalist - voir notre liste de défis. Vos observations de ces espèces comptent seulement envers ces défis séparés!
+
+## Saviez-vous que…
+
+2010 est considérée comme la condition de base pour les données de biodiversité du Cadre Mondial de la Biodiversité de Kunming à Montréal. Sans données récentes, les scientifiques ne peuvent pas comprendre la faune et la flore du Canada de manière précise, ni planifier leur conservation. Vu que la création de iNaturalist tombe autour de 2010, cela veut dire que des données de biodiversité précieuses sont créées quand des nouvelles espèces sont enregistrées sur iNaturalist!
+
+## Qu’est-ce qu’on cherche?
+
+Vous pouvez découvrir ces insèctes manquantes à travers le pays. Pour des suggestions d’emplacement plus précises, consultez [cet article](https://www.inaturalist.org/posts/108240-help-find-these-missing-canadian-species) qui indique les endroits où certaines espèces ont déjà été rencontrées.
+
+Vos observations doivent correspondre à une liste d'espèces manquantes dans iNaturalist, énumérées [ici](https://docs.google.com/spreadsheets/d/1u0cmElZbC_gkeokjhNOqmMmBD3j_LsZUVLX2fJ3RFlM/edit?gid=1363477089#gid=1363477089).
+
+## Comment participer?
+
+En observant des insectes dans la liste ci-dessus, à travers le Canada, vos observations vont automatiquement compter dans le défi des insectes canadiennes manquantes.
+
+## Qui a lancé ce défi?
+
+Ce défi s’est inspiré d’un [article du blog iNaturalist](https://www.inaturalist.org/posts/108240-help-find-these-missing-canadian-species) invitant les Canadiens et Canadiennes à trouver les espèces du Canada pas encore enregistrées sur le plateforme. Le défi a été créé par Ryan Hull, Leeya Nagpal, et Maho Horikawa, étudiants de premier cycle dans le [Quantitative Biodiversity Lab](https://qbiodiversity.org/), dirigé par Laura Pollock à l’Université McGill.

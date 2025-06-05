@@ -1,0 +1,25 @@
+---
+title: "Missing-Fungi"
+format: html
+image: images/missing-fungi.png
+---
+
+## What’s the gap?
+
+Of the estimated 80 000 species in Canada, only about half have been recorded on iNaturalist, as highlighted in this [iNaturalist blog post](https://www.inaturalist.org/posts/108240-help-find-these-missing-canadian-species). This challenge specifically targets the thousands of **missing fungi and lichen** among them. Can you be the first to find them?
+
+**Curious about other missing species in Canada?** We’ve created separate iNaturalist projects that specifically target plants, insects, and other animals - see them in our challenge list! Observations of these species will only count towards these seperate challenges.
+
+## Where should you go & what should you look for?
+
+Missing fungi could be found across the country. For suggestions on where certain missing species could be found, check out [this blogpost](https://www.inaturalist.org/posts/108240-help-find-these-missing-canadian-species) which maps out where they’ve been seen before.
+
+Observations must fall within a set list of missing species, listed [here](https://docs.google.com/spreadsheets/d/1u0cmElZbC_gkeokjhNOqmMmBD3j_LsZUVLX2fJ3RFlM/edit?gid=1363477089#gid=1363477089).
+
+## How do you join?
+
+By observing fungi from the above list, anywhere in Canada, your observations will count in the Missing Canadian Plants challenge.
+
+## Who made this challenge?
+
+This challenge was inspired by an [iNaturalist blog post](https://www.inaturalist.org/posts/108240-help-find-these-missing-canadian-species) inviting Canadians to look for Canadian species not yet recorded on the platform. The challenge was created by undergraduate students Ryan Hull, Leeya Nagpal, and Maho Horikawa from the [Quantitative Biodiversity Lab](https://qbiodiversity.org/), led by Laura Pollock at McGill University.
