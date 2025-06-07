@@ -55,7 +55,7 @@ over submerged rocks to find aquatic critters! Budding botanists, wade
 into shallow waters and soggy wetlands to discover aquatic plants!
 
 [Join the iNaturalist
-project!](https://inaturalist.ca/projects/https://inaturalist.ca/projects/make-a-splash){.btn
+project!](https://inaturalist.ca/projects/blitz-the-gap-make-a-splash){.btn
 .btn-primary .btn role="button"}
 
 ## Make a Splash! project map:
