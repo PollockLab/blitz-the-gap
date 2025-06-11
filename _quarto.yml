@@ -15,12 +15,6 @@ website:
         text: Join on iNaturalist
       - href: workflows.qmd
         text: Code
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Starting soon!** Blitz the Gap kicks off on June 1st!"
-    type: success
-    position: below-navbar
 format:
   html:
     theme: 
