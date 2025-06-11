@@ -3,7 +3,7 @@ title: Revisiting the past
 image: images/revisit-the-past.jpg
 ---
 
-[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/challenge1-revisit-the-past.html){.btn .btn-secondary .btn role="button"}
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/challenge1_revisit-the-past.html){.btn .btn-secondary .btn role="button"}
 
 ![](images/revisit-the-past.png){fig-align="center"}
 

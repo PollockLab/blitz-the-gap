@@ -6,8 +6,9 @@ editor:
     wrap: 72
 ---
 
-[English version](https://pollocklab.github.io/blitz-the-gap/challenges/freshwater-challenge-template.html){.btn .btn-secondary .btn role="button"}
-
+[English
+version](https://pollocklab.github.io/blitz-the-gap/challenges/freshwater-challenge-template.html){.btn
+.btn-secondary .btn role="button"}
 
 ## Notre manque de connaissances…
 
@@ -123,59 +124,51 @@ qui étudie les plantes aquatiques.
 Pour les naturalistes intéressés par l’identification des espèces qu’ils
 observent, voici quelques ressources pour vous aider à démarrer:
 
-+-----------------------+-------------------------------------------+
-| Groupe                | Ressources                                |
-+=======================+===========================================+
-| Poissons              | [Fisheres and Oceans Canada: Aquatic s    |
-|                       | pecie                                     |
-|                       | s](ht%20tps:/%2%200/www                   |
-|                       | %20.%20d%20f%20o%20-%20m%20p%20o%20.%%202 |
-|                       | 0gc.ca/species-especes/identify-eng.html) |
-|                       |                                           |
-|                       | \[Fish base\]                             |
-|                       | (htt%20p%20s%20:%20/%20/%20f%20i%20s%20h  |
-|                       | base.se/keys/description.php?keycode=97)  |
-+-----------------------+-------------------------------------------+
-| Amphibiens et         | \[Canadian Herpetological S o c i e t y\] |
-| Reptiles              | (https://canadianherpetology.ca/species)  |
-|                       |                                           |
-|                       | [Ontario Nature's The Ontario Reptile and |
-|                       | Amphibian Atla                            |
-|                       | s](h%%20%20%2020ttp%                      |
-|                       | 20s://c%20atalo%20g.ont%20arion%2%200atur |
-|                       | %20e%20.%20o%20r%20g%20/%20o%20n%20t%%202 |
-|                       | 0ario-reptile-and-amphibian-atlas/page/1) |
-+-----------------------+-------------------------------------------+
-| Invertébrés           | \[Macroinvertebr a t e s . o r g\]        |
-|                       | (https://www.macroinvertebrates.org/key)  |
-|                       |                                           |
-|                       | \[ECCC's Reference Gui de\] ( h           |
-|                       | ttps%20://www.ca%20nada%20.c%20a/c%20ont  |
-|                       | e n                                       |
-|                       | %20t/dam%20/ecc%%2020c/d%20ocume%20nts/p  |
-|                       | d f                                       |
-|                       | /science-tec%20h%20n%20o%20l%20o%20g%20y  |
-|                       | / c                                       |
-|                       | abin/050_TaxonomicGroupsRefGuide_EN.pdf)  |
-+-----------------------+-------------------------------------------+
-| Plantes               | [ALMS Plant B                             |
-|                       | ook](https%20://al%20ms.ca%2%200/wp-      |
-|                       | %20c%20o%20n%20t%20e%20n%20t%20/%20u%%202 |
-|                       | 0ploads/2020/07/ALMS-Plant-Book-2020.pdf) |
-|                       |                                           |
-|                       | [Ducks Unlimited Canada's Field Guid      |
-|                       | e](ht%20tps:/%2%200/www                   |
-|                       | %20.%20d%20u%20c%20k%20s%20.%20c%20a%%202 |
-|                       | 0/assets/2014/12/field-guide-low-res.pdf) |
-|                       | (Appendix 5, page 57)                     |
-|                       |                                           |
-|                       | [Native Aquatic Plants in Lake Cham p     |
-|                       | lain](https%%202%200%20://www             |
-|                       | .l%20%20ake%20%20%20champl%20a%20inco%20m |
-|                       | mit%20te%20e.org%20/f%20%20ile%20admin/%2 |
-|                       | 0file%20s/Pho%20to%2%%202%2000A%20rch%20i |
-|                       | ve%20/L%20earn%20/%20Nati%%20%20%2020ve_% |
-|                       | 20Aquat%20ic_Pl%20ants_%20files%2%200/LCC |
-|                       | %20_%20N%20a%20t%20i%20v%20e%20_%20A%%202 |
-|                       | 0quatic_Plant_ID_Cards_-_Web_Version.pdf) |
-+-----------------------+-------------------------------------------+
++-----------------------+------------------------------------------+
+| Groupe                | Ressources                               |
++=======================+==========================================+
+| Poissons              | [Fisheres and Oceans Canada: Aquatic     |
+|                       | species](https://www.dfo-mpo.            |
+|                       | gc.ca/species-especes/identify-eng.html) |
+|                       |                                          |
+|                       | [Fish                                    |
+|                       | base](https://fish                       |
+|                       | base.se/keys/description.php?keycode=97) |
++-----------------------+------------------------------------------+
+| Amphibiens et         | [Canadian Herpetological                 |
+| Reptiles              | Society]                                 |
+|                       | (https://canadianherpetology.ca/species) |
+|                       |                                          |
+|                       | [Ontario Nature's The Ontario Reptile    |
+|                       | and Amphibian                            |
+|                       | Atlas](https://polloc                    |
+|                       | klab.github.io/blitz-the-gap/challenges/ |
+|                       | h%20ttps://catalog.ontarionature.org/ont |
+|                       | ario-reptile-and-amphibian-atlas/page/1) |
++-----------------------+------------------------------------------+
+| Invertébrés           | [Macroinvertebrates.org]                 |
+|                       | (https://www.macroinvertebrates.org/key) |
+|                       |                                          |
+|                       | [Guide référence                         |
+|                       | EC                                       |
+|                       | CC](https://www.canada.ca/content/dam/ec |
+|                       | c%20c/documents/pdf/science-technology/c |
+|                       | abin/050_TaxonomicGroupsRefGuide_EN.pdf) |
++-----------------------+------------------------------------------+
+| Plantes               | [ALMS Plant                              |
+|                       | Book](https://alms.ca/wp-content/u       |
+|                       | ploads/2020/07/ALMS-Plant-Book-2020.pdf) |
+|                       |                                          |
+|                       | [Ducks Unlimited Canada's Field          |
+|                       | Guide](https://www.ducks.ca              |
+|                       | /assets/2014/12/field-guide-low-res.pdf) |
+|                       | (Appendix 5, page 57)                    |
+|                       |                                          |
+|                       | [Native Aquatic Plants in Lake           |
+|                       | Champlain](https://pollockla             |
+|                       | b.github.io/blitz-the-gap/challenges/htt |
+|                       | ps%20://www.lakechamplaincommittee.org/f |
+|                       | ileadmin/files/Photo%20Archive/Learn/Nat |
+|                       | i%20ve_Aquatic_Plants_files/LCC_Native_A |
+|                       | quatic_Plant_ID_Cards_-_Web_Version.pdf) |
++-----------------------+------------------------------------------+
