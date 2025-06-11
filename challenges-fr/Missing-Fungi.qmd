@@ -1,5 +1,5 @@
 ---
-title: "Missing-Fungi"
+title: "Champignons et lichens à trouver!"
 format: html
 image: images/missing-fungi.png
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Missing-Anmials"
+title: "Animaux à trouver!"
 format: html
 image: images/missing-animals.png
 ---
