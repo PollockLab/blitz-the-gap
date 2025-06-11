@@ -13,82 +13,20 @@ Some of the most valuable information we have from the past is from naturalists 
 
 ## Where should you go?
 
-To blitz this gap, we encourage you to revisit places that were sampled in the past. We’ve highlighted historically-sampled places that are close to roads for you to choose from, which you can see on these maps. 
-
-Priority cells are places where there has not been any observation of these species groups in over 15 years! 
+To blitz this gap, we encourage you to revisit places that were sampled in the past. We’ve highlighted places where we found mammal, reptile, and plant species that were sampled before 2000, but not since, on the map below!
 
 ## What should you look for?
 
-Choose a species group and look for locations near you. Any observation of the species group you choose in these priority cells will help to the temporal gaps in our data! Log as many species of the group as you can find on iNaturalist!
+Look for locations near you and try to find that species! Any observation of the species you choose in these priority cells will help to the temporal gaps in our data! Log as many species of the group as you can find on iNaturalist.
+
+```{=html}
+<iframe width="900" height="700" src="maps/historical-challenge/last_seen_species.html"></iframe>
+```
 
 :::{.callout-warning}
 The locations on these maps are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites. Read the iNaturalist.ca [Terms of Use](https://inaturalist.ca/pages/terms) for more information.
 :::
 
-## Vertebrates
-
-::: {.panel-tabset}
-
-## Amphibians
-
-```{=html}
-<iframe width="900" height="700" src="maps/historical-challenge/amphibians_last_seen.html" title="Amphibians"></iframe>
-```
-
-## Reptiles
-
-```{=html}
-<iframe width="900" height="700" src="maps/historical-challenge/reptiles_last_seen.html" title="Reptiles"></iframe>
-```
-
-## Mammals
-
-```{=html}
-<iframe width="900" height="700" src="maps/history_mammals.html" title="Mammals"></iframe>
-```
-
-:::
-
-
-## Invertebrates
-
-::: {.panel-tabset}
-
-## Hymenoptera
-
-```{=html}
-<iframe width="900" height="700" src="maps/history_hymenoptera.html" title="Hymenoptera"></iframe>
-```
-
-## Hemiptera
-
-```{=html}
-<iframe width="900" height="700" src="maps/history_hemiptera.html" title="Hemiptera"></iframe>
-```
-
-:::
-
-## Plants & Fungi
-
-::: {.panel-tabset}
-
-## Plants
-
-```{=html}
-<iframe width="900" height="700" src="maps/historical-challenge/last_seen_plants_map.html" title="Plants"></iframe>
-```
-
-## Fungi
-
-```{=html}
-<iframe width="900" height="700" src="maps/history_fungi.html" title="Fungi"></iframe>
-```
-
-:::
-
-:::{.callout-warning}
-The locations on this map are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites.
-:::
 
 ## **Who created this challenge?**
 
