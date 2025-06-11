@@ -4,6 +4,8 @@ format: html
 image: images/missing-fungi.png
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/Missing-Fungi.html){.btn .btn-secondary .btn role="button"}
+
 ## Notre manque de connaissances:
 
 On estime que parmi les quelque 80 000 espèces présentes au Canada, seulement environ la moitié ont été observées sur iNaturalist, selon [cet article](https://www.inaturalist.org/posts/108240-help-find-these-missing-canadian-species) du blog iNaturalist. Ce défi vise les milliers d’espèces de **champignons** qui en font partie.

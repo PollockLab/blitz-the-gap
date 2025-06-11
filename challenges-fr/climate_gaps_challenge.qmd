@@ -3,6 +3,8 @@ title: Combler l’écart climatique
 image: images/close_climate_gap_image.jpg
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/climate_gaps_challenge.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/close_climate_gap_banner.jpg)
 
 ## Notre manque de connaissances…

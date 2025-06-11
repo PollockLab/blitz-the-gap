@@ -3,6 +3,8 @@ title: Randonneurs
 image: images/trailblazers.jpg
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/Trailblazers_challenge.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/trailblazers-banner.png){fig-align="center"}
 
 ## Saviez-vous que…

@@ -3,6 +3,8 @@ title: Books, Butterflies & Blooms
 image: images/public-library-challenge-banner.jpg
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/challenge-libraries.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/public-library-challenge-banner.png){fig-align="center"}
 
 Team up with your local public library to photograph plants, animals, fungi and more! Beginners welcome. Help us survey biodiversity across this vast and beautiful country.

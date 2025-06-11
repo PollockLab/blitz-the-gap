@@ -3,6 +3,8 @@ title: Find new Key Biodiversity Areas for conservation!
 image: images/WESA_Kris-Cu.jpg
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/challenge2-mayBAs.html){.btn .btn-secondary .btn role="button"}
+
 We need your help to identify priority areas for conservation! 
 
 Nous avons besoin de votre aide pour identifier des sites prioritaires pour la conservation! 

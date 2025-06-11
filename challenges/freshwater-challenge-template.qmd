@@ -6,6 +6,8 @@ editor:
     wrap: 72
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/freshwater-challenge-template.html){.btn .btn-secondary .btn role="button"}
+
 ## What's the gap?
 
 For this challenge, head to your favourite lake, river, pond, or wetland

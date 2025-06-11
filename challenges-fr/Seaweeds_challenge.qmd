@@ -3,6 +3,8 @@ title: Les Algues du Canada
 image: images/Seaweeds_Canada_banner.jpg
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/Seaweeds_challenge.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/Seaweeds_Canada_banner.jpg){fig-align="center"}
 
 ## Comment vous pouvez contribuer:

@@ -3,6 +3,8 @@ title: Getting Even!
 image: images/scales.png
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/getting-even.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/getting-even.png){fig-align="center"}
 
 ## What's the problem?

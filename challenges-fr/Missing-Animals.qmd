@@ -4,6 +4,8 @@ format: html
 image: images/missing-animals.png
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/Missing-Animals.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/missing_animals_banner.png)
 
 ## Notre manque de connaissances:

@@ -3,6 +3,8 @@ title: Trailblazers challenge
 image: images/trailblazers.jpg
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/Trailblazers_challenge.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/trailblazers-banner.png){fig-align="center"}
 
 ## What's the problem?

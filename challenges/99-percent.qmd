@@ -3,7 +3,10 @@ title: The Other 99%
 image: images/cities.png
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/99-percent.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/other-99-percent-2.jpeg){fig-align="center"}
+
 
 ## What's the problem?
 

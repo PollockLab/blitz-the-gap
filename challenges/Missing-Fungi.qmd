@@ -4,6 +4,9 @@ format: html
 image: images/missing-fungi.png
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/Missing-Fungi.html){.btn .btn-secondary .btn role="button"}
+
+
 ## What’s the gap?
 
 Of the estimated 80 000 species in Canada, only about half have been recorded on iNaturalist, as highlighted in this [iNaturalist blog post](https://www.inaturalist.org/posts/108240-help-find-these-missing-canadian-species). This challenge specifically targets the thousands of **missing fungi and lichen** among them. Can you be the first to find them?

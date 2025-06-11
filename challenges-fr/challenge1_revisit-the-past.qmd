@@ -3,6 +3,8 @@ title: Revisitez le passé
 image: images/revisit-the-past.jpg
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/challenge1_revisit-the-past.html){.btn .btn-secondary .btn role="button"}
+
 ## Saviez-vous que…
 
 Certaines espèces n’ont pas été observées au Canada depuis que les pantalons à pattes d’éléphant étaient à la mode (la première fois). Le plus long qu’une espèce reste “disparue”, le plus qu’on se demande si elles sont encore présentes.

@@ -3,6 +3,10 @@ title: Revisiting the past
 image: images/revisit-the-past.jpg
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/challenge1-revisit-the-past.html){.btn .btn-secondary .btn role="button"}
+
+![](images/revisit-the-past.png){fig-align="center"}
+
 ## What's the gap?
 
 To understand biodiversity change, we need a record of biodiversity change. Join this challenge to help us bridge time gaps in biodiversity data!

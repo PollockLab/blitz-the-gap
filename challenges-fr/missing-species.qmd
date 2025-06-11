@@ -3,6 +3,8 @@ title: "Missing Canadian Species"
 format: html
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/missing-species.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/missing-all-species-banner.png){fig-align="center"}
 
 Thousands of Canadian species have not been recorded on iNaturalist. Can you be the first to find them?

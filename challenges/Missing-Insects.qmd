@@ -4,6 +4,8 @@ format: html
 image: images/missing-insects.png
 ---
 
+[Version française](https://pollocklab.github.io/blitz-the-gap/challenges-fr/Missing-Insects.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/missing-insects-banner.png)
 
 ## What’s the gap?

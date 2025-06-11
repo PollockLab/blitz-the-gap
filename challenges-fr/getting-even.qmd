@@ -3,6 +3,8 @@ title: Espèces en déséquilibre
 image: images/scales.png
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/getting-even.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/getting-even.png){fig-align="center"}
 
 ## Notre manque de connaissances…

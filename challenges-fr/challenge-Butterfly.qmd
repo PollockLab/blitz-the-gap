@@ -3,6 +3,8 @@ title: Au delà du monarque
 image: images/Butterfly_banner.png
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/challenge-Butterfly.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/more-than-monarch.png){fig-align="center"}
 
 ## Notre manque de connaissances:

@@ -6,6 +6,9 @@ editor:
     wrap: 72
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/freshwater-challenge-template.html){.btn .btn-secondary .btn role="button"}
+
+
 ## Notre manque de connaissances…
 
 Les écosystèmes d’eau douce sont parmi les plus diversifiées sur la

@@ -3,6 +3,8 @@ title: Livres, lichens, et libellules
 image: images/public-library-challenge-banner.jpg
 ---
 
+[English version](https://pollocklab.github.io/blitz-the-gap/challenges/challenge-libraries.html){.btn .btn-secondary .btn role="button"}
+
 ![](images/public-library-challenge-banner.png){fig-align="center"}
 
 Joignez-vous à votre bibliothèque publique locale pour photographier des plants, des animaux, des champignons et plus! Les débutants sont bienvenue. Aidez-nous à charactériser la biodiversité à travers ce grand pays merveilleux.
