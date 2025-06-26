@@ -24,12 +24,18 @@ To blitz this gap, we encourage you to revisit places that were sampled in the p
 Look for locations near you and try to find that species! Any observation of the species you choose in these priority cells will help to the temporal gaps in our data! Log as many species of the group as you can find on iNaturalist.
 
 ```{=html}
-<iframe width="900" height="700" src="maps/historical-challenge/last_seen_species.html"></iframe>
+<iframe width="800" height="700" src="maps/historical-challenge/last_seen_species.html"></iframe>
 ```
 
 :::{.callout-warning}
 The locations on these maps are suggestions and not exact coordinates of where to sample. We cannot determine safety, ownership, or access to these lands. Please verify that you can legally and safely access these sites. Read the iNaturalist.ca [Terms of Use](https://inaturalist.ca/pages/terms) for more information.
 :::
+
+## Species tree
+
+```{=html}
+<iframe width="800" height="700" src="https://blitzthegap.shinyapps.io/blitz_the_gap_revisit_the_past/" data-external="1"></iframe>
+```
 
 
 ## **Who created this challenge?**

@@ -19,11 +19,27 @@ To assess at-risk species, track the changes in species’ ranges due to climate
 
 # Explore the gaps
 
+::: {.panel-tabset}
+
+## Map
+
 This is a map of iNaturalist observations in Canada. The brightest places are the most sampled - we need you to light up the map with your observations!
 
 ```{=html}
 <iframe width="900" height="700" src="https://glaroc.github.io/inat_canada_heatmap/" data-external="1"></iframe>
 ```
+
+## Species tree
+
+```{=html}
+<iframe width="900" height="700" src="https://blitzthegap.shinyapps.io/blitz_the_gap_canadian_species_list/" data-external="1"></iframe>
+```
+
+::: callout-tip
+The species tree make take some time to load - hang in there!
+:::
+
+:::
 
 # Challenges {#challenges}
 
